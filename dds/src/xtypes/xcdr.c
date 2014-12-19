@@ -18,7 +18,14 @@
 #include <stddef.h>
 #include <string.h>
 #include <ctype.h>
+
+#if defined (NUTTX_RTOS)
+#define PRId64	"lld"
+#define PRIu64	"llu"
+#else
 #include <wctype.h>
+#endif
+
 #ifdef _WIN32
 #include "win.h"
 #else

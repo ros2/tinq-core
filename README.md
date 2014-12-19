@@ -1,4 +1,4 @@
-# Tinq Open Source Project #
+# Tinq Open Source Project - OSRF fork #
 
 Welcome to the Tinq Open Source Project.
 Tinq is completely based on the Qeo publish/subcribe framework produced by Technicolor as explained in the license section.

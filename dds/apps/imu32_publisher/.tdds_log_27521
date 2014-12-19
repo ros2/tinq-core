@@ -1,0 +1,554 @@
+10:21:05.882 List pools created.
+10:21:05.882 String pool initialized.
+10:21:05.882 Typecode pools created.
+10:21:05.882 Typesupport initialized.
+10:21:05.883 Socket handler initialized.
+10:21:05.883 Timer pool initialized.
+10:21:05.883 Data buffer pools created.
+10:21:05.883 Existing host identifier reused.
+10:21:05.883 Unique GUID prefix created: 8f937eb8:00006b81:03e90000
+10:21:05.883 Locator pools created.
+10:21:05.883 History cache pools created.
+10:21:05.883 Entities: reserved=98, maximum=4294967295
+10:21:05.883 Domain pools created.
+10:21:05.883 RTPS Initialised.
+10:21:05.883 IP: scope = link..global
+10:21:05.883 IP interfaces:
+10:21:05.883     eth1     : 172.23.1.215
+10:21:05.883 TCP: local secure TCP server disabled
+10:21:05.883 TCP: local TCP server disabled
+10:21:05.883 RTPS over IPv4 Initialised.
+10:21:05.883 IPv6: scope = site..global
+10:21:05.884 RTPS over IPv6 Initialised.
+10:21:05.884 QoS pools initialized.
+10:21:05.884 DDS: DynamicType_register(ParticipantMessageData): 5 blocks, 416 bytes
+10:21:05.884 DDS: DynamicType_register(BinaryProperty): 3 blocks, 272 bytes
+10:21:05.884 DDS: DynamicType_register(Property): 2 blocks, 216 bytes
+10:21:05.884 DDS: DynamicType_register(DataHolder): 6 blocks, 616 bytes
+10:21:05.884 DDS: DynamicType_register(MessageIdentity): 3 blocks, 272 bytes
+10:21:05.884 DDS: DynamicType_register(ParticipantGenericMessage): 3 blocks, 432 bytes
+10:21:05.884 DDS: DynamicType_register(ParticipantStatelessMessage): 2 blocks, 144 bytes
+10:21:05.884 DDS: DynamicType_register(ParticipantVolatileSecureMessage): 2 blocks, 144 bytes
+10:21:05.884 Discovery initialized.
+10:21:05.884 DCPS Initialised.
+10:21:05.884 DDS: core thread created.
+10:21:05.885 DDS: core thread running.
+10:21:05.885 Security: validate local permissions. 
+10:21:05.885 DDS: domain security mode = 0x0
+10:21:05.885 UDP: adding 172.23.1.215:7865 on [6]
+10:21:05.885 UDP: adding 239.255.0.1:7401 on [7]
+10:21:05.885 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7401
+10:21:05.885 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7401 on 172.23.1.215:7865
+10:21:05.885 RTPS: starting Discovery protocols.
+10:21:05.885 UDP: adding 172.23.1.215:7864 on [8]
+10:21:05.885 UDP: adding 239.255.0.1:7400 on [9]
+10:21:05.885 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7400
+10:21:05.885 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7400 on 172.23.1.215:7864
+10:21:05.885 SPDP: starting protocol for domain #0.
+10:21:05.885 RTPS: writer (SPDPbuiltinParticipantWriter) created.
+10:21:05.885 RTPS: reader (SPDPbuiltinParticipantReader) created.
+10:21:05.885 RTPS: reader (SEDPbuiltinPublicationsReader) created.
+10:21:05.885 RTPS: reader (SEDPbuiltinSubscriptionsReader) created.
+10:21:05.885 RTPS: writer (SEDPbuiltinPublicationsWriter) created.
+10:21:05.886 RTPS: writer (SEDPbuiltinSubscriptionsWriter) created.
+10:21:05.886 RTPS: reader (BuiltinParticipantMessageReader) created.
+10:21:05.886 RTPS: writer (BuiltinParticipantMessageWriter) created.
+10:21:05.886 SPDP: registering Participant key.
+10:21:05.886 SPDP: Send Participant data.
+10:21:05.886 DDS: DynamicTypeSupport_create_type_support(Imu32): 1 blocks, 104 bytes
+10:21:05.886 SEDP: Writer (imu_/simple_msgs::dds_::Imu32_) added.
+10:21:05.886 SEDP: Send publication (imu_/simple_msgs::dds_::Imu32_)
+10:21:05.886 SEDP: Reader (imu_/simple_msgs::dds_::Imu32_) added.
+10:21:05.886 SEDP: Send subscription (imu_/simple_msgs::dds_::Imu32_)
+10:21:05.886 SPDP: New participant detected!
+10:21:05.886 SPDP: Connecting builtin endpoints.
+10:21:05.886 RTPS: matched writer add (BuiltinParticipantMessageReader) to 1e2e5d73:0000011a:00000001.
+10:21:05.886 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 1e2e5d73:0000011a:00000001.
+10:21:05.887 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 1e2e5d73:0000011a:00000001.
+10:21:05.887 SPDP: New participant detected!
+10:21:05.887 SPDP: Connecting builtin endpoints.
+10:21:05.887 RTPS: matched writer add (BuiltinParticipantMessageReader) to 1e2e5d73:0000005d:00000001.
+10:21:05.887 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 1e2e5d73:0000005d:00000001.
+10:21:05.887 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 1e2e5d73:0000005d:00000001.
+10:21:05.887 SPDP: New participant detected!
+10:21:05.887 SPDP: Connecting builtin endpoints.
+10:21:05.887 RTPS: matched writer add (BuiltinParticipantMessageReader) to 1e2e5d73:00000030:00000001.
+10:21:05.887 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 1e2e5d73:00000030:00000001.
+10:21:05.887 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 1e2e5d73:00000030:00000001.
+10:21:05.887 SPDP: New participant detected!
+10:21:05.887 SPDP: Connecting builtin endpoints.
+10:21:05.887 RTPS: matched writer add (BuiltinParticipantMessageReader) to 1e2e5d73:0000000b:00000001.
+10:21:05.887 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 1e2e5d73:0000000b:00000001.
+10:21:05.887 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 1e2e5d73:0000000b:00000001.
+10:21:05.887 SPDP: New participant detected!
+10:21:05.887 SPDP: Connecting builtin endpoints.
+10:21:05.887 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 1e2e5d73:00000062:00000001.
+10:21:05.887 RTPS: matched writer add (BuiltinParticipantMessageReader) to 1e2e5d73:00000062:00000001.
+10:21:05.887 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 1e2e5d73:00000062:00000001.
+10:21:05.887 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 1e2e5d73:00000062:00000001.
+10:21:05.887 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 1e2e5d73:00000062:00000001.
+10:21:05.887 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 1e2e5d73:00000062:00000001.
+10:21:05.888 SEDP: New publication (imu/simple_msgs::dds_::Imu32_) from peer!
+10:21:05.888 SEDP: New publication (DCPSTopic/kernelModule::v_topicInfo) from peer!
+10:21:05.888 SEDP: New publication (DCPSPublication/kernelModule::v_publicationInfo) from peer!
+10:21:05.888 SEDP: New publication (DCPSParticipant/kernelModule::v_participantInfo) from peer!
+10:21:05.888 SEDP: New publication (CMParticipant/kernelModule::v_participantCMInfo) from peer!
+10:21:05.888 SEDP: New publication (DCPSSubscription/kernelModule::v_subscriptionInfo) from peer!
+10:21:05.888 SEDP: New publication (DCPSHeartbeat/kernelModule::v_heartbeatInfo) from peer!
+10:21:05.888 SEDP: New publication (DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand) from peer!
+10:21:05.888 SEDP: New publication (DCPSDelivery/kernelModule::v_deliveryInfo) from peer!
+10:21:05.889 SEDP: New subscription (DCPSTopic/kernelModule::v_topicInfo) from peer!
+10:21:05.889 SEDP: New subscription (DCPSSubscription/kernelModule::v_subscriptionInfo) from peer!
+10:21:05.889 SEDP: New subscription (DCPSPublication/kernelModule::v_publicationInfo) from peer!
+10:21:05.889 SEDP: New subscription (DCPSHeartbeat/kernelModule::v_heartbeatInfo) from peer!
+10:21:05.889 SEDP: New subscription (DCPSParticipant/kernelModule::v_participantInfo) from peer!
+10:21:05.889 SEDP: New subscription (DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand) from peer!
+10:21:05.889 SEDP: New subscription (DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand) from peer!
+10:21:05.889 SEDP: New subscription (DCPSSubscription/kernelModule::v_subscriptionInfo) from peer!
+10:21:05.889 SEDP: New subscription (CMParticipant/kernelModule::v_participantCMInfo) from peer!
+10:21:05.889 SEDP: New subscription (DCPSParticipant/kernelModule::v_participantInfo) from peer!
+10:21:05.889 SEDP: New subscription (DCPSPublication/kernelModule::v_publicationInfo) from peer!
+10:21:05.889 SEDP: New subscription (DCPSTopic/kernelModule::v_topicInfo) from peer!
+10:21:05.889 SEDP: New subscription (DCPSPublication/kernelModule::v_publicationInfo) from peer!
+10:21:05.889 SEDP: New subscription (DCPSSubscription/kernelModule::v_subscriptionInfo) from peer!
+10:21:05.889 SEDP: New subscription (DCPSParticipant/kernelModule::v_participantInfo) from peer!
+10:21:05.889 SEDP: New publication (d_status/durabilityModule2::d_status_s) from peer!
+10:21:05.890 SEDP: New publication (d_newGroup/durabilityModule2::d_newGroup_s) from peer!
+10:21:05.890 SEDP: New publication (d_groupsRequest/durabilityModule2::d_groupsRequest_s) from peer!
+10:21:05.890 SEDP: New publication (d_statusRequest/durabilityModule2::d_statusRequest_s) from peer!
+10:21:05.890 SEDP: New publication (d_sampleRequest/durabilityModule2::d_sampleRequest_s) from peer!
+10:21:05.890 SEDP: New publication (d_nameSpaces/durabilityModule2::d_nameSpaces_s) from peer!
+10:21:05.890 SEDP: New publication (d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s) from peer!
+10:21:05.890 SEDP: New publication (d_deleteData/durabilityModule2::d_deleteData_s) from peer!
+10:21:05.890 SEDP: New publication (d_sampleChain/durabilityModule2::d_sampleChain_s) from peer!
+10:21:05.890 SEDP: New subscription (d_nameSpaces/durabilityModule2::d_nameSpaces_s) from peer!
+10:21:05.890 SEDP: New subscription (d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s) from peer!
+10:21:05.890 SEDP: New subscription (d_status/durabilityModule2::d_status_s) from peer!
+10:21:05.890 SEDP: New subscription (d_groupsRequest/durabilityModule2::d_groupsRequest_s) from peer!
+10:21:05.890 SEDP: New subscription (d_deleteData/durabilityModule2::d_deleteData_s) from peer!
+10:21:05.890 SEDP: New subscription (d_newGroup/durabilityModule2::d_newGroup_s) from peer!
+10:21:05.890 SEDP: New subscription (d_sampleRequest/durabilityModule2::d_sampleRequest_s) from peer!
+10:21:05.890 SEDP: New subscription (d_sampleChain/durabilityModule2::d_sampleChain_s) from peer!
+10:21:13.292 0/000003-c2 W{13} - SEDPbuiltinPublicationsWriter/PublicationBuiltinTopicData:
+10:21:13.292     GUID: 1e2e5d73:00000062:00000001-000003-c7 {44} - 
+10:21:13.292 	InlineQoS=0, Reliable=1, Active=0, Marshall=1, MCast=1, Tunnel=0
+10:21:13.292 	States (Control/Tx/Ack): READY/IDLE/WAITING
+10:21:13.292 	Changes: : (0)
+10:21:13.292 	LastAck=2
+10:21:13.292 	Unicast locators: 
+10:21:13.292 		UDP:172.23.1.215:47130
+10:21:13.292 	Multicast locators: 
+10:21:13.292 		UDP:239.255.0.1:7400(4)
+10:21:13.292 	Direct reply locator:
+10:21:13.292 		UDP:172.23.1.215:47130
+10:21:13.292 	Last: 0.1, local=2, remote=0
+10:21:13.292 	# of DATA messages sent:     1
+10:21:13.292 	# of GAPs sent:              0
+10:21:13.292 	# of HEARTBEATs sent:        1
+10:21:13.292 	# of ACKNACKs received:      2
+10:21:13.292 	# of DATAFRAG messages sent: 0
+10:21:13.292 	# of HEARTBEATFRAGs sent:    0
+10:21:13.292 	# of NACKFRAGs received:     0
+10:21:13.292 	Next GUID: (nil)
+10:21:13.293 0/000003-c7 R{9} - SEDPbuiltinPublicationsReader/PublicationBuiltinTopicData:
+10:21:13.293     GUID: 1e2e5d73:0000011a:00000001-000003-c2 {27} - 
+10:21:13.293 	Reliable=1, Active=0, MCast=1, Tunnel=0
+10:21:13.293 	States (Control/Ack): READY/WAITING
+10:21:13.293 	Changes: : (0)
+10:21:13.293 	LastHeartbeat=4
+10:21:13.293 	Unicast locators: 
+10:21:13.293 		UDP:172.23.1.215:49824
+10:21:13.293 	Multicast locators: 
+10:21:13.293 		UDP:239.255.0.1:7400(4)
+10:21:13.293 	Direct reply locator:
+10:21:13.293 		UDP:172.23.1.215:49824
+10:21:13.293 	Next: 0.2, LocalInst=2, RemoteInst=0
+10:21:13.293 	# of DATA messages received: 1
+10:21:13.293 	# of GAPs received:          0
+10:21:13.293 	# of HEARTBEATs received:    4
+10:21:13.293 	# of ACKNACKs sent:          3
+10:21:13.293 	# of DATAFRAG messages recvd:0
+10:21:13.293 	# of HEARTBEATFRAGs received:0
+10:21:13.293 	# of NACKFRAGs sent:         0
+10:21:13.293 	Next GUID: (nil)
+10:21:13.293     GUID: 1e2e5d73:0000005d:00000001-000003-c2 {31} - 
+10:21:13.293 	Reliable=1, Active=0, MCast=1, Tunnel=0
+10:21:13.293 	States (Control/Ack): READY/WAITING
+10:21:13.293 	Changes: : (0)
+10:21:13.293 	LastHeartbeat=4
+10:21:13.293 	Unicast locators: 
+10:21:13.293 		UDP:172.23.1.215:43031
+10:21:13.293 	Multicast locators: 
+10:21:13.293 		UDP:239.255.0.1:7400(4)
+10:21:13.294 	Direct reply locator:
+10:21:13.294 		UDP:172.23.1.215:43031
+10:21:13.294 	Next: 0.10, LocalInst=5, RemoteInst=0
+10:21:13.294 	# of DATA messages received: 9
+10:21:13.294 	# of GAPs received:          0
+10:21:13.294 	# of HEARTBEATs received:    4
+10:21:13.294 	# of ACKNACKs sent:          3
+10:21:13.294 	# of DATAFRAG messages recvd:0
+10:21:13.294 	# of HEARTBEATFRAGs received:0
+10:21:13.294 	# of NACKFRAGs sent:         0
+10:21:13.294 	Next GUID: (nil)
+10:21:13.294     GUID: 1e2e5d73:00000030:00000001-000003-c2 {35} - 
+10:21:13.294 	Reliable=1, Active=0, MCast=1, Tunnel=0
+10:21:13.294 	States (Control/Ack): READY/WAITING
+10:21:13.294 	Changes: : (0)
+10:21:13.294 	LastHeartbeat=1
+10:21:13.294 	Unicast locators: 
+10:21:13.294 		UDP:172.23.1.215:35315
+10:21:13.294 	Multicast locators: 
+10:21:13.294 		UDP:239.255.0.1:7400(4)
+10:21:13.294 	Direct reply locator:
+10:21:13.294 		UDP:172.23.1.215:35315
+10:21:13.294 	Next: 0.2, LocalInst=8, RemoteInst=0
+10:21:13.294 	# of DATA messages received: 0
+10:21:13.294 	# of GAPs received:          1
+10:21:13.294 	# of HEARTBEATs received:    1
+10:21:13.294 	# of ACKNACKs sent:          1
+10:21:13.294 	# of DATAFRAG messages recvd:0
+10:21:13.294 	# of HEARTBEATFRAGs received:0
+10:21:13.294 	# of NACKFRAGs sent:         0
+10:21:13.295 	Next GUID: (nil)
+10:21:13.295     GUID: 1e2e5d73:0000000b:00000001-000003-c2 {39} - 
+10:21:13.295 	Reliable=1, Active=0, MCast=1, Tunnel=0
+10:21:13.295 	States (Control/Ack): READY/WAITING
+10:21:13.295 	Changes: : (0)
+10:21:13.295 	LastHeartbeat=4
+10:21:13.295 	Unicast locators: 
+10:21:13.295 		UDP:172.23.1.215:57110
+10:21:13.295 	Multicast locators: 
+10:21:13.295 		UDP:239.255.0.1:7400(4)
+10:21:13.295 	Direct reply locator:
+10:21:13.295 		UDP:172.23.1.215:57110
+10:21:13.295 	Next: 0.9, LocalInst=11, RemoteInst=0
+10:21:13.295 	# of DATA messages received: 8
+10:21:13.295 	# of GAPs received:          0
+10:21:13.295 	# of HEARTBEATs received:    4
+10:21:13.295 	# of ACKNACKs sent:          3
+10:21:13.295 	# of DATAFRAG messages recvd:0
+10:21:13.295 	# of HEARTBEATFRAGs received:0
+10:21:13.295 	# of NACKFRAGs sent:         0
+10:21:13.295 	Next GUID: (nil)
+10:21:13.295     GUID: 1e2e5d73:00000062:00000001-000003-c2 {45} - 
+10:21:13.295 	Reliable=1, Active=0, MCast=1, Tunnel=0
+10:21:13.295 	States (Control/Ack): READY/WAITING
+10:21:13.295 	Changes: : (0)
+10:21:13.295 	LastHeartbeat=1
+10:21:13.295 	Unicast locators: 
+10:21:13.295 		UDP:172.23.1.215:47130
+10:21:13.295 	Multicast locators: 
+10:21:13.295 		UDP:239.255.0.1:7400(4)
+10:21:13.296 	Direct reply locator:
+10:21:13.296 		UDP:172.23.1.215:47130
+10:21:13.296 	Next: 0.2, LocalInst=14, RemoteInst=0
+10:21:13.296 	# of DATA messages received: 0
+10:21:13.296 	# of GAPs received:          1
+10:21:13.296 	# of HEARTBEATs received:    1
+10:21:13.296 	# of ACKNACKs sent:          1
+10:21:13.296 	# of DATAFRAG messages recvd:0
+10:21:13.296 	# of HEARTBEATFRAGs received:0
+10:21:13.296 	# of NACKFRAGs sent:         0
+10:21:13.296 	Next GUID: (nil)
+10:21:13.296 0/000004-c2 W{15} - SEDPbuiltinSubscriptionsWriter/SubscriptionBuiltinTopicData:
+10:21:13.296     GUID: 1e2e5d73:00000062:00000001-000004-c7 {46} - 
+10:21:13.296 	InlineQoS=0, Reliable=1, Active=0, Marshall=1, MCast=1, Tunnel=0
+10:21:13.296 	States (Control/Tx/Ack): READY/IDLE/WAITING
+10:21:13.296 	Changes: : (0)
+10:21:13.296 	LastAck=2
+10:21:13.296 	Unicast locators: 
+10:21:13.296 		UDP:172.23.1.215:47130
+10:21:13.296 	Multicast locators: 
+10:21:13.296 		UDP:239.255.0.1:7400(4)
+10:21:13.296 	Direct reply locator:
+10:21:13.296 		UDP:172.23.1.215:47130
+10:21:13.296 	Last: 0.1, local=3, remote=0
+10:21:13.296 	# of DATA messages sent:     1
+10:21:13.296 	# of GAPs sent:              0
+10:21:13.296 	# of HEARTBEATs sent:        1
+10:21:13.296 	# of ACKNACKs received:      2
+10:21:13.296 	# of DATAFRAG messages sent: 0
+10:21:13.297 	# of HEARTBEATFRAGs sent:    0
+10:21:13.297 	# of NACKFRAGs received:     0
+10:21:13.297 	Next GUID: (nil)
+10:21:13.297 0/000004-c7 R{11} - SEDPbuiltinSubscriptionsReader/SubscriptionBuiltinTopicData:
+10:21:13.297     GUID: 1e2e5d73:0000011a:00000001-000004-c2 {28} - 
+10:21:13.297 	Reliable=1, Active=0, MCast=1, Tunnel=0
+10:21:13.297 	States (Control/Ack): READY/WAITING
+10:21:13.297 	Changes: : (0)
+10:21:13.297 	LastHeartbeat=1
+10:21:13.297 	Unicast locators: 
+10:21:13.297 		UDP:172.23.1.215:49824
+10:21:13.297 	Multicast locators: 
+10:21:13.297 		UDP:239.255.0.1:7400(4)
+10:21:13.297 	Direct reply locator:
+10:21:13.297 		UDP:172.23.1.215:49824
+10:21:13.297 	Next: 0.2, LocalInst=3, RemoteInst=0
+10:21:13.297 	# of DATA messages received: 0
+10:21:13.297 	# of GAPs received:          1
+10:21:13.297 	# of HEARTBEATs received:    1
+10:21:13.297 	# of ACKNACKs sent:          1
+10:21:13.297 	# of DATAFRAG messages recvd:0
+10:21:13.297 	# of HEARTBEATFRAGs received:0
+10:21:13.297 	# of NACKFRAGs sent:         0
+10:21:13.297 	Next GUID: (nil)
+10:21:13.297     GUID: 1e2e5d73:0000005d:00000001-000004-c2 {32} - 
+10:21:13.297 	Reliable=1, Active=0, MCast=1, Tunnel=0
+10:21:13.297 	States (Control/Ack): READY/WAITING
+10:21:13.297 	Changes: : (0)
+10:21:13.297 	LastHeartbeat=4
+10:21:13.297 	Unicast locators: 
+10:21:13.298 		UDP:172.23.1.215:43031
+10:21:13.298 	Multicast locators: 
+10:21:13.298 		UDP:239.255.0.1:7400(4)
+10:21:13.298 	Direct reply locator:
+10:21:13.298 		UDP:172.23.1.215:43031
+10:21:13.298 	Next: 0.9, LocalInst=6, RemoteInst=0
+10:21:13.298 	# of DATA messages received: 8
+10:21:13.298 	# of GAPs received:          0
+10:21:13.298 	# of HEARTBEATs received:    4
+10:21:13.298 	# of ACKNACKs sent:          3
+10:21:13.298 	# of DATAFRAG messages recvd:0
+10:21:13.298 	# of HEARTBEATFRAGs received:0
+10:21:13.298 	# of NACKFRAGs sent:         0
+10:21:13.298 	Next GUID: (nil)
+10:21:13.298     GUID: 1e2e5d73:00000030:00000001-000004-c2 {36} - 
+10:21:13.298 	Reliable=1, Active=0, MCast=1, Tunnel=0
+10:21:13.298 	States (Control/Ack): READY/WAITING
+10:21:13.298 	Changes: : (0)
+10:21:13.298 	LastHeartbeat=4
+10:21:13.298 	Unicast locators: 
+10:21:13.298 		UDP:172.23.1.215:35315
+10:21:13.298 	Multicast locators: 
+10:21:13.298 		UDP:239.255.0.1:7400(4)
+10:21:13.298 	Direct reply locator:
+10:21:13.298 		UDP:172.23.1.215:35315
+10:21:13.298 	Next: 0.7, LocalInst=9, RemoteInst=0
+10:21:13.298 	# of DATA messages received: 6
+10:21:13.298 	# of GAPs received:          0
+10:21:13.298 	# of HEARTBEATs received:    4
+10:21:13.298 	# of ACKNACKs sent:          3
+10:21:13.299 	# of DATAFRAG messages recvd:0
+10:21:13.299 	# of HEARTBEATFRAGs received:0
+10:21:13.299 	# of NACKFRAGs sent:         0
+10:21:13.299 	Next GUID: (nil)
+10:21:13.299     GUID: 1e2e5d73:0000000b:00000001-000004-c2 {40} - 
+10:21:13.299 	Reliable=1, Active=0, MCast=1, Tunnel=0
+10:21:13.299 	States (Control/Ack): READY/WAITING
+10:21:13.299 	Changes: : (0)
+10:21:13.299 	LastHeartbeat=1
+10:21:13.299 	Unicast locators: 
+10:21:13.299 		UDP:172.23.1.215:57110
+10:21:13.299 	Multicast locators: 
+10:21:13.299 		UDP:239.255.0.1:7400(4)
+10:21:13.299 	Direct reply locator:
+10:21:13.299 		UDP:172.23.1.215:57110
+10:21:13.299 	Next: 0.2, LocalInst=12, RemoteInst=0
+10:21:13.299 	# of DATA messages received: 0
+10:21:13.299 	# of GAPs received:          1
+10:21:13.299 	# of HEARTBEATs received:    1
+10:21:13.299 	# of ACKNACKs sent:          1
+10:21:13.299 	# of DATAFRAG messages recvd:0
+10:21:13.299 	# of HEARTBEATFRAGs received:0
+10:21:13.299 	# of NACKFRAGs sent:         0
+10:21:13.299 	Next GUID: (nil)
+10:21:13.299     GUID: 1e2e5d73:00000062:00000001-000004-c2 {47} - 
+10:21:13.299 	Reliable=1, Active=0, MCast=1, Tunnel=0
+10:21:13.299 	States (Control/Ack): READY/WAITING
+10:21:13.299 	Changes: : (0)
+10:21:13.299 	LastHeartbeat=4
+10:21:13.299 	Unicast locators: 
+10:21:13.300 		UDP:172.23.1.215:47130
+10:21:13.300 	Multicast locators: 
+10:21:13.300 		UDP:239.255.0.1:7400(4)
+10:21:13.300 	Direct reply locator:
+10:21:13.300 		UDP:172.23.1.215:47130
+10:21:13.300 	Next: 0.10, LocalInst=15, RemoteInst=0
+10:21:13.300 	# of DATA messages received: 9
+10:21:13.300 	# of GAPs received:          0
+10:21:13.300 	# of HEARTBEATs received:    4
+10:21:13.300 	# of ACKNACKs sent:          3
+10:21:13.300 	# of DATAFRAG messages recvd:0
+10:21:13.300 	# of HEARTBEATFRAGs received:0
+10:21:13.300 	# of NACKFRAGs sent:         0
+10:21:13.300 	Next GUID: (nil)
+10:21:13.300 0/000100-c2 W{5} - SPDPbuiltinParticipantWriter/ParticipantBuiltinTopicData:
+10:21:13.300     UDP:239.255.0.1:7400(4) - 
+10:21:13.300 	InlineQoS=0, Reliable=0, Active=0, Marshall=1, MCast=1, Tunnel=0
+10:21:13.300 	States (Control/Tx/Ack): READY/IDLE/WAITING
+10:21:13.300 	Changes: : (1)
+10:21:13.300 		{UNDERWAY:1	[0x1ba0da0*2:ALIVE:h=1,0.1]}
+10:21:13.300 	# of DATA messages sent:     4
+10:21:13.300 	# of DATAFRAG messages sent: 0
+10:21:13.300 	Next GUID: (nil)
+10:21:13.300     TCP:239.255.0.1:7400 - 
+10:21:13.300 	InlineQoS=0, Reliable=0, Active=0, Marshall=1, MCast=1, Tunnel=0
+10:21:13.300 	States (Control/Tx/Ack): READY/IDLE/WAITING
+10:21:13.300 	Changes: : (1)
+10:21:13.300 		{UNDERWAY:1	[0x1ba0da0*2:ALIVE:h=1,0.1]}
+10:21:13.301 	# of DATA messages sent:     4
+10:21:13.301 	# of DATAFRAG messages sent: 0
+10:21:13.301 	Next GUID: (nil)
+10:21:13.301 0/000200-c2 W{19} - BuiltinParticipantMessageWriter/ParticipantMessageData:
+10:21:13.301     GUID: 1e2e5d73:00000062:00000001-000200-c7 {42} - 
+10:21:13.301 	InlineQoS=0, Reliable=1, Active=0, Marshall=1, MCast=1, Tunnel=0
+10:21:13.301 	States (Control/Tx/Ack): READY/IDLE/WAITING
+10:21:13.301 	Changes: : (0)
+10:21:13.301 	LastAck=8
+10:21:13.301 	Unicast locators: 
+10:21:13.301 		UDP:172.23.1.215:47130
+10:21:13.301 	Multicast locators: 
+10:21:13.301 		UDP:239.255.0.1:7400(4)
+10:21:13.301 	Direct reply locator:
+10:21:13.301 		UDP:172.23.1.215:47130
+10:21:13.301 	Last: 0.1, local=1, remote=0
+10:21:13.301 	# of DATA messages sent:     0
+10:21:13.301 	# of GAPs sent:              0
+10:21:13.301 	# of HEARTBEATs sent:        0
+10:21:13.301 	# of ACKNACKs received:      8
+10:21:13.302 	# of DATAFRAG messages sent: 0
+10:21:13.302 	# of HEARTBEATFRAGs sent:    0
+10:21:13.302 	# of NACKFRAGs received:     0
+10:21:13.302 	Next GUID: (nil)
+10:21:13.302 0/000200-c7 R{17} - BuiltinParticipantMessageReader/ParticipantMessageData:
+10:21:13.302     GUID: 1e2e5d73:0000011a:00000001-000200-c2 {26} - 
+10:21:13.302 	Reliable=1, Active=0, MCast=1, Tunnel=0
+10:21:13.302 	States (Control/Ack): READY/WAITING
+10:21:13.302 	Changes: : (0)
+10:21:13.302 	LastHeartbeat=11
+10:21:13.302 	Unicast locators: 
+10:21:13.302 		UDP:172.23.1.215:49824
+10:21:13.302 	Multicast locators: 
+10:21:13.302 		UDP:239.255.0.1:7400(4)
+10:21:13.302 	Direct reply locator:
+10:21:13.302 		UDP:172.23.1.215:49824
+10:21:13.302 	Next: 0.5, LocalInst=1, RemoteInst=0
+10:21:13.302 	# of DATA messages received: 4
+10:21:13.302 	# of GAPs received:          0
+10:21:13.302 	# of HEARTBEATs received:    10
+10:21:13.302 	# of ACKNACKs sent:          6
+10:21:13.303 	# of DATAFRAG messages recvd:0
+10:21:13.303 	# of HEARTBEATFRAGs received:0
+10:21:13.303 	# of NACKFRAGs sent:         0
+10:21:13.303 	Next GUID: (nil)
+10:21:13.303     GUID: 1e2e5d73:0000005d:00000001-000200-c2 {30} - 
+10:21:13.303 	Reliable=1, Active=0, MCast=1, Tunnel=0
+10:21:13.303 	States (Control/Ack): READY/WAITING
+10:21:13.303 	Changes: : (0)
+10:21:13.303 	LastHeartbeat=10
+10:21:13.303 	Unicast locators: 
+10:21:13.303 		UDP:172.23.1.215:43031
+10:21:13.303 	Multicast locators: 
+10:21:13.303 		UDP:239.255.0.1:7400(4)
+10:21:13.303 	Direct reply locator:
+10:21:13.303 		UDP:172.23.1.215:43031
+10:21:13.303 	Next: 0.5, LocalInst=4, RemoteInst=0
+10:21:13.303 	# of DATA messages received: 3
+10:21:13.303 	# of GAPs received:          0
+10:21:13.303 	# of HEARTBEATs received:    8
+10:21:13.303 	# of ACKNACKs sent:          5
+10:21:13.303 	# of DATAFRAG messages recvd:0
+10:21:13.304 	# of HEARTBEATFRAGs received:0
+10:21:13.304 	# of NACKFRAGs sent:         0
+10:21:13.304 	Next GUID: (nil)
+10:21:13.304     GUID: 1e2e5d73:00000030:00000001-000200-c2 {34} - 
+10:21:13.304 	Reliable=1, Active=0, MCast=1, Tunnel=0
+10:21:13.304 	States (Control/Ack): READY/WAITING
+10:21:13.304 	Changes: : (0)
+10:21:13.304 	LastHeartbeat=10
+10:21:13.304 	Unicast locators: 
+10:21:13.304 		UDP:172.23.1.215:35315
+10:21:13.304 	Multicast locators: 
+10:21:13.304 		UDP:239.255.0.1:7400(4)
+10:21:13.304 	Direct reply locator:
+10:21:13.304 		UDP:172.23.1.215:35315
+10:21:13.304 	Next: 0.5, LocalInst=7, RemoteInst=0
+10:21:13.304 	# of DATA messages received: 3
+10:21:13.304 	# of GAPs received:          0
+10:21:13.304 	# of HEARTBEATs received:    8
+10:21:13.304 	# of ACKNACKs sent:          5
+10:21:13.304 	# of DATAFRAG messages recvd:0
+10:21:13.304 	# of HEARTBEATFRAGs received:0
+10:21:13.305 	# of NACKFRAGs sent:         0
+10:21:13.305 	Next GUID: (nil)
+10:21:13.305     GUID: 1e2e5d73:0000000b:00000001-000200-c2 {38} - 
+10:21:13.305 	Reliable=1, Active=0, MCast=1, Tunnel=0
+10:21:13.305 	States (Control/Ack): READY/WAITING
+10:21:13.305 	Changes: : (0)
+10:21:13.305 	LastHeartbeat=10
+10:21:13.305 	Unicast locators: 
+10:21:13.305 		UDP:172.23.1.215:57110
+10:21:13.305 	Multicast locators: 
+10:21:13.305 		UDP:239.255.0.1:7400(4)
+10:21:13.305 	Direct reply locator:
+10:21:13.305 		UDP:172.23.1.215:57110
+10:21:13.305 	Next: 0.5, LocalInst=10, RemoteInst=0
+10:21:13.305 	# of DATA messages received: 3
+10:21:13.305 	# of GAPs received:          0
+10:21:13.305 	# of HEARTBEATs received:    8
+10:21:13.305 	# of ACKNACKs sent:          5
+10:21:13.305 	# of DATAFRAG messages recvd:0
+10:21:13.305 	# of HEARTBEATFRAGs received:0
+10:21:13.305 	# of NACKFRAGs sent:         0
+10:21:13.305 	Next GUID: (nil)
+10:21:13.305     GUID: 1e2e5d73:00000062:00000001-000200-c2 {43} - 
+10:21:13.305 	Reliable=1, Active=0, MCast=1, Tunnel=0
+10:21:13.305 	States (Control/Ack): READY/WAITING
+10:21:13.305 	Changes: : (0)
+10:21:13.305 	LastHeartbeat=10
+10:21:13.305 	Unicast locators: 
+10:21:13.305 		UDP:172.23.1.215:47130
+10:21:13.305 	Multicast locators: 
+10:21:13.305 		UDP:239.255.0.1:7400(4)
+10:21:13.305 	Direct reply locator:
+10:21:13.305 		UDP:172.23.1.215:47130
+10:21:13.305 	Next: 0.5, LocalInst=13, RemoteInst=0
+10:21:13.305 	# of DATA messages received: 3
+10:21:13.305 	# of GAPs received:          0
+10:21:13.305 	# of HEARTBEATs received:    8
+10:21:13.305 	# of ACKNACKs sent:          5
+10:21:13.305 	# of DATAFRAG messages recvd:0
+10:21:13.305 	# of HEARTBEATFRAGs received:0
+10:21:13.305 	# of NACKFRAGs sent:         0
+10:21:13.305 	Next GUID: (nil)
+10:22:28.259 DCPS:
+10:22:28.259     0/000001-03 W{22}	0	imu_/simple_msgs::dds_::Imu32_
+10:22:28.259     0/000002-04 R{24}	0	imu_/simple_msgs::dds_::Imu32_
+10:22:28.259     0/000003-c2 W{13}	1/1	SEDPbuiltinPublicationsWriter/PublicationBuiltinTopicData
+10:22:28.259     0/000003-c7 R{9}	0/0	SEDPbuiltinPublicationsReader/PublicationBuiltinTopicData
+10:22:28.259     0/000004-c2 W{15}	1/1	SEDPbuiltinSubscriptionsWriter/SubscriptionBuiltinTopicData
+10:22:28.259     0/000004-c7 R{11}	0/0	SEDPbuiltinSubscriptionsReader/SubscriptionBuiltinTopicData
+10:22:28.259     0/000100-c2 W{5}	1/1	SPDPbuiltinParticipantWriter/ParticipantBuiltinTopicData
+10:22:28.259     0/000100-c7 R{7}	0/0	SPDPbuiltinParticipantReader/ParticipantBuiltinTopicData
+10:22:28.259     0/000200-c2 W{19}	0/0	BuiltinParticipantMessageWriter/ParticipantMessageData
+10:22:28.259     0/000200-c7 R{17}	0/0	BuiltinParticipantMessageReader/ParticipantMessageData
+10:22:28.260 RTPS:
+10:22:28.260     0/000003-c2 W{13}	0/1	SEDPbuiltinPublicationsWriter/PublicationBuiltinTopicData
+10:22:28.260 			    ->	GUID: 1e2e5d73:00000062:00000001-000003-c7 {44}
+10:22:28.260     0/000003-c7 R{9}	0/0	SEDPbuiltinPublicationsReader/PublicationBuiltinTopicData
+10:22:28.260 			    ->	GUID: 1e2e5d73:0000011a:00000001-000003-c2 {27}
+10:22:28.260 			    ->	GUID: 1e2e5d73:0000005d:00000001-000003-c2 {31}
+10:22:28.260 			    ->	GUID: 1e2e5d73:00000030:00000001-000003-c2 {35}
+10:22:28.260 			    ->	GUID: 1e2e5d73:0000000b:00000001-000003-c2 {39}
+10:22:28.260 			    ->	GUID: 1e2e5d73:00000062:00000001-000003-c2 {45}
+10:22:28.260     0/000004-c2 W{15}	0/1	SEDPbuiltinSubscriptionsWriter/SubscriptionBuiltinTopicData
+10:22:28.260 			    ->	GUID: 1e2e5d73:00000062:00000001-000004-c7 {46}
+10:22:28.260     0/000004-c7 R{11}	0/0	SEDPbuiltinSubscriptionsReader/SubscriptionBuiltinTopicData
+10:22:28.260 			    ->	GUID: 1e2e5d73:0000011a:00000001-000004-c2 {28}
+10:22:28.260 			    ->	GUID: 1e2e5d73:0000005d:00000001-000004-c2 {32}
+10:22:28.260 			    ->	GUID: 1e2e5d73:00000030:00000001-000004-c2 {36}
+10:22:28.260 			    ->	GUID: 1e2e5d73:0000000b:00000001-000004-c2 {40}
+10:22:28.260 			    ->	GUID: 1e2e5d73:00000062:00000001-000004-c2 {47}
+10:22:28.260     0/000100-c2 W{5}	2/1	SPDPbuiltinParticipantWriter/ParticipantBuiltinTopicData
+10:22:28.260 			    ->	Locator: UDP:239.255.0.1:7400(4) {5}
+10:22:28.260 			    ->	Locator: TCP:239.255.0.1:7400 {5}
+10:22:28.260     0/000100-c7 R{7}	0/0	SPDPbuiltinParticipantReader/ParticipantBuiltinTopicData
+10:22:28.260     0/000200-c2 W{19}	0/0	BuiltinParticipantMessageWriter/ParticipantMessageData
+10:22:28.260 			    ->	GUID: 1e2e5d73:00000062:00000001-000200-c7 {42}
+10:22:28.260     0/000200-c7 R{17}	0/0	BuiltinParticipantMessageReader/ParticipantMessageData
+10:22:28.260 			    ->	GUID: 1e2e5d73:0000011a:00000001-000200-c2 {26}
+10:22:28.260 			    ->	GUID: 1e2e5d73:0000005d:00000001-000200-c2 {30}
+10:22:28.260 			    ->	GUID: 1e2e5d73:00000030:00000001-000200-c2 {34}
+10:22:28.260 			    ->	GUID: 1e2e5d73:0000000b:00000001-000200-c2 {38}
+10:22:28.260 			    ->	GUID: 1e2e5d73:00000062:00000001-000200-c2 {43}

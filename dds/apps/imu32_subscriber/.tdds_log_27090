@@ -1,0 +1,731 @@
+10:14:08.614 List pools created.
+10:14:08.614 String pool initialized.
+10:14:08.614 Typecode pools created.
+10:14:08.614 Typesupport initialized.
+10:14:08.614 Socket handler initialized.
+10:14:08.614 Timer pool initialized.
+10:14:08.614 Data buffer pools created.
+10:14:08.614 Existing host identifier reused.
+10:14:08.614 Unique GUID prefix created: 8f937eb8:000069d2:03e90000
+10:14:08.615 Locator pools created.
+10:14:08.615 History cache pools created.
+10:14:08.615 Entities: reserved=98, maximum=4294967295
+10:14:08.615 Domain pools created.
+10:14:08.615 RTPS Initialised.
+10:14:08.615 IP: scope = link..global
+10:14:08.615 IP interfaces:
+10:14:08.615     eth1     : 172.23.1.215
+10:14:08.615 TCP: local secure TCP server disabled
+10:14:08.615 TCP: local TCP server disabled
+10:14:08.615 RTPS over IPv4 Initialised.
+10:14:08.615 IPv6: scope = site..global
+10:14:08.616 RTPS over IPv6 Initialised.
+10:14:08.616 QoS pools initialized.
+10:14:08.616 DDS: DynamicType_register(ParticipantMessageData): 5 blocks, 416 bytes
+10:14:08.616 DDS: DynamicType_register(BinaryProperty): 3 blocks, 272 bytes
+10:14:08.616 DDS: DynamicType_register(Property): 2 blocks, 216 bytes
+10:14:08.616 DDS: DynamicType_register(DataHolder): 6 blocks, 616 bytes
+10:14:08.616 DDS: DynamicType_register(MessageIdentity): 3 blocks, 272 bytes
+10:14:08.616 DDS: DynamicType_register(ParticipantGenericMessage): 3 blocks, 432 bytes
+10:14:08.616 DDS: DynamicType_register(ParticipantStatelessMessage): 2 blocks, 144 bytes
+10:14:08.616 DDS: DynamicType_register(ParticipantVolatileSecureMessage): 2 blocks, 144 bytes
+10:14:08.616 Discovery initialized.
+10:14:08.616 DCPS Initialised.
+10:14:08.616 DDS: core thread created.
+10:14:08.617 DDS: core thread running.
+10:14:08.617 Security: validate local permissions. 
+10:14:08.617 DDS: domain security mode = 0x0
+10:14:08.617 UDP: adding 172.23.1.215:7863 on [6]
+10:14:08.617 UDP: adding 239.255.0.1:7401 on [7]
+10:14:08.617 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7401
+10:14:08.617 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7401 on 172.23.1.215:7863
+10:14:08.617 RTPS: starting Discovery protocols.
+10:14:08.617 UDP: adding 172.23.1.215:7862 on [8]
+10:14:08.617 UDP: adding 239.255.0.1:7400 on [9]
+10:14:08.617 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7400
+10:14:08.617 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7400 on 172.23.1.215:7862
+10:14:08.617 SPDP: starting protocol for domain #0.
+10:14:08.617 RTPS: writer (SPDPbuiltinParticipantWriter) created.
+10:14:08.617 RTPS: reader (SPDPbuiltinParticipantReader) created.
+10:14:08.617 RTPS: reader (SEDPbuiltinPublicationsReader) created.
+10:14:08.617 RTPS: reader (SEDPbuiltinSubscriptionsReader) created.
+10:14:08.617 RTPS: writer (SEDPbuiltinPublicationsWriter) created.
+10:14:08.617 RTPS: writer (SEDPbuiltinSubscriptionsWriter) created.
+10:14:08.617 RTPS: reader (BuiltinParticipantMessageReader) created.
+10:14:08.618 RTPS: writer (BuiltinParticipantMessageWriter) created.
+10:14:08.618 SPDP: registering Participant key.
+10:14:08.618 SPDP: Send Participant data.
+10:14:08.618 DDS: DynamicTypeSupport_create_type_support(Imu32): 1 blocks, 104 bytes
+10:14:08.618 SEDP: Writer (imu_/simple_msgs::dds_::Imu32_) added.
+10:14:08.618 SEDP: Send publication (imu_/simple_msgs::dds_::Imu32_)
+10:14:08.618 SEDP: Reader (imu_/simple_msgs::dds_::Imu32_) added.
+10:14:08.618 SEDP: Send subscription (imu_/simple_msgs::dds_::Imu32_)
+10:14:08.618 SPDP: New participant detected!
+10:14:08.618 SPDP: Connecting builtin endpoints.
+10:14:08.618 RTPS: matched writer add (BuiltinParticipantMessageReader) to 0512fa4c:0000011a:00000001.
+10:14:08.618 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 0512fa4c:0000011a:00000001.
+10:14:08.618 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 0512fa4c:0000011a:00000001.
+10:14:08.618 SPDP: New participant detected!
+10:14:08.618 SPDP: Connecting builtin endpoints.
+10:14:08.618 RTPS: matched writer add (BuiltinParticipantMessageReader) to 0512fa4c:0000005d:00000001.
+10:14:08.618 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 0512fa4c:0000005d:00000001.
+10:14:08.619 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 0512fa4c:0000005d:00000001.
+10:14:08.619 SPDP: New participant detected!
+10:14:08.619 SPDP: Connecting builtin endpoints.
+10:14:08.619 RTPS: matched writer add (BuiltinParticipantMessageReader) to 0512fa4c:00000030:00000001.
+10:14:08.619 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 0512fa4c:00000030:00000001.
+10:14:08.619 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 0512fa4c:00000030:00000001.
+10:14:08.619 SPDP: New participant detected!
+10:14:08.619 SPDP: Connecting builtin endpoints.
+10:14:08.619 RTPS: matched writer add (BuiltinParticipantMessageReader) to 0512fa4c:0000000b:00000001.
+10:14:08.619 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 0512fa4c:0000000b:00000001.
+10:14:08.619 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 0512fa4c:0000000b:00000001.
+10:14:08.619 SPDP: New participant detected!
+10:14:08.619 SPDP: Connecting builtin endpoints.
+10:14:08.619 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 0512fa4c:00000062:00000001.
+10:14:08.619 RTPS: matched writer add (BuiltinParticipantMessageReader) to 0512fa4c:00000062:00000001.
+10:14:08.619 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 0512fa4c:00000062:00000001.
+10:14:08.619 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 0512fa4c:00000062:00000001.
+10:14:08.619 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 0512fa4c:00000062:00000001.
+10:14:08.619 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 0512fa4c:00000062:00000001.
+10:14:08.620 SEDP: New publication (imu/simple_msgs::dds_::Imu32_) from peer!
+10:14:08.620 SEDP: New publication (DCPSTopic/kernelModule::v_topicInfo) from peer!
+10:14:08.620 SEDP: New publication (DCPSPublication/kernelModule::v_publicationInfo) from peer!
+10:14:08.620 SEDP: New publication (DCPSParticipant/kernelModule::v_participantInfo) from peer!
+10:14:08.620 SEDP: New publication (CMParticipant/kernelModule::v_participantCMInfo) from peer!
+10:14:08.620 SEDP: New publication (DCPSSubscription/kernelModule::v_subscriptionInfo) from peer!
+10:14:08.620 SEDP: New publication (DCPSHeartbeat/kernelModule::v_heartbeatInfo) from peer!
+10:14:08.620 SEDP: New publication (DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand) from peer!
+10:14:08.620 SEDP: New publication (DCPSDelivery/kernelModule::v_deliveryInfo) from peer!
+10:14:08.620 SEDP: New subscription (DCPSTopic/kernelModule::v_topicInfo) from peer!
+10:14:08.621 SEDP: New subscription (DCPSSubscription/kernelModule::v_subscriptionInfo) from peer!
+10:14:08.621 SEDP: New subscription (DCPSPublication/kernelModule::v_publicationInfo) from peer!
+10:14:08.621 SEDP: New subscription (DCPSHeartbeat/kernelModule::v_heartbeatInfo) from peer!
+10:14:08.621 SEDP: New subscription (DCPSParticipant/kernelModule::v_participantInfo) from peer!
+10:14:08.621 SEDP: New subscription (DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand) from peer!
+10:14:08.621 SEDP: New subscription (DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand) from peer!
+10:14:08.621 SEDP: New subscription (DCPSSubscription/kernelModule::v_subscriptionInfo) from peer!
+10:14:08.621 SEDP: New subscription (CMParticipant/kernelModule::v_participantCMInfo) from peer!
+10:14:08.621 SEDP: New subscription (DCPSParticipant/kernelModule::v_participantInfo) from peer!
+10:14:08.621 SEDP: New subscription (DCPSPublication/kernelModule::v_publicationInfo) from peer!
+10:14:08.621 SEDP: New subscription (DCPSTopic/kernelModule::v_topicInfo) from peer!
+10:14:08.621 SEDP: New subscription (DCPSPublication/kernelModule::v_publicationInfo) from peer!
+10:14:08.621 SEDP: New subscription (DCPSSubscription/kernelModule::v_subscriptionInfo) from peer!
+10:14:08.621 SEDP: New subscription (DCPSParticipant/kernelModule::v_participantInfo) from peer!
+10:14:08.621 SEDP: New subscription (DCPSParticipant/kernelModule::v_participantInfo) from peer!
+10:14:08.621 SEDP: New subscription (DCPSSubscription/kernelModule::v_subscriptionInfo) from peer!
+10:14:08.621 SEDP: New subscription (DCPSPublication/kernelModule::v_publicationInfo) from peer!
+10:14:08.622 SEDP: New publication (d_status/durabilityModule2::d_status_s) from peer!
+10:14:08.622 SEDP: New publication (d_newGroup/durabilityModule2::d_newGroup_s) from peer!
+10:14:08.622 SEDP: New publication (d_groupsRequest/durabilityModule2::d_groupsRequest_s) from peer!
+10:14:08.622 SEDP: New publication (d_statusRequest/durabilityModule2::d_statusRequest_s) from peer!
+10:14:08.622 SEDP: New publication (d_sampleRequest/durabilityModule2::d_sampleRequest_s) from peer!
+10:14:08.622 SEDP: New publication (d_nameSpaces/durabilityModule2::d_nameSpaces_s) from peer!
+10:14:08.622 SEDP: New publication (d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s) from peer!
+10:14:08.622 SEDP: New publication (d_deleteData/durabilityModule2::d_deleteData_s) from peer!
+10:14:08.622 SEDP: New publication (d_sampleChain/durabilityModule2::d_sampleChain_s) from peer!
+10:14:08.622 SEDP: New subscription (d_nameSpaces/durabilityModule2::d_nameSpaces_s) from peer!
+10:14:08.622 SEDP: New subscription (d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s) from peer!
+10:14:08.622 SEDP: New subscription (d_status/durabilityModule2::d_status_s) from peer!
+10:14:08.622 SEDP: New subscription (d_groupsRequest/durabilityModule2::d_groupsRequest_s) from peer!
+10:14:08.622 SEDP: New subscription (d_deleteData/durabilityModule2::d_deleteData_s) from peer!
+10:14:08.622 SEDP: New subscription (d_newGroup/durabilityModule2::d_newGroup_s) from peer!
+10:14:08.622 SEDP: New subscription (d_sampleRequest/durabilityModule2::d_sampleRequest_s) from peer!
+10:14:08.622 SEDP: New subscription (d_sampleChain/durabilityModule2::d_sampleChain_s) from peer!
+10:14:31.435 TDDS Debug shell -- (c) Technicolor, 2012
+10:14:31.435 Following commands are available:
+10:14:31.435 	ssys                  Display system-specific data.
+10:14:31.435 	stimer                Display the timers.
+10:14:31.435 	sstr                  Display the string cache.
+10:14:31.435 	spool                 Display the pools.
+10:14:31.435 	spoola                Display the pools (extended).
+10:14:31.435 	scx [<cx>]            Display connections.
+10:14:31.435 	scxa [<cx>]           Display connections (extended).
+10:14:31.435 	scxq                  Display queued connections.
+10:14:31.435 	sloc                  Display locators.
+10:14:31.435 	sconfig               Display configuration data.
+10:14:31.435 	sdomain <d> <lf> <rf> Display domain (d) info.
+10:14:31.435 	                      <lf> and <rf> are bitmaps for local/remote info.
+10:14:31.435 	                      1=Locator, 2=Builtin, 4=Endp, 8=Type, 10=Topic.
+10:14:31.435 	sdisc                 Display discovery info.
+10:14:31.435 	sdisca                Display all discovery info (sdisc + endpoints)
+10:14:31.435 	stype [<name>]        Display Type information.
+10:14:31.435 	sqos                  Display QoS parameters.
+10:14:31.435 	stopic <d> [<name>]   Display Topic information.
+10:14:31.435 	sendpoints            Display the DCPS/RTPS Readers/Writers.
+10:14:31.435 	scache <ep>           Display an RTPS Endpoint Cache.
+10:14:31.435 	sdcache <ep>          Display a DCPS Endpoint Cache.
+10:14:31.435 	qcache <ep> [<query>] Query cache data of the specified endpoint:
+10:14:31.435 	                      where: <ep>: endpoint, <query>: SQL Query string.
+10:14:31.435 	sproxy [<ep>]         Display Proxy contexts.
+10:14:31.436 	rproxy [<ep>]         Restart Proxy context.
+10:14:31.436 	seqos <ep>            Display endpoint QoS parameters.
+10:14:31.436 	scrypto <ep>          Display entity crypto parameters.
+10:14:31.436 	sscache               Display security cache.
+10:14:31.436 	rehs                  Request a rehandshake.
+10:14:31.436 	srx                   Display the RTPS Receiver context.
+10:14:31.436 	stx                   Display the RTPS Transmitter context.
+10:14:31.436 	sfd                   Display the status of the file descriptors.
+10:14:31.436 	asp <d>               Assert participant.
+10:14:31.436 	ase <ep>              Assert writer endpoint.
+10:14:31.436 	dtls                  Display DTLS connection related info.
+10:14:31.436 	spdb                  Display the policy database.
+10:14:31.436 	sfwd                  Display the forwarder state.
+10:14:31.436 	ftrace <n>            Start forwarder tracing for <n> events.
+10:14:31.436 	d [<p> [<n>]]         Dump memory.
+10:14:31.436 	da [<p> [<n>]]        Dump memory in ASCII.
+10:14:31.436 	db [<p> [<n>]]        Dump memory in hex bytes.
+10:14:31.436 	ds [<p> [<n>]]        Dump memory in hex 16-bit values.
+10:14:31.436 	dl [<p> [<n>]]        Dump memory in hex 32-bit values.
+10:14:31.436 	dm [<p> [<n>]]        Dump memory in mixed hex/ASCII.
+10:14:31.436 	indent <tab> <n>      Set indent type (if <tab>=1: use TABs).
+10:14:31.436 	taflags <flags>       Set type attribute display flags.
+10:14:31.436 	                      <flags>: 1=header, 2=size, 4=elsize, 8=ofs.
+10:14:31.436 	server [<port>]       Start debug server on the given port.
+10:14:31.436 	env                   Display configuration data (=sconf).
+10:14:31.436 	set <var> <value>     Set the configuration variable to given value.
+10:14:31.436 	unset <var>           Unset the configuration variable.
+10:14:31.436 	suspend <value>       Suspend with given mode.
+10:14:31.436 	activate <value>      Activate with given mode.
+10:14:31.437 	help                  Display general help.
+10:14:31.437 	exit                  Close remote connection.
+10:14:34.239 Domain 0 (pid=226): {1}
+10:14:34.239 	GUID prefix: 8f937eb8:00e269d2:03e90000
+10:14:34.239 	RTPS Protocol version: v2.1
+10:14:34.239 	Vendor Id: 1.14 - Technicolor, Inc. - Qeo
+10:14:34.239 	Technicolor DDS version: 4.0-0, Forward: 0
+10:14:34.239 	SecureTransport: none
+10:14:34.239 	Authorisation: Authenticated
+10:14:34.239 	Entity name: Technicolor Chatroom
+10:14:34.239 	Flags: Enabled
+10:14:34.239 	Meta Unicast: 
+10:14:34.239 		UDP:172.23.1.215:7862(3) {MD,UC} H:3
+10:14:34.239 	Meta Multicast: 
+10:14:34.239 		UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:14:34.239 	Default Unicast: 
+10:14:34.239 		UDP:172.23.1.215:7863(1) {UD,UC} H:1
+10:14:34.239 	Default Multicast: 
+10:14:34.239 		UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:14:34.239 	Manual Liveliness: 0
+10:14:34.239 	Lease duration: 50.000000000s
+10:14:34.239 	Endpoints: 10 entries (5 readers, 5 writers).
+10:14:34.240 		000001-3, {22}, InlineQoS: No, Writer, imu_/simple_msgs::dds_::Imu32_
+10:14:34.240 		000002-4, {24}, InlineQoS: No, Reader, imu_/simple_msgs::dds_::Imu32_
+10:14:34.240 	Topics: 
+10:14:34.240 	    BuiltinParticipantMessageReader/ParticipantMessageData 
+10:14:34.240 	    BuiltinParticipantMessageWriter/ParticipantMessageData 
+10:14:34.240 	    CMParticipant/kernelModule::v_participantCMInfo 
+10:14:34.240 	    DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand 
+10:14:34.240 	    DCPSDelivery/kernelModule::v_deliveryInfo 
+10:14:34.240 	    DCPSHeartbeat/kernelModule::v_heartbeatInfo 
+10:14:34.240 	    DCPSParticipant/kernelModule::v_participantInfo 
+10:14:34.240 	    DCPSPublication/kernelModule::v_publicationInfo 
+10:14:34.240 	    DCPSSubscription/kernelModule::v_subscriptionInfo 
+10:14:34.240 	    DCPSTopic/kernelModule::v_topicInfo 
+10:14:34.240 	    SEDPbuiltinPublicationsReader/PublicationBuiltinTopicData 
+10:14:34.240 	    SEDPbuiltinPublicationsWriter/PublicationBuiltinTopicData 
+10:14:34.240 	    SEDPbuiltinSubscriptionsReader/SubscriptionBuiltinTopicData 
+10:14:34.240 	    SEDPbuiltinSubscriptionsWriter/SubscriptionBuiltinTopicData 
+10:14:34.240 	    SPDPbuiltinParticipantReader/ParticipantBuiltinTopicData 
+10:14:34.240 	    SPDPbuiltinParticipantWriter/ParticipantBuiltinTopicData 
+10:14:34.240 	    d_deleteData/durabilityModule2::d_deleteData_s 
+10:14:34.240 	    d_groupsRequest/durabilityModule2::d_groupsRequest_s 
+10:14:34.240 	    d_nameSpaces/durabilityModule2::d_nameSpaces_s 
+10:14:34.240 	    d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s 
+10:14:34.240 	    d_newGroup/durabilityModule2::d_newGroup_s 
+10:14:34.240 	    d_sampleChain/durabilityModule2::d_sampleChain_s 
+10:14:34.240 	    d_sampleRequest/durabilityModule2::d_sampleRequest_s 
+10:14:34.240 	    d_status/durabilityModule2::d_status_s 
+10:14:34.241 	    d_statusRequest/durabilityModule2::d_statusRequest_s 
+10:14:34.241 	    imu/simple_msgs::dds_::Imu32_ imu_/simple_msgs::dds_::Imu32_ 
+10:14:34.241 	Security: level=Unclassified, access=any, RTPS=clear
+10:14:34.241 	Resend period: 10.000000000s
+10:14:34.241 	Destination Locators: 
+10:14:34.241 		UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:14:34.241 		TCP:239.255.0.1:7400 {MD,MC}
+10:14:34.241 	Discovered participants:
+10:14:34.241 	    Peer #0: {37} - Local activity: 7.01s
+10:14:34.241 		GUID prefix: 0512fa4c:0000000b:00000001
+10:14:34.241 		RTPS Protocol version: v2.1
+10:14:34.241 		Vendor Id: 1.2 - PrismTech, Inc. - OpenSplice DDS
+10:14:34.241 		Meta Unicast: 
+10:14:34.241 			UDP:172.23.1.215:57475 {MD,UC}
+10:14:34.241 		Meta Multicast: 
+10:14:34.241 			UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:14:34.241 		Default Unicast: 
+10:14:34.241 			UDP:172.23.1.215:57475 {MD,UC}
+10:14:34.241 		Default Multicast: 
+10:14:34.241 			UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:14:34.241 		Manual Liveliness: 0
+10:14:34.241 		Lease duration: 11.000000000s
+10:14:34.241 		Endpoints: 11 entries (0 readers, 11 writers).
+10:14:34.241 			000001-2, {50}, InlineQoS: No, Writer, DCPSTopic/kernelModule::v_topicInfo
+10:14:34.241 			000002-2, {52}, InlineQoS: No, Writer, DCPSPublication/kernelModule::v_publicationInfo
+10:14:34.241 			000003-2, {54}, InlineQoS: No, Writer, DCPSParticipant/kernelModule::v_participantInfo
+10:14:34.241 			000004-2, {56}, InlineQoS: No, Writer, CMParticipant/kernelModule::v_participantCMInfo
+10:14:34.241 			000005-2, {58}, InlineQoS: No, Writer, DCPSSubscription/kernelModule::v_subscriptionInfo
+10:14:34.241 			000006-2, {60}, InlineQoS: No, Writer, DCPSHeartbeat/kernelModule::v_heartbeatInfo
+10:14:34.242 			000007-2, {62}, InlineQoS: No, Writer, DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand
+10:14:34.242 			000008-3, {64}, InlineQoS: No, Writer, DCPSDelivery/kernelModule::v_deliveryInfo
+10:14:34.242 		Topics: 
+10:14:34.242 		    CMParticipant/kernelModule::v_participantCMInfo 
+10:14:34.242 		    DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand 
+10:14:34.242 		    DCPSDelivery/kernelModule::v_deliveryInfo 
+10:14:34.242 		    DCPSHeartbeat/kernelModule::v_heartbeatInfo 
+10:14:34.242 		    DCPSParticipant/kernelModule::v_participantInfo 
+10:14:34.242 		    DCPSPublication/kernelModule::v_publicationInfo 
+10:14:34.242 		    DCPSSubscription/kernelModule::v_subscriptionInfo 
+10:14:34.242 		    DCPSTopic/kernelModule::v_topicInfo 
+10:14:34.242 		Source: 
+10:14:34.242 			UDP:172.23.1.215:52947 {MD,UC}
+10:14:34.242 		Timer = 3.87s
+10:14:34.242 	    Peer #1: {33} - Local activity: 7.01s
+10:14:34.242 		GUID prefix: 0512fa4c:00000030:00000001
+10:14:34.242 		RTPS Protocol version: v2.1
+10:14:34.242 		Vendor Id: 1.2 - PrismTech, Inc. - OpenSplice DDS
+10:14:34.242 		Meta Unicast: 
+10:14:34.242 			UDP:172.23.1.215:55733 {MD,UC}
+10:14:34.242 		Meta Multicast: 
+10:14:34.242 			UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:14:34.242 		Default Unicast: 
+10:14:34.242 			UDP:172.23.1.215:55733 {MD,UC}
+10:14:34.242 		Default Multicast: 
+10:14:34.242 			UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:14:34.242 		Manual Liveliness: 0
+10:14:34.242 		Lease duration: 11.000000000s
+10:14:34.242 		Endpoints: 9 entries (6 readers, 3 writers).
+10:14:34.243 			000001-7, {66}, InlineQoS: No, Reader, DCPSTopic/kernelModule::v_topicInfo
+10:14:34.243 			000002-7, {67}, InlineQoS: No, Reader, DCPSSubscription/kernelModule::v_subscriptionInfo
+10:14:34.243 			000003-7, {68}, InlineQoS: No, Reader, DCPSPublication/kernelModule::v_publicationInfo
+10:14:34.243 			000004-7, {69}, InlineQoS: No, Reader, DCPSHeartbeat/kernelModule::v_heartbeatInfo
+10:14:34.243 			000005-7, {70}, InlineQoS: No, Reader, DCPSParticipant/kernelModule::v_participantInfo
+10:14:34.243 			000006-7, {71}, InlineQoS: No, Reader, DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand
+10:14:34.243 		Topics: 
+10:14:34.243 		    DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand 
+10:14:34.243 		    DCPSHeartbeat/kernelModule::v_heartbeatInfo 
+10:14:34.243 		    DCPSParticipant/kernelModule::v_participantInfo 
+10:14:34.243 		    DCPSPublication/kernelModule::v_publicationInfo 
+10:14:34.243 		    DCPSSubscription/kernelModule::v_subscriptionInfo 
+10:14:34.243 		    DCPSTopic/kernelModule::v_topicInfo 
+10:14:34.243 		Source: 
+10:14:34.243 			UDP:172.23.1.215:52947 {MD,UC}
+10:14:34.243 		Timer = 3.87s
+10:14:34.243 	    Peer #2: {29} - Local activity: 7.01s
+10:14:34.243 		GUID prefix: 0512fa4c:0000005d:00000001
+10:14:34.243 		RTPS Protocol version: v2.1
+10:14:34.243 		Vendor Id: 1.2 - PrismTech, Inc. - OpenSplice DDS
+10:14:34.243 		Meta Unicast: 
+10:14:34.243 			UDP:172.23.1.215:33238 {MD,UC}
+10:14:34.243 		Meta Multicast: 
+10:14:34.243 			UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:14:34.243 		Default Unicast: 
+10:14:34.243 			UDP:172.23.1.215:33238 {MD,UC}
+10:14:34.243 		Default Multicast: 
+10:14:34.243 			UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:14:34.244 		Manual Liveliness: 0
+10:14:34.244 		Lease duration: 11.000000000s
+10:14:34.244 		Endpoints: 20 entries (8 readers, 12 writers).
+10:14:34.244 			000001-2, {84}, InlineQoS: No, Writer, d_status/durabilityModule2::d_status_s
+10:14:34.244 			000002-2, {86}, InlineQoS: No, Writer, d_newGroup/durabilityModule2::d_newGroup_s
+10:14:34.244 			000003-2, {88}, InlineQoS: No, Writer, d_groupsRequest/durabilityModule2::d_groupsRequest_s
+10:14:34.244 			000004-2, {90}, InlineQoS: No, Writer, d_statusRequest/durabilityModule2::d_statusRequest_s
+10:14:34.244 			000005-2, {92}, InlineQoS: No, Writer, d_sampleRequest/durabilityModule2::d_sampleRequest_s
+10:14:34.244 			000006-2, {94}, InlineQoS: No, Writer, d_nameSpaces/durabilityModule2::d_nameSpaces_s
+10:14:34.244 			000007-2, {96}, InlineQoS: No, Writer, d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s
+10:14:34.244 			000008-2, {98}, InlineQoS: No, Writer, d_deleteData/durabilityModule2::d_deleteData_s
+10:14:34.244 			000009-2, {100}, InlineQoS: No, Writer, d_sampleChain/durabilityModule2::d_sampleChain_s
+10:14:34.244 			00000a-7, {102}, InlineQoS: No, Reader, d_nameSpaces/durabilityModule2::d_nameSpaces_s
+10:14:34.244 			00000b-7, {103}, InlineQoS: No, Reader, d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s
+10:14:34.244 			00000c-7, {104}, InlineQoS: No, Reader, d_status/durabilityModule2::d_status_s
+10:14:34.244 			00000d-7, {105}, InlineQoS: No, Reader, d_groupsRequest/durabilityModule2::d_groupsRequest_s
+10:14:34.244 			00000e-7, {106}, InlineQoS: No, Reader, d_deleteData/durabilityModule2::d_deleteData_s
+10:14:34.244 			00000f-7, {107}, InlineQoS: No, Reader, d_newGroup/durabilityModule2::d_newGroup_s
+10:14:34.244 			000010-7, {108}, InlineQoS: No, Reader, d_sampleRequest/durabilityModule2::d_sampleRequest_s
+10:14:34.244 			000011-7, {109}, InlineQoS: No, Reader, d_sampleChain/durabilityModule2::d_sampleChain_s
+10:14:34.244 		Topics: 
+10:14:34.244 		    d_deleteData/durabilityModule2::d_deleteData_s 
+10:14:34.244 		    d_groupsRequest/durabilityModule2::d_groupsRequest_s 
+10:14:34.244 		    d_nameSpaces/durabilityModule2::d_nameSpaces_s 
+10:14:34.244 		    d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s 
+10:14:34.244 		    d_newGroup/durabilityModule2::d_newGroup_s 
+10:14:34.245 		    d_sampleChain/durabilityModule2::d_sampleChain_s 
+10:14:34.245 		    d_sampleRequest/durabilityModule2::d_sampleRequest_s 
+10:14:34.245 		    d_status/durabilityModule2::d_status_s 
+10:14:34.245 		    d_statusRequest/durabilityModule2::d_statusRequest_s 
+10:14:34.245 		Source: 
+10:14:34.245 			UDP:172.23.1.215:52947 {MD,UC}
+10:14:34.245 		Timer = 3.87s
+10:14:34.245 	    Peer #3: {41} - Local activity: 7.01s
+10:14:34.245 		GUID prefix: 0512fa4c:00000062:00000001
+10:14:34.245 		RTPS Protocol version: v2.1
+10:14:34.245 		Vendor Id: 1.2 - PrismTech, Inc. - OpenSplice DDS
+10:14:34.245 		Meta Unicast: 
+10:14:34.245 			UDP:172.23.1.215:49104 {MD,UC}
+10:14:34.245 		Meta Multicast: 
+10:14:34.245 			UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:14:34.245 		Default Unicast: 
+10:14:34.245 			UDP:172.23.1.215:49104 {MD,UC}
+10:14:34.245 		Default Multicast: 
+10:14:34.245 			UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:14:34.245 		Manual Liveliness: 0
+10:14:34.245 		Lease duration: 11.000000000s
+10:14:34.245 		Endpoints: 18 entries (15 readers, 3 writers).
+10:14:34.245 			000001-7, {72}, InlineQoS: No, Reader, DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand
+10:14:34.245 			000002-7, {73}, InlineQoS: No, Reader, DCPSSubscription/kernelModule::v_subscriptionInfo
+10:14:34.245 			000003-7, {74}, InlineQoS: No, Reader, CMParticipant/kernelModule::v_participantCMInfo
+10:14:34.245 			000004-7, {75}, InlineQoS: No, Reader, DCPSParticipant/kernelModule::v_participantInfo
+10:14:34.245 			000005-7, {76}, InlineQoS: No, Reader, DCPSPublication/kernelModule::v_publicationInfo
+10:14:34.245 			000006-7, {77}, InlineQoS: No, Reader, DCPSTopic/kernelModule::v_topicInfo
+10:14:34.246 			000007-7, {78}, InlineQoS: No, Reader, DCPSPublication/kernelModule::v_publicationInfo
+10:14:34.246 			000008-7, {79}, InlineQoS: No, Reader, DCPSSubscription/kernelModule::v_subscriptionInfo
+10:14:34.246 			000009-7, {80}, InlineQoS: No, Reader, DCPSParticipant/kernelModule::v_participantInfo
+10:14:34.246 			00000a-7, {81}, InlineQoS: No, Reader, DCPSParticipant/kernelModule::v_participantInfo
+10:14:34.246 			00000b-7, {82}, InlineQoS: No, Reader, DCPSSubscription/kernelModule::v_subscriptionInfo
+10:14:34.246 			00000c-7, {83}, InlineQoS: No, Reader, DCPSPublication/kernelModule::v_publicationInfo
+10:14:34.246 		Topics: 
+10:14:34.246 		    CMParticipant/kernelModule::v_participantCMInfo 
+10:14:34.246 		    DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand 
+10:14:34.246 		    DCPSParticipant/kernelModule::v_participantInfo 
+10:14:34.246 		    DCPSPublication/kernelModule::v_publicationInfo 
+10:14:34.246 		    DCPSSubscription/kernelModule::v_subscriptionInfo 
+10:14:34.246 		    DCPSTopic/kernelModule::v_topicInfo 
+10:14:34.246 		Source: 
+10:14:34.246 			UDP:172.23.1.215:52947 {MD,UC}
+10:14:34.246 		Timer = 3.87s
+10:14:34.246 	    Peer #4: {25} - Local activity: 5.09s
+10:14:34.246 		GUID prefix: 0512fa4c:0000011a:00000001
+10:14:34.246 		RTPS Protocol version: v2.1
+10:14:34.246 		Vendor Id: 1.2 - PrismTech, Inc. - OpenSplice DDS
+10:14:34.246 		Meta Unicast: 
+10:14:34.246 			UDP:172.23.1.215:47833 {MD,UC}
+10:14:34.246 		Meta Multicast: 
+10:14:34.246 			UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:14:34.246 		Default Unicast: 
+10:14:34.246 			UDP:172.23.1.215:47833 {MD,UC}
+10:14:34.246 		Default Multicast: 
+10:14:34.246 			UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:14:34.247 		Manual Liveliness: 0
+10:14:34.247 		Lease duration: 11.000000000s
+10:14:34.247 		Endpoints: 4 entries (0 readers, 4 writers).
+10:14:34.247 			000001-3, {48}, InlineQoS: No, Writer, imu/simple_msgs::dds_::Imu32_
+10:14:34.247 		Topics: 
+10:14:34.247 		    imu/simple_msgs::dds_::Imu32_ 
+10:14:34.247 		Source: 
+10:14:34.247 			UDP:172.23.1.215:52947 {MD,UC}
+10:14:34.247 		Timer = 5.05s
+10:19:55.573 TDDS Debug shell -- (c) Technicolor, 2012
+10:19:55.573 Following commands are available:
+10:19:55.573 	ssys                  Display system-specific data.
+10:19:55.573 	stimer                Display the timers.
+10:19:55.573 	sstr                  Display the string cache.
+10:19:55.573 	spool                 Display the pools.
+10:19:55.573 	spoola                Display the pools (extended).
+10:19:55.573 	scx [<cx>]            Display connections.
+10:19:55.573 	scxa [<cx>]           Display connections (extended).
+10:19:55.573 	scxq                  Display queued connections.
+10:19:55.573 	sloc                  Display locators.
+10:19:55.573 	sconfig               Display configuration data.
+10:19:55.573 	sdomain <d> <lf> <rf> Display domain (d) info.
+10:19:55.573 	                      <lf> and <rf> are bitmaps for local/remote info.
+10:19:55.573 	                      1=Locator, 2=Builtin, 4=Endp, 8=Type, 10=Topic.
+10:19:55.574 	sdisc                 Display discovery info.
+10:19:55.574 	sdisca                Display all discovery info (sdisc + endpoints)
+10:19:55.574 	stype [<name>]        Display Type information.
+10:19:55.574 	sqos                  Display QoS parameters.
+10:19:55.574 	stopic <d> [<name>]   Display Topic information.
+10:19:55.574 	sendpoints            Display the DCPS/RTPS Readers/Writers.
+10:19:55.574 	scache <ep>           Display an RTPS Endpoint Cache.
+10:19:55.574 	sdcache <ep>          Display a DCPS Endpoint Cache.
+10:19:55.574 	qcache <ep> [<query>] Query cache data of the specified endpoint:
+10:19:55.574 	                      where: <ep>: endpoint, <query>: SQL Query string.
+10:19:55.574 	sproxy [<ep>]         Display Proxy contexts.
+10:19:55.574 	rproxy [<ep>]         Restart Proxy context.
+10:19:55.574 	seqos <ep>            Display endpoint QoS parameters.
+10:19:55.574 	scrypto <ep>          Display entity crypto parameters.
+10:19:55.574 	sscache               Display security cache.
+10:19:55.574 	rehs                  Request a rehandshake.
+10:19:55.574 	srx                   Display the RTPS Receiver context.
+10:19:55.574 	stx                   Display the RTPS Transmitter context.
+10:19:55.574 	sfd                   Display the status of the file descriptors.
+10:19:55.574 	asp <d>               Assert participant.
+10:19:55.574 	ase <ep>              Assert writer endpoint.
+10:19:55.574 	dtls                  Display DTLS connection related info.
+10:19:55.574 	spdb                  Display the policy database.
+10:19:55.574 	sfwd                  Display the forwarder state.
+10:19:55.574 	ftrace <n>            Start forwarder tracing for <n> events.
+10:19:55.574 	d [<p> [<n>]]         Dump memory.
+10:19:55.574 	da [<p> [<n>]]        Dump memory in ASCII.
+10:19:55.574 	db [<p> [<n>]]        Dump memory in hex bytes.
+10:19:55.574 	ds [<p> [<n>]]        Dump memory in hex 16-bit values.
+10:19:55.574 	dl [<p> [<n>]]        Dump memory in hex 32-bit values.
+10:19:55.575 	dm [<p> [<n>]]        Dump memory in mixed hex/ASCII.
+10:19:55.575 	indent <tab> <n>      Set indent type (if <tab>=1: use TABs).
+10:19:55.575 	taflags <flags>       Set type attribute display flags.
+10:19:55.575 	                      <flags>: 1=header, 2=size, 4=elsize, 8=ofs.
+10:19:55.575 	server [<port>]       Start debug server on the given port.
+10:19:55.575 	env                   Display configuration data (=sconf).
+10:19:55.575 	set <var> <value>     Set the configuration variable to given value.
+10:19:55.575 	unset <var>           Unset the configuration variable.
+10:19:55.575 	suspend <value>       Suspend with given mode.
+10:19:55.575 	activate <value>      Activate with given mode.
+10:19:55.575 	help                  Display general help.
+10:19:55.575 	exit                  Close remote connection.
+10:20:04.381 ?number expected!
+10:20:04.381 BuiltinParticipantMessageReader/ParticipantMessageData:
+10:20:04.381 	# of local create/find_topic() calls = 1, # of discoveries = 0
+10:20:04.381 	Writers:
+10:20:04.382 		DW: {43}	0512fa4c:00000062:00000001-000200-c2
+10:20:04.382 		DW: {38}	0512fa4c:0000000b:00000001-000200-c2
+10:20:04.382 		DW: {34}	0512fa4c:00000030:00000001-000200-c2
+10:20:04.382 		DW: {30}	0512fa4c:0000005d:00000001-000200-c2
+10:20:04.382 		DW: {26}	0512fa4c:0000011a:00000001-000200-c2
+10:20:04.382 	Readers:
+10:20:04.382 		R:  {17}	8f937eb8:00e269d2:03e90000-000200-c7
+10:20:04.382 BuiltinParticipantMessageWriter/ParticipantMessageData:
+10:20:04.382 	# of local create/find_topic() calls = 1, # of discoveries = 0
+10:20:04.382 	Writers:
+10:20:04.382 		W:  {19}	8f937eb8:00e269d2:03e90000-000200-c2
+10:20:04.382 	Readers:
+10:20:04.382 		DR: {42}	0512fa4c:00000062:00000001-000200-c7
+10:20:04.382 CMParticipant/kernelModule::v_participantCMInfo:
+10:20:04.382 	# of local create/find_topic() calls = 0, # of discoveries = 2
+10:20:04.382 	Writers:
+10:20:04.382 		DW: {56}	0512fa4c:0000000b:00000001-000004-2
+10:20:04.382 	Readers:
+10:20:04.382 		DR: {74}	0512fa4c:00000062:00000001-000003-7
+10:20:04.382 DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand:
+10:20:04.382 	# of local create/find_topic() calls = 0, # of discoveries = 3
+10:20:04.382 	Writers:
+10:20:04.382 		DW: {62}	0512fa4c:0000000b:00000001-000007-2
+10:20:04.382 	Readers:
+10:20:04.382 		DR: {72}	0512fa4c:00000062:00000001-000001-7
+10:20:04.382 		DR: {71}	0512fa4c:00000030:00000001-000006-7
+10:20:04.382 DCPSDelivery/kernelModule::v_deliveryInfo:
+10:20:04.382 	# of local create/find_topic() calls = 0, # of discoveries = 1
+10:20:04.382 	Writers:
+10:20:04.383 		DW: {64}	0512fa4c:0000000b:00000001-000008-3
+10:20:04.383 	Readers: <none>
+10:20:04.383 DCPSHeartbeat/kernelModule::v_heartbeatInfo:
+10:20:04.383 	# of local create/find_topic() calls = 0, # of discoveries = 2
+10:20:04.383 	Writers:
+10:20:04.383 		DW: {60}	0512fa4c:0000000b:00000001-000006-2
+10:20:04.383 	Readers:
+10:20:04.383 		DR: {69}	0512fa4c:00000030:00000001-000004-7
+10:20:04.383 DCPSParticipant/kernelModule::v_participantInfo:
+10:20:04.383 	# of local create/find_topic() calls = 0, # of discoveries = 5
+10:20:04.383 	Writers:
+10:20:04.383 		DW: {54}	0512fa4c:0000000b:00000001-000003-2
+10:20:04.383 	Readers:
+10:20:04.383 		DR: {81}	0512fa4c:00000062:00000001-00000a-7
+10:20:04.383 		DR: {80}	0512fa4c:00000062:00000001-000009-7
+10:20:04.383 		DR: {75}	0512fa4c:00000062:00000001-000004-7
+10:20:04.383 		DR: {70}	0512fa4c:00000030:00000001-000005-7
+10:20:04.383 DCPSPublication/kernelModule::v_publicationInfo:
+10:20:04.383 	# of local create/find_topic() calls = 0, # of discoveries = 5
+10:20:04.383 	Writers:
+10:20:04.383 		DW: {52}	0512fa4c:0000000b:00000001-000002-2
+10:20:04.383 	Readers:
+10:20:04.383 		DR: {83}	0512fa4c:00000062:00000001-00000c-7
+10:20:04.383 		DR: {78}	0512fa4c:00000062:00000001-000007-7
+10:20:04.383 		DR: {76}	0512fa4c:00000062:00000001-000005-7
+10:20:04.383 		DR: {68}	0512fa4c:00000030:00000001-000003-7
+10:20:04.383 DCPSSubscription/kernelModule::v_subscriptionInfo:
+10:20:04.383 	# of local create/find_topic() calls = 0, # of discoveries = 5
+10:20:04.383 	Writers:
+10:20:04.383 		DW: {58}	0512fa4c:0000000b:00000001-000005-2
+10:20:04.384 	Readers:
+10:20:04.384 		DR: {82}	0512fa4c:00000062:00000001-00000b-7
+10:20:04.384 		DR: {79}	0512fa4c:00000062:00000001-000008-7
+10:20:04.384 		DR: {73}	0512fa4c:00000062:00000001-000002-7
+10:20:04.384 		DR: {67}	0512fa4c:00000030:00000001-000002-7
+10:20:04.384 DCPSTopic/kernelModule::v_topicInfo:
+10:20:04.384 	# of local create/find_topic() calls = 0, # of discoveries = 3
+10:20:04.384 	Writers:
+10:20:04.384 		DW: {50}	0512fa4c:0000000b:00000001-000001-2
+10:20:04.384 	Readers:
+10:20:04.384 		DR: {77}	0512fa4c:00000062:00000001-000006-7
+10:20:04.384 		DR: {66}	0512fa4c:00000030:00000001-000001-7
+10:20:04.384 SEDPbuiltinPublicationsReader/PublicationBuiltinTopicData:
+10:20:04.384 	# of local create/find_topic() calls = 1, # of discoveries = 0
+10:20:04.384 	Writers:
+10:20:04.384 		DW: {45}	0512fa4c:00000062:00000001-000003-c2
+10:20:04.384 		DW: {39}	0512fa4c:0000000b:00000001-000003-c2
+10:20:04.384 		DW: {35}	0512fa4c:00000030:00000001-000003-c2
+10:20:04.384 		DW: {31}	0512fa4c:0000005d:00000001-000003-c2
+10:20:04.384 		DW: {27}	0512fa4c:0000011a:00000001-000003-c2
+10:20:04.384 	Readers:
+10:20:04.384 		R:  {9}	8f937eb8:00e269d2:03e90000-000003-c7
+10:20:04.384 SEDPbuiltinPublicationsWriter/PublicationBuiltinTopicData:
+10:20:04.384 	# of local create/find_topic() calls = 1, # of discoveries = 0
+10:20:04.384 	Writers:
+10:20:04.384 		W:  {13}	8f937eb8:00e269d2:03e90000-000003-c2
+10:20:04.384 	Readers:
+10:20:04.384 		DR: {44}	0512fa4c:00000062:00000001-000003-c7
+10:20:04.385 SEDPbuiltinSubscriptionsReader/SubscriptionBuiltinTopicData:
+10:20:04.385 	# of local create/find_topic() calls = 1, # of discoveries = 0
+10:20:04.385 	Writers:
+10:20:04.385 		DW: {47}	0512fa4c:00000062:00000001-000004-c2
+10:20:04.385 		DW: {40}	0512fa4c:0000000b:00000001-000004-c2
+10:20:04.385 		DW: {36}	0512fa4c:00000030:00000001-000004-c2
+10:20:04.385 		DW: {32}	0512fa4c:0000005d:00000001-000004-c2
+10:20:04.385 		DW: {28}	0512fa4c:0000011a:00000001-000004-c2
+10:20:04.385 	Readers:
+10:20:04.385 		R:  {11}	8f937eb8:00e269d2:03e90000-000004-c7
+10:20:04.385 SEDPbuiltinSubscriptionsWriter/SubscriptionBuiltinTopicData:
+10:20:04.385 	# of local create/find_topic() calls = 1, # of discoveries = 0
+10:20:04.385 	Writers:
+10:20:04.385 		W:  {15}	8f937eb8:00e269d2:03e90000-000004-c2
+10:20:04.385 	Readers:
+10:20:04.385 		DR: {46}	0512fa4c:00000062:00000001-000004-c7
+10:20:04.385 SPDPbuiltinParticipantReader/ParticipantBuiltinTopicData:
+10:20:04.385 	# of local create/find_topic() calls = 1, # of discoveries = 0
+10:20:04.385 	Writers: <none>
+10:20:04.385 	Readers:
+10:20:04.385 		R:  {7}	8f937eb8:00e269d2:03e90000-000100-c7
+10:20:04.385 SPDPbuiltinParticipantWriter/ParticipantBuiltinTopicData:
+10:20:04.385 	# of local create/find_topic() calls = 1, # of discoveries = 0
+10:20:04.385 	Writers:
+10:20:04.385 		W:  {5}	8f937eb8:00e269d2:03e90000-000100-c2
+10:20:04.385 	Readers: <none>
+10:20:04.385 d_deleteData/durabilityModule2::d_deleteData_s:
+10:20:04.385 	# of local create/find_topic() calls = 0, # of discoveries = 2
+10:20:04.385 	Writers:
+10:20:04.385 		DW: {98}	0512fa4c:0000005d:00000001-000008-2
+10:20:04.386 	Readers:
+10:20:04.386 		DR: {106}	0512fa4c:0000005d:00000001-00000e-7
+10:20:04.386 d_groupsRequest/durabilityModule2::d_groupsRequest_s:
+10:20:04.386 	# of local create/find_topic() calls = 0, # of discoveries = 2
+10:20:04.386 	Writers:
+10:20:04.386 		DW: {88}	0512fa4c:0000005d:00000001-000003-2
+10:20:04.386 	Readers:
+10:20:04.386 		DR: {105}	0512fa4c:0000005d:00000001-00000d-7
+10:20:04.386 d_nameSpaces/durabilityModule2::d_nameSpaces_s:
+10:20:04.386 	# of local create/find_topic() calls = 0, # of discoveries = 2
+10:20:04.386 	Writers:
+10:20:04.386 		DW: {94}	0512fa4c:0000005d:00000001-000006-2
+10:20:04.386 	Readers:
+10:20:04.386 		DR: {102}	0512fa4c:0000005d:00000001-00000a-7
+10:20:04.386 d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s:
+10:20:04.386 	# of local create/find_topic() calls = 0, # of discoveries = 2
+10:20:04.386 	Writers:
+10:20:04.386 		DW: {96}	0512fa4c:0000005d:00000001-000007-2
+10:20:04.386 	Readers:
+10:20:04.386 		DR: {103}	0512fa4c:0000005d:00000001-00000b-7
+10:20:04.386 d_newGroup/durabilityModule2::d_newGroup_s:
+10:20:04.386 	# of local create/find_topic() calls = 0, # of discoveries = 2
+10:20:04.386 	Writers:
+10:20:04.386 		DW: {86}	0512fa4c:0000005d:00000001-000002-2
+10:20:04.386 	Readers:
+10:20:04.386 		DR: {107}	0512fa4c:0000005d:00000001-00000f-7
+10:20:04.386 d_sampleChain/durabilityModule2::d_sampleChain_s:
+10:20:04.386 	# of local create/find_topic() calls = 0, # of discoveries = 2
+10:20:04.386 	Writers:
+10:20:04.387 		DW: {100}	0512fa4c:0000005d:00000001-000009-2
+10:20:04.387 	Readers:
+10:20:04.387 		DR: {109}	0512fa4c:0000005d:00000001-000011-7
+10:20:04.387 d_sampleRequest/durabilityModule2::d_sampleRequest_s:
+10:20:04.387 	# of local create/find_topic() calls = 0, # of discoveries = 2
+10:20:04.387 	Writers:
+10:20:04.387 		DW: {92}	0512fa4c:0000005d:00000001-000005-2
+10:20:04.387 	Readers:
+10:20:04.387 		DR: {108}	0512fa4c:0000005d:00000001-000010-7
+10:20:04.387 d_status/durabilityModule2::d_status_s:
+10:20:04.387 	# of local create/find_topic() calls = 0, # of discoveries = 2
+10:20:04.387 	Writers:
+10:20:04.387 		DW: {84}	0512fa4c:0000005d:00000001-000001-2
+10:20:04.387 	Readers:
+10:20:04.387 		DR: {104}	0512fa4c:0000005d:00000001-00000c-7
+10:20:04.387 d_statusRequest/durabilityModule2::d_statusRequest_s:
+10:20:04.387 	# of local create/find_topic() calls = 0, # of discoveries = 1
+10:20:04.387 	Writers:
+10:20:04.387 		DW: {90}	0512fa4c:0000005d:00000001-000004-2
+10:20:04.387 	Readers: <none>
+10:20:04.387 imu/simple_msgs::dds_::Imu32_:
+10:20:04.387 	# of local create/find_topic() calls = 0, # of discoveries = 1
+10:20:04.387 	Writers:
+10:20:04.387 		DW: {48}	0512fa4c:0000011a:00000001-000001-3
+10:20:04.387 	Readers: <none>
+10:20:04.387 imu_/simple_msgs::dds_::Imu32_:
+10:20:04.387 	# of local create/find_topic() calls = 1, # of discoveries = 0
+10:20:04.387 	Writers:
+10:20:04.387 		W:  {22}	8f937eb8:00e269d2:03e90000-000001-3
+10:20:04.387 	Readers:
+10:20:04.388 		R:  {24}	8f937eb8:00e269d2:03e90000-000002-4
+10:20:13.795 ?sec
+10:20:16.196 TDDS Debug shell -- (c) Technicolor, 2012
+10:20:16.197 Following commands are available:
+10:20:16.197 	ssys                  Display system-specific data.
+10:20:16.197 	stimer                Display the timers.
+10:20:16.197 	sstr                  Display the string cache.
+10:20:16.197 	spool                 Display the pools.
+10:20:16.197 	spoola                Display the pools (extended).
+10:20:16.197 	scx [<cx>]            Display connections.
+10:20:16.197 	scxa [<cx>]           Display connections (extended).
+10:20:16.197 	scxq                  Display queued connections.
+10:20:16.197 	sloc                  Display locators.
+10:20:16.197 	sconfig               Display configuration data.
+10:20:16.197 	sdomain <d> <lf> <rf> Display domain (d) info.
+10:20:16.197 	                      <lf> and <rf> are bitmaps for local/remote info.
+10:20:16.197 	                      1=Locator, 2=Builtin, 4=Endp, 8=Type, 10=Topic.
+10:20:16.197 	sdisc                 Display discovery info.
+10:20:16.197 	sdisca                Display all discovery info (sdisc + endpoints)
+10:20:16.197 	stype [<name>]        Display Type information.
+10:20:16.197 	sqos                  Display QoS parameters.
+10:20:16.197 	stopic <d> [<name>]   Display Topic information.
+10:20:16.197 	sendpoints            Display the DCPS/RTPS Readers/Writers.
+10:20:16.197 	scache <ep>           Display an RTPS Endpoint Cache.
+10:20:16.197 	sdcache <ep>          Display a DCPS Endpoint Cache.
+10:20:16.197 	qcache <ep> [<query>] Query cache data of the specified endpoint:
+10:20:16.197 	                      where: <ep>: endpoint, <query>: SQL Query string.
+10:20:16.197 	sproxy [<ep>]         Display Proxy contexts.
+10:20:16.197 	rproxy [<ep>]         Restart Proxy context.
+10:20:16.197 	seqos <ep>            Display endpoint QoS parameters.
+10:20:16.198 	scrypto <ep>          Display entity crypto parameters.
+10:20:16.198 	sscache               Display security cache.
+10:20:16.198 	rehs                  Request a rehandshake.
+10:20:16.198 	srx                   Display the RTPS Receiver context.
+10:20:16.198 	stx                   Display the RTPS Transmitter context.
+10:20:16.198 	sfd                   Display the status of the file descriptors.
+10:20:16.198 	asp <d>               Assert participant.
+10:20:16.198 	ase <ep>              Assert writer endpoint.
+10:20:16.198 	dtls                  Display DTLS connection related info.
+10:20:16.198 	spdb                  Display the policy database.
+10:20:16.198 	sfwd                  Display the forwarder state.
+10:20:16.198 	ftrace <n>            Start forwarder tracing for <n> events.
+10:20:16.198 	d [<p> [<n>]]         Dump memory.
+10:20:16.198 	da [<p> [<n>]]        Dump memory in ASCII.
+10:20:16.198 	db [<p> [<n>]]        Dump memory in hex bytes.
+10:20:16.198 	ds [<p> [<n>]]        Dump memory in hex 16-bit values.
+10:20:16.198 	dl [<p> [<n>]]        Dump memory in hex 32-bit values.
+10:20:16.198 	dm [<p> [<n>]]        Dump memory in mixed hex/ASCII.
+10:20:16.198 	indent <tab> <n>      Set indent type (if <tab>=1: use TABs).
+10:20:16.198 	taflags <flags>       Set type attribute display flags.
+10:20:16.198 	                      <flags>: 1=header, 2=size, 4=elsize, 8=ofs.
+10:20:16.198 	server [<port>]       Start debug server on the given port.
+10:20:16.198 	env                   Display configuration data (=sconf).
+10:20:16.198 	set <var> <value>     Set the configuration variable to given value.
+10:20:16.198 	unset <var>           Unset the configuration variable.
+10:20:16.198 	suspend <value>       Suspend with given mode.
+10:20:16.198 	activate <value>      Activate with given mode.
+10:20:16.198 	help                  Display general help.
+10:20:16.198 	exit                  Close remote connection.
+10:20:29.108 # of IP receive events   = 1282
+10:20:29.108 # of DTLS server events  = 0
+10:20:29.108 # of DTLS receive events = 0
+10:20:29.108 Sending UDP socket:
+10:20:29.108   UDP     0.0.0.0:0     fd:3      id:0  
+10:20:29.108 	    r.errors:0  w.errors:0  empty:0  too_short:0  no buffers:0
+10:20:29.108 	    octets Tx/Rx:62436/0  packets Tx/Rx:779/0
+10:20:29.108 Locators:
+10:20:29.108   UDP     172.23.1.215:7863  fd:6      id:1   USER UCAST SRC_MCAST
+10:20:29.108 	    r.errors:0  w.errors:0  empty:0  too_short:0  no buffers:0
+10:20:29.108 	    octets Tx/Rx:0/0  packets Tx/Rx:0/0
+10:20:29.109   UDP     239.255.0.1:7401  fd:7      id:1   USER MCAST
+10:20:29.109 	    r.errors:0  w.errors:0  empty:0  too_short:0  no buffers:0
+10:20:29.109 	    octets Tx/Rx:0/0  packets Tx/Rx:0/0
+10:20:29.109   UDP     172.23.1.215:7862  fd:8      id:1   META UCAST SRC_MCAST
+10:20:29.109 	    r.errors:0  w.errors:0  empty:0  too_short:0  no buffers:0
+10:20:29.109 	    octets Tx/Rx:0/161188  packets Tx/Rx:0/1121
+10:20:29.109   UDP     239.255.0.1:7400  fd:9      id:1   META MCAST
+10:20:29.109 	    r.errors:0  w.errors:0  empty:0  too_short:0  no buffers:0
+10:20:29.109 	    octets Tx/Rx:0/62660  packets Tx/Rx:0/161

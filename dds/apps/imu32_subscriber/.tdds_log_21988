@@ -1,0 +1,436 @@
+10:11:24.761 List pools created.
+10:11:24.761 String pool initialized.
+10:11:24.761 Typecode pools created.
+10:11:24.761 Typesupport initialized.
+10:11:24.761 Socket handler initialized.
+10:11:24.761 Timer pool initialized.
+10:11:24.761 Data buffer pools created.
+10:11:24.761 Existing host identifier reused.
+10:11:24.761 Unique GUID prefix created: 8f937eb8:000055e4:03e90000
+10:11:24.761 Locator pools created.
+10:11:24.761 History cache pools created.
+10:11:24.761 Entities: reserved=98, maximum=4294967295
+10:11:24.761 Domain pools created.
+10:11:24.761 RTPS Initialised.
+10:11:24.761 IP: scope = link..global
+10:11:24.761 IP interfaces:
+10:11:24.761     eth0     : 192.168.0.2
+10:11:24.761     eth1     : 172.23.1.215
+10:11:24.762 TCP: local secure TCP server disabled
+10:11:24.762 TCP: local TCP server disabled
+10:11:24.762 RTPS over IPv4 Initialised.
+10:11:24.762 IPv6: scope = site..global
+10:11:24.762 RTPS over IPv6 Initialised.
+10:11:24.762 QoS pools initialized.
+10:11:24.762 DDS: DynamicType_register(ParticipantMessageData): 5 blocks, 416 bytes
+10:11:24.762 DDS: DynamicType_register(BinaryProperty): 3 blocks, 272 bytes
+10:11:24.762 DDS: DynamicType_register(Property): 2 blocks, 216 bytes
+10:11:24.762 DDS: DynamicType_register(DataHolder): 6 blocks, 616 bytes
+10:11:24.762 DDS: DynamicType_register(MessageIdentity): 3 blocks, 272 bytes
+10:11:24.762 DDS: DynamicType_register(ParticipantGenericMessage): 3 blocks, 432 bytes
+10:11:24.762 DDS: DynamicType_register(ParticipantStatelessMessage): 2 blocks, 144 bytes
+10:11:24.762 DDS: DynamicType_register(ParticipantVolatileSecureMessage): 2 blocks, 144 bytes
+10:11:24.762 Discovery initialized.
+10:11:24.762 DCPS Initialised.
+10:11:24.762 DDS: core thread created.
+10:11:24.763 DDS: core thread running.
+10:11:24.763 Security: validate local permissions. 
+10:11:24.763 DDS: domain security mode = 0x0
+10:11:24.763 UDP: adding 192.168.0.2:7467 on [6]
+10:11:24.763 UDP: adding 172.23.1.215:7467 on [7]
+10:11:24.763 UDP: adding 239.255.0.1:7401 on [8]
+10:11:24.763 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7401
+10:11:24.763 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7401 on 192.168.0.2:7467
+10:11:24.763 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7401 on 172.23.1.215:7467
+10:11:24.763 RTPS: starting Discovery protocols.
+10:11:24.763 UDP: adding 192.168.0.2:7466 on [9]
+10:11:24.763 UDP: adding 172.23.1.215:7466 on [10]
+10:11:24.763 UDP: adding 239.255.0.1:7400 on [11]
+10:11:24.763 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7400
+10:11:24.763 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7400 on 192.168.0.2:7466
+10:11:24.763 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7400 on 172.23.1.215:7466
+10:11:24.763 SPDP: starting protocol for domain #0.
+10:11:24.764 RTPS: writer (SPDPbuiltinParticipantWriter) created.
+10:11:24.764 RTPS: reader (SPDPbuiltinParticipantReader) created.
+10:11:24.764 RTPS: reader (SEDPbuiltinPublicationsReader) created.
+10:11:24.764 RTPS: reader (SEDPbuiltinSubscriptionsReader) created.
+10:11:24.764 RTPS: writer (SEDPbuiltinPublicationsWriter) created.
+10:11:24.764 RTPS: writer (SEDPbuiltinSubscriptionsWriter) created.
+10:11:24.764 RTPS: reader (BuiltinParticipantMessageReader) created.
+10:11:24.764 RTPS: writer (BuiltinParticipantMessageWriter) created.
+10:11:24.764 SPDP: registering Participant key.
+10:11:24.764 SPDP: Send Participant data.
+10:11:24.764 DDS: DynamicTypeSupport_create_type_support(Imu32): 1 blocks, 104 bytes
+10:11:24.764 SEDP: Writer (imu/simple_msgs::dds_::Imu32_) added.
+10:11:24.764 SEDP: Send publication (imu/simple_msgs::dds_::Imu32_)
+10:11:24.764 SEDP: Reader (imu/simple_msgs::dds_::Imu32_) added.
+10:11:24.764 SEDP: Send subscription (imu/simple_msgs::dds_::Imu32_)
+10:11:26.180 SPDP: New participant (Technicolor Chatroom) [8f937eb8:001d55e7:03e90000] detected!
+10:11:26.180 SPDP: Connecting builtin endpoints.
+10:11:26.180 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:001d55e7:03e90000.
+10:11:26.180 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:001d55e7:03e90000.
+10:11:26.180 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:001d55e7:03e90000.
+10:11:26.180 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:001d55e7:03e90000.
+10:11:26.180 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:001d55e7:03e90000.
+10:11:26.180 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:001d55e7:03e90000.
+10:11:26.181 Discovery: Matched reader detected!
+10:11:26.181 RTPS: writer (imu) created.
+10:11:26.181 RTPS: matched reader add (imu) to 8f937eb8:001d55e7:03e90000.
+10:11:26.181 SEDP: New subscription (imu/simple_msgs::dds_::Imu32_) from peer!
+10:11:26.181 Discovery: Match writer detected!
+10:11:26.181 RTPS: reader (imu) created.
+10:11:26.181 RTPS: matched writer add (imu) to 8f937eb8:001d55e7:03e90000.
+10:11:26.181 SEDP: New publication (imu/simple_msgs::dds_::Imu32_) from peer!
+10:11:30.882 SPDP: New participant (Technicolor Chatroom) [526934d9:00590002:00060000] detected!
+10:11:30.882 SPDP: Connecting builtin endpoints.
+10:11:30.882 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 526934d9:00590002:00060000.
+10:11:30.882 RTPS: matched writer add (BuiltinParticipantMessageReader) to 526934d9:00590002:00060000.
+10:11:30.882 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 526934d9:00590002:00060000.
+10:11:30.882 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 526934d9:00590002:00060000.
+10:11:30.882 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 526934d9:00590002:00060000.
+10:11:30.882 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 526934d9:00590002:00060000.
+10:11:31.270 0.1*0:	boolean;
+10:11:31.270 0.2*0:	octet;
+10:11:31.270 0.3*0:	short;
+10:11:31.270 0.4*0:	unsigned short;
+10:11:31.270 0.5*0:	long;
+10:11:31.270 0.6*0:	unsigned long;
+10:11:31.270 0.7*0:	long long;
+10:11:31.270 0.8*0:	unsigned long long;
+10:11:31.270 0.9*0:	float;
+10:11:31.270 0.10*0:	double;
+10:11:31.270 0.11*0:	long double;
+10:11:31.270 0.12*0:	char;
+10:11:31.270 0.13*0:	wchar;
+10:11:31.270 0.14*1:	struct ParticipantMessageData /*Size:40*/ {
+10:11:31.270 /*0*/		octet participantGuidPrefix[12] /*ESize:1*/;  //@Key
+10:11:31.270 /*12*/		octet kind[4] /*ESize:1*/;  //@Key
+10:11:31.270 /*16*/		sequence<octet> /*ESize:1*/ data;
+10:11:31.270 	};
+10:11:31.270 0.15*1:	typedef octet array_12_octet[12] /*ESize:1*/;
+10:11:31.270 0.16*1:	typedef octet array_4_octet[4] /*ESize:1*/;
+10:11:31.270 0.17*4:	typedef sequence<octet> /*ESize:1*/ sequence_octet;
+10:11:31.270 0.18*2:	struct BinaryProperty /*Size:32*/ {
+10:11:31.270 /*0*/		string /*ESize:1*/ key;
+10:11:31.270 /*8*/		sequence<octet> /*ESize:1*/ value;
+10:11:31.270 	};
+10:11:31.270 0.19*6:	typedef string /*ESize:1*/ string_character;
+10:11:31.271 0.20*2:	struct Property /*Size:16*/ {
+10:11:31.271 /*0*/		string /*ESize:1*/ key;
+10:11:31.271 /*8*/		string /*ESize:1*/ value;
+10:11:31.271 	};
+10:11:31.271 0.21*2:	@Extensibility(MUTABLE_EXTENSIBILITY) struct DataHolder /*Size:56*/ {
+10:11:31.271 /*0*/		string /*ESize:1*/ class_id;
+10:11:31.271 /*8*/		sequence<Property> /*ESize:16*/ string_properties;  //@Optional
+10:11:31.271 /*16*/		sequence<BinaryProperty> /*ESize:32*/ binary_properties;  //@Optional
+10:11:31.271 /*24*/		sequence<string /*ESize:1*/> /*ESize:8*/ string_values;  //@Optional
+10:11:31.271 /*32*/		sequence<octet> /*ESize:1*/ binary_value1;  //@Optional
+10:11:31.271 /*40*/		sequence<octet> /*ESize:1*/ binary_value2;  //@Optional
+10:11:31.271 /*48*/		sequence<long long> /*ESize:8*/ longlongs_value;  //@Optional
+10:11:31.271 	};
+10:11:31.271 0.22*1:	typedef sequence<Property> /*ESize:16*/ sequence_Property;
+10:11:31.271 0.23*1:	typedef sequence<BinaryProperty> /*ESize:32*/ sequence_BinaryProperty;
+10:11:31.271 0.24*1:	typedef sequence<string /*ESize:1*/> /*ESize:8*/ sequence_string_character;
+10:11:31.271 0.25*1:	typedef sequence<long long> /*ESize:8*/ sequence_longlong;
+10:11:31.271 0.26*3:	struct MessageIdentity /*Size:24*/ {
+10:11:31.271 /*0*/		octet source_guid[16] /*ESize:1*/;
+10:11:31.271 /*16*/		long long sequence_number;
+10:11:31.271 	};
+10:11:31.271 0.27*4:	typedef octet array_16_octet[16] /*ESize:1*/;
+10:11:31.271 0.28*3:	struct ParticipantGenericMessage /*Size:128*/ {
+10:11:31.271 /*0*/		MessageIdentity message_identity;
+10:11:31.271 /*24*/		MessageIdentity related_message_identity;
+10:11:31.271 /*48*/		octet destination_participant_key[16] /*ESize:1*/;
+10:11:31.271 /*64*/		octet destination_endpoint_key[16] /*ESize:1*/;
+10:11:31.272 /*80*/		octet source_endpoint_key[16] /*ESize:1*/;
+10:11:31.272 /*96*/		string /*ESize:1*/ message_class_id;
+10:11:31.272 /*104*/		sequence<DataHolder> /*ESize:56*/ message_data;
+10:11:31.272 	};
+10:11:31.272 0.29*1:	typedef sequence<DataHolder> /*ESize:56*/ sequence_DataHolder;
+10:11:31.272 0.30*1:	typedef ParticipantGenericMessage ParticipantStatelessMessage;
+10:11:31.272 0.31*1:	typedef ParticipantGenericMessage ParticipantVolatileSecureMessage;
+10:11:31.272 0.32*2:	struct stamp /*Size:8*/ {
+10:11:31.272 /*0*/		long sec;
+10:11:31.272 /*4*/		long nanosec;
+10:11:31.272 	};
+10:11:31.272 0.33*3:	typedef string<100> /*ESize:1*/ string_100_character;
+10:11:31.272 0.34*2:	struct header /*Size:116*/ {
+10:11:31.272 /*0*/		long seq;
+10:11:31.272 /*4*/		stamp stamp;
+10:11:31.272 /*12*/		string_100_character frame_id;
+10:11:31.272 	};
+10:11:31.272 0.35*2:	struct orientation /*Size:16*/ {
+10:11:31.272 /*0*/		float x;
+10:11:31.272 /*4*/		float y;
+10:11:31.272 /*8*/		float z;
+10:11:31.272 /*12*/		float w;
+10:11:31.272 	};
+10:11:31.272 0.36*2:	struct angular_velocity /*Size:12*/ {
+10:11:31.272 /*0*/		float x;
+10:11:31.272 /*4*/		float y;
+10:11:31.272 /*8*/		float z;
+10:11:31.272 	};
+10:11:31.272 0.37*2:	struct linear_acceleration /*Size:12*/ {
+10:11:31.273 /*0*/		float x;
+10:11:31.273 /*4*/		float y;
+10:11:31.273 /*8*/		float z;
+10:11:31.273 	};
+10:11:31.273 0.38*4:	typedef float array_9_float[9] /*ESize:4*/;
+10:11:31.273 0.39*2:	struct Imu32 /*Size:264*/ {
+10:11:31.273 /*0*/		header header;
+10:11:31.273 /*116*/		orientation orientation;
+10:11:31.273 /*132*/		array_9_float orientation_covariance[9] /*ESize:4*/;
+10:11:31.273 /*168*/		angular_velocity angular_velocity;
+10:11:31.273 /*180*/		array_9_float angular_velocity_covariance[9] /*ESize:4*/;
+10:11:31.273 /*216*/		linear_acceleration linear_acceleration;
+10:11:31.273 /*228*/		array_9_float linear_acceleration_covariance[9] /*ESize:4*/;
+10:11:31.273 	};
+11:02:43.510 Domain 0 (pid=28): {1}
+11:02:43.510 	GUID prefix: 8f937eb8:001c55e4:03e90000
+11:02:43.510 	RTPS Protocol version: v2.1
+11:02:43.510 	Vendor Id: 1.14 - Technicolor, Inc. - Qeo
+11:02:43.510 	Technicolor DDS version: 4.0-0, Forward: 0
+11:02:43.510 	SecureTransport: none
+11:02:43.510 	Authorisation: Authenticated
+11:02:43.510 	Entity name: Technicolor Chatroom
+11:02:43.510 	Flags: Enabled
+11:02:43.510 	Meta Unicast: 
+11:02:43.510 		UDP:192.168.0.2:7466(4) {MD,UC} H:4
+11:02:43.510 		UDP:172.23.1.215:7466(5) {MD,UC} H:5
+11:02:43.511 	Meta Multicast: 
+11:02:43.511 		UDP:239.255.0.1:7400(6) {MD,MC} H:6
+11:02:43.511 	Default Unicast: 
+11:02:43.511 		UDP:192.168.0.2:7467(1) {UD,UC} H:1
+11:02:43.511 		UDP:172.23.1.215:7467(2) {UD,UC} H:2
+11:02:43.511 	Default Multicast: 
+11:02:43.511 		UDP:239.255.0.1:7401(3) {UD,MC} H:3
+11:02:43.511 	Manual Liveliness: 0
+11:02:43.511 	Lease duration: 50.000000000s
+11:02:43.511 	Endpoints: 10 entries (5 readers, 5 writers).
+11:02:43.511 	Security: level=Unclassified, access=any, RTPS=clear
+11:02:43.511 	Resend period: 10.000000000s
+11:02:43.511 	Destination Locators: 
+11:02:43.511 		UDP:239.255.0.1:7400(6) {MD,MC} H:6
+11:02:43.511 		TCP:239.255.0.1:7400 {MD,MC}
+11:02:43.511 	Discovered participants:
+11:02:43.511 	    Peer #0: {34} - Local activity: 2.08s
+11:02:43.511 		GUID prefix: 526934d9:00590002:00060000
+11:02:43.511 		RTPS Protocol version: v2.1
+11:02:43.511 		Vendor Id: 1.14 - Technicolor, Inc. - Qeo
+11:02:43.511 		Technicolor DDS version: 4.0-0, Forward: 0
+11:02:43.511 		SecureTransport: remote: DDSSEC, local: DDSSEC
+11:02:43.511 		Authorisation: Authenticated
+11:02:43.511 		Entity name: Technicolor Chatroom
+11:02:43.511 		Meta Unicast: 
+11:02:43.511 			UDP:192.168.0.3:7588 {MD,UC}
+11:02:43.511 		Meta Multicast: 
+11:02:43.512 			UDP:239.255.0.1:7400(6) {MD,MC} H:6
+11:02:43.512 		Default Unicast: 
+11:02:43.512 			UDP:192.168.0.3:7589 {UD,UC}
+11:02:43.512 		Default Multicast: 
+11:02:43.512 			UDP:239.255.0.1:7401(3) {UD,MC} H:3
+11:02:43.512 		Manual Liveliness: 0
+11:02:43.512 		Lease duration: 50.000000000s
+11:02:43.512 		Endpoints: 6 entries (3 readers, 3 writers).
+11:02:43.512 		Source: 
+11:02:43.512 			UDP:192.168.0.3:1025 {MD,UC}
+11:02:43.512 		Timer = 47.07s
+11:02:43.512 	    Peer #1: {25} - Local activity: 2.02s
+11:02:43.512 		GUID prefix: 8f937eb8:001d55e7:03e90000
+11:02:43.512 		RTPS Protocol version: v2.1
+11:02:43.512 		Vendor Id: 1.14 - Technicolor, Inc. - Qeo
+11:02:43.512 		Technicolor DDS version: 4.0-0, Forward: 0
+11:02:43.512 		SecureTransport: remote: DDSSEC, local: DDSSEC
+11:02:43.512 		Authorisation: Authenticated
+11:02:43.512 		Entity name: Technicolor Chatroom
+11:02:43.512 		Meta Unicast: 
+11:02:43.512 			UDP:192.168.0.2:7468 {MD,UC}
+11:02:43.512 			UDP:172.23.1.215:7468 {MD,UC}
+11:02:43.512 		Meta Multicast: 
+11:02:43.512 			UDP:239.255.0.1:7400(6) {MD,MC} H:6
+11:02:43.512 		Default Unicast: 
+11:02:43.512 			UDP:192.168.0.2:7469 {UD,UC}
+11:02:43.512 			UDP:172.23.1.215:7469 {UD,UC}
+11:02:43.512 		Default Multicast: 
+11:02:43.512 			UDP:239.255.0.1:7401(3) {UD,MC} H:3
+11:02:43.512 		Manual Liveliness: 0
+11:02:43.513 		Lease duration: 50.000000000s
+11:02:43.513 		Endpoints: 8 entries (4 readers, 4 writers).
+11:02:43.513 		Source: 
+11:02:43.513 			UDP:172.23.1.215:33337 {MD,UC}
+11:02:43.513 		Timer = 47.80s
+11:02:47.616 Domain 0 (pid=28): {1}
+11:02:47.616 	GUID prefix: 8f937eb8:001c55e4:03e90000
+11:02:47.616 	RTPS Protocol version: v2.1
+11:02:47.616 	Vendor Id: 1.14 - Technicolor, Inc. - Qeo
+11:02:47.616 	Technicolor DDS version: 4.0-0, Forward: 0
+11:02:47.616 	SecureTransport: none
+11:02:47.616 	Authorisation: Authenticated
+11:02:47.616 	Entity name: Technicolor Chatroom
+11:02:47.616 	Flags: Enabled
+11:02:47.616 	Meta Unicast: 
+11:02:47.616 		UDP:192.168.0.2:7466(4) {MD,UC} H:4
+11:02:47.616 		UDP:172.23.1.215:7466(5) {MD,UC} H:5
+11:02:47.616 	Meta Multicast: 
+11:02:47.616 		UDP:239.255.0.1:7400(6) {MD,MC} H:6
+11:02:47.616 	Default Unicast: 
+11:02:47.617 		UDP:192.168.0.2:7467(1) {UD,UC} H:1
+11:02:47.617 		UDP:172.23.1.215:7467(2) {UD,UC} H:2
+11:02:47.617 	Default Multicast: 
+11:02:47.617 		UDP:239.255.0.1:7401(3) {UD,MC} H:3
+11:02:47.617 	Manual Liveliness: 0
+11:02:47.617 	Lease duration: 50.000000000s
+11:02:47.617 	Endpoints: 10 entries (5 readers, 5 writers).
+11:02:47.617 		000001-3, {22}, InlineQoS: No, Writer, imu/simple_msgs::dds_::Imu32_
+11:02:47.617 		000002-4, {24}, InlineQoS: No, Reader, imu/simple_msgs::dds_::Imu32_
+11:02:47.617 	Topics: 
+11:02:47.617 	    BuiltinParticipantMessageReader/ParticipantMessageData 
+11:02:47.617 	    BuiltinParticipantMessageWriter/ParticipantMessageData 
+11:02:47.617 	    SEDPbuiltinPublicationsReader/PublicationBuiltinTopicData 
+11:02:47.617 	    SEDPbuiltinPublicationsWriter/PublicationBuiltinTopicData 
+11:02:47.617 	    SEDPbuiltinSubscriptionsReader/SubscriptionBuiltinTopicData 
+11:02:47.617 	    SEDPbuiltinSubscriptionsWriter/SubscriptionBuiltinTopicData 
+11:02:47.617 	    SPDPbuiltinParticipantReader/ParticipantBuiltinTopicData 
+11:02:47.617 	    SPDPbuiltinParticipantWriter/ParticipantBuiltinTopicData 
+11:02:47.617 	    imu/simple_msgs::dds_::Imu32_ 
+11:02:47.618 	Security: level=Unclassified, access=any, RTPS=clear
+11:02:47.618 	Resend period: 10.000000000s
+11:02:47.618 	Destination Locators: 
+11:02:47.618 		UDP:239.255.0.1:7400(6) {MD,MC} H:6
+11:02:47.618 		TCP:239.255.0.1:7400 {MD,MC}
+11:02:47.618 	Discovered participants:
+11:02:47.618 	    Peer #0: {34} - Local activity: 7.00s
+11:02:47.618 		GUID prefix: 526934d9:00590002:00060000
+11:02:47.618 		RTPS Protocol version: v2.1
+11:02:47.618 		Vendor Id: 1.14 - Technicolor, Inc. - Qeo
+11:02:47.618 		Technicolor DDS version: 4.0-0, Forward: 0
+11:02:47.618 		SecureTransport: remote: DDSSEC, local: DDSSEC
+11:02:47.618 		Authorisation: Authenticated
+11:02:47.618 		Entity name: Technicolor Chatroom
+11:02:47.618 		Meta Unicast: 
+11:02:47.618 			UDP:192.168.0.3:7588 {MD,UC}
+11:02:47.618 		Meta Multicast: 
+11:02:47.618 			UDP:239.255.0.1:7400(6) {MD,MC} H:6
+11:02:47.618 		Default Unicast: 
+11:02:47.618 			UDP:192.168.0.3:7589 {UD,UC}
+11:02:47.618 		Default Multicast: 
+11:02:47.618 			UDP:239.255.0.1:7401(3) {UD,MC} H:3
+11:02:47.618 		Manual Liveliness: 0
+11:02:47.618 		Lease duration: 50.000000000s
+11:02:47.618 		Endpoints: 6 entries (3 readers, 3 writers).
+11:02:47.619 		Topics:  <none>
+11:02:47.619 		Source: 
+11:02:47.619 			UDP:192.168.0.3:1025 {MD,UC}
+11:02:47.619 		Timer = 42.96s
+11:02:47.619 	    Peer #1: {25} - Local activity: 6.03s
+11:02:47.619 		GUID prefix: 8f937eb8:001d55e7:03e90000
+11:02:47.619 		RTPS Protocol version: v2.1
+11:02:47.619 		Vendor Id: 1.14 - Technicolor, Inc. - Qeo
+11:02:47.619 		Technicolor DDS version: 4.0-0, Forward: 0
+11:02:47.619 		SecureTransport: remote: DDSSEC, local: DDSSEC
+11:02:47.619 		Authorisation: Authenticated
+11:02:47.619 		Entity name: Technicolor Chatroom
+11:02:47.619 		Meta Unicast: 
+11:02:47.619 			UDP:192.168.0.2:7468 {MD,UC}
+11:02:47.619 			UDP:172.23.1.215:7468 {MD,UC}
+11:02:47.619 		Meta Multicast: 
+11:02:47.619 			UDP:239.255.0.1:7400(6) {MD,MC} H:6
+11:02:47.619 		Default Unicast: 
+11:02:47.619 			UDP:192.168.0.2:7469 {UD,UC}
+11:02:47.619 			UDP:172.23.1.215:7469 {UD,UC}
+11:02:47.619 		Default Multicast: 
+11:02:47.619 			UDP:239.255.0.1:7401(3) {UD,MC} H:3
+11:02:47.620 		Manual Liveliness: 0
+11:02:47.620 		Lease duration: 50.000000000s
+11:02:47.620 		Endpoints: 8 entries (4 readers, 4 writers).
+11:02:47.620 			000001-3, {33}, InlineQoS: No, Writer, imu/simple_msgs::dds_::Imu32_
+11:02:47.620 			000002-4, {32}, InlineQoS: No, Reader, imu/simple_msgs::dds_::Imu32_
+11:02:47.620 		Topics: 
+11:02:47.620 		    imu/simple_msgs::dds_::Imu32_ 
+11:02:47.620 		Source: 
+11:02:47.620 			UDP:172.23.1.215:33337 {MD,UC}
+11:02:47.620 		Timer = 43.69s
+11:03:22.145 Domain 0 (pid=28): {1}
+11:03:22.145 	GUID prefix: 8f937eb8:001c55e4:03e90000
+11:03:22.145 	RTPS Protocol version: v2.1
+11:03:22.145 	Vendor Id: 1.14 - Technicolor, Inc. - Qeo
+11:03:22.145 	Technicolor DDS version: 4.0-0, Forward: 0
+11:03:22.145 	SecureTransport: none
+11:03:22.145 	Authorisation: Authenticated
+11:03:22.145 	Entity name: Technicolor Chatroom
+11:03:22.145 	Flags: Enabled
+11:03:22.145 	Meta Unicast: 
+11:03:22.145 		UDP:192.168.0.2:7466(4) {MD,UC} H:4
+11:03:22.145 		UDP:172.23.1.215:7466(5) {MD,UC} H:5
+11:03:22.145 	Meta Multicast: 
+11:03:22.145 		UDP:239.255.0.1:7400(6) {MD,MC} H:6
+11:03:22.145 	Default Unicast: 
+11:03:22.145 		UDP:192.168.0.2:7467(1) {UD,UC} H:1
+11:03:22.145 		UDP:172.23.1.215:7467(2) {UD,UC} H:2
+11:03:22.146 	Default Multicast: 
+11:03:22.146 		UDP:239.255.0.1:7401(3) {UD,MC} H:3
+11:03:22.146 	Manual Liveliness: 0
+11:03:22.146 	Lease duration: 50.000000000s
+11:03:22.146 	Endpoints: 10 entries (5 readers, 5 writers).
+11:03:22.146 	Topics: 
+11:03:22.146 	    BuiltinParticipantMessageReader/ParticipantMessageData 
+11:03:22.146 	    BuiltinParticipantMessageWriter/ParticipantMessageData 
+11:03:22.146 	    SEDPbuiltinPublicationsReader/PublicationBuiltinTopicData 
+11:03:22.146 	    SEDPbuiltinPublicationsWriter/PublicationBuiltinTopicData 
+11:03:22.146 	    SEDPbuiltinSubscriptionsReader/SubscriptionBuiltinTopicData 
+11:03:22.146 	    SEDPbuiltinSubscriptionsWriter/SubscriptionBuiltinTopicData 
+11:03:22.146 	    SPDPbuiltinParticipantReader/ParticipantBuiltinTopicData 
+11:03:22.146 	    SPDPbuiltinParticipantWriter/ParticipantBuiltinTopicData 
+11:03:22.146 	    imu/simple_msgs::dds_::Imu32_ 
+11:03:22.146 	Security: level=Unclassified, access=any, RTPS=clear
+11:03:22.146 	Resend period: 10.000000000s
+11:03:22.146 	Destination Locators: 
+11:03:22.146 		UDP:239.255.0.1:7400(6) {MD,MC} H:6
+11:03:22.146 		TCP:239.255.0.1:7400 {MD,MC}
+11:03:22.146 	Discovered participants:
+11:03:22.146 	    Peer #0: {34} - Local activity: 1.02s
+11:03:22.146 		GUID prefix: 526934d9:00590002:00060000
+11:03:22.146 		RTPS Protocol version: v2.1
+11:03:22.146 		Vendor Id: 1.14 - Technicolor, Inc. - Qeo
+11:03:22.146 		Technicolor DDS version: 4.0-0, Forward: 0
+11:03:22.146 		SecureTransport: remote: DDSSEC, local: DDSSEC
+11:03:22.146 		Authorisation: Authenticated
+11:03:22.146 		Entity name: Technicolor Chatroom
+11:03:22.147 		Meta Unicast: 
+11:03:22.147 			UDP:192.168.0.3:7588 {MD,UC}
+11:03:22.147 		Meta Multicast: 
+11:03:22.147 			UDP:239.255.0.1:7400(6) {MD,MC} H:6
+11:03:22.147 		Default Unicast: 
+11:03:22.147 			UDP:192.168.0.3:7589 {UD,UC}
+11:03:22.147 		Default Multicast: 
+11:03:22.147 			UDP:239.255.0.1:7401(3) {UD,MC} H:3
+11:03:22.147 		Manual Liveliness: 0
+11:03:22.147 		Lease duration: 50.000000000s
+11:03:22.147 		Endpoints: 6 entries (3 readers, 3 writers).
+11:03:22.147 		Source: 
+11:03:22.147 			UDP:192.168.0.3:1025 {MD,UC}
+11:03:22.147 		Timer = 48.69s
+11:03:22.147 	    Peer #1: {25} - Local activity: 30.08s
+11:03:22.147 		GUID prefix: 8f937eb8:001d55e7:03e90000
+11:03:22.147 		RTPS Protocol version: v2.1
+11:03:22.147 		Vendor Id: 1.14 - Technicolor, Inc. - Qeo
+11:03:22.147 		Technicolor DDS version: 4.0-0, Forward: 0
+11:03:22.147 		SecureTransport: remote: DDSSEC, local: DDSSEC
+11:03:22.147 		Authorisation: Authenticated
+11:03:22.147 		Entity name: Technicolor Chatroom
+11:03:22.147 		Meta Unicast: 
+11:03:22.147 			UDP:192.168.0.2:7468 {MD,UC}
+11:03:22.147 			UDP:172.23.1.215:7468 {MD,UC}
+11:03:22.147 		Meta Multicast: 
+11:03:22.147 			UDP:239.255.0.1:7400(6) {MD,MC} H:6
+11:03:22.147 		Default Unicast: 
+11:03:22.147 			UDP:192.168.0.2:7469 {UD,UC}
+11:03:22.148 			UDP:172.23.1.215:7469 {UD,UC}
+11:03:22.148 		Default Multicast: 
+11:03:22.148 			UDP:239.255.0.1:7401(3) {UD,MC} H:3
+11:03:22.148 		Manual Liveliness: 0
+11:03:22.148 		Lease duration: 50.000000000s
+11:03:22.148 		Endpoints: 8 entries (4 readers, 4 writers).
+11:03:22.148 		Source: 
+11:03:22.148 			UDP:172.23.1.215:33337 {MD,UC}
+11:03:22.148 		Timer = 19.16s

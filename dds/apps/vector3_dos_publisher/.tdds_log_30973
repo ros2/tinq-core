@@ -1,0 +1,119 @@
+15:18:32.592 List pools created.
+15:18:32.592 String pool initialized.
+15:18:32.592 Typecode pools created.
+15:18:32.592 Typesupport initialized.
+15:18:32.592 Socket handler initialized.
+15:18:32.592 Timer pool initialized.
+15:18:32.592 Data buffer pools created.
+15:18:32.592 Existing host identifier reused.
+15:18:32.592 Unique GUID prefix created: 91416dab:000078fd:03e90000
+15:18:32.592 Locator pools created.
+15:18:32.592 History cache pools created.
+15:18:32.592 Entities: reserved=98, maximum=4294967295
+15:18:32.592 Domain pools created.
+15:18:32.592 RTPS Initialised.
+15:18:32.592 IP: scope = link..global
+15:18:32.592 IP interfaces:
+15:18:32.592     eth1     : 172.23.1.215
+15:18:32.592 TCP: local secure TCP server disabled
+15:18:32.592 TCP: local TCP server disabled
+15:18:32.592 RTPS over IPv4 Initialised.
+15:18:32.592 IPv6: scope = site..global
+15:18:32.593 RTPS over IPv6 Initialised.
+15:18:32.593 QoS pools initialized.
+15:18:32.593 DDS: DynamicType_register(ParticipantMessageData): 5 blocks, 416 bytes
+15:18:32.593 DDS: DynamicType_register(BinaryProperty): 3 blocks, 272 bytes
+15:18:32.593 DDS: DynamicType_register(Property): 2 blocks, 216 bytes
+15:18:32.593 DDS: DynamicType_register(DataHolder): 6 blocks, 616 bytes
+15:18:32.593 DDS: DynamicType_register(MessageIdentity): 3 blocks, 272 bytes
+15:18:32.593 DDS: DynamicType_register(ParticipantGenericMessage): 3 blocks, 432 bytes
+15:18:32.593 DDS: DynamicType_register(ParticipantStatelessMessage): 2 blocks, 144 bytes
+15:18:32.593 DDS: DynamicType_register(ParticipantVolatileSecureMessage): 2 blocks, 144 bytes
+15:18:32.593 Discovery initialized.
+15:18:32.593 DCPS Initialised.
+15:18:32.593 DDS: core thread created.
+15:18:32.593 DDS: core thread running.
+15:18:32.593 Security: validate local permissions. 
+15:18:32.593 DDS: domain security mode = 0x0
+15:18:32.593 UDP: adding 172.23.1.215:7503 on [6]
+15:18:32.593 UDP: adding 239.255.0.1:7401 on [7]
+15:18:32.593 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7401
+15:18:32.594 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7401 on 172.23.1.215:7503
+15:18:32.594 RTPS: starting Discovery protocols.
+15:18:32.594 UDP: adding 172.23.1.215:7502 on [8]
+15:18:32.594 UDP: adding 239.255.0.1:7400 on [9]
+15:18:32.594 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7400
+15:18:32.594 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7400 on 172.23.1.215:7502
+15:18:32.594 SPDP: starting protocol for domain #0.
+15:18:32.594 RTPS: writer (SPDPbuiltinParticipantWriter) created.
+15:18:32.594 RTPS: reader (SPDPbuiltinParticipantReader) created.
+15:18:32.594 RTPS: reader (SEDPbuiltinPublicationsReader) created.
+15:18:32.594 RTPS: reader (SEDPbuiltinSubscriptionsReader) created.
+15:18:32.594 RTPS: writer (SEDPbuiltinPublicationsWriter) created.
+15:18:32.594 RTPS: writer (SEDPbuiltinSubscriptionsWriter) created.
+15:18:32.594 RTPS: reader (BuiltinParticipantMessageReader) created.
+15:18:32.594 RTPS: writer (BuiltinParticipantMessageWriter) created.
+15:18:32.594 SPDP: registering Participant key.
+15:18:32.594 SPDP: Send Participant data.
+15:18:32.594 DDS: DynamicTypeSupport_create_type_support(Vector3_dos): 1 blocks, 104 bytes
+15:18:32.594 SEDP: Writer (imu/simple_msgs::dds_::Vector3_dos_) added.
+15:18:32.594 SEDP: Send publication (imu/simple_msgs::dds_::Vector3_dos_)
+15:18:32.594 SEDP: Reader (imu/simple_msgs::dds_::Vector3_dos_) added.
+15:18:32.594 SEDP: Send subscription (imu/simple_msgs::dds_::Vector3_dos_)
+15:18:36.097 TDDS Debug shell -- (c) Technicolor, 2012
+15:18:36.097 Following commands are available:
+15:18:36.097 	ssys                  Display system-specific data.
+15:18:36.097 	stimer                Display the timers.
+15:18:36.097 	sstr                  Display the string cache.
+15:18:36.097 	spool                 Display the pools.
+15:18:36.097 	spoola                Display the pools (extended).
+15:18:36.097 	scx [<cx>]            Display connections.
+15:18:36.097 	scxa [<cx>]           Display connections (extended).
+15:18:36.097 	scxq                  Display queued connections.
+15:18:36.098 	sloc                  Display locators.
+15:18:36.098 	sconfig               Display configuration data.
+15:18:36.098 	sdomain <d> <lf> <rf> Display domain (d) info.
+15:18:36.098 	                      <lf> and <rf> are bitmaps for local/remote info.
+15:18:36.098 	                      1=Locator, 2=Builtin, 4=Endp, 8=Type, 10=Topic.
+15:18:36.098 	sdisc                 Display discovery info.
+15:18:36.098 	sdisca                Display all discovery info (sdisc + endpoints)
+15:18:36.098 	stype [<name>]        Display Type information.
+15:18:36.098 	sqos                  Display QoS parameters.
+15:18:36.098 	stopic <d> [<name>]   Display Topic information.
+15:18:36.098 	sendpoints            Display the DCPS/RTPS Readers/Writers.
+15:18:36.098 	scache <ep>           Display an RTPS Endpoint Cache.
+15:18:36.098 	sdcache <ep>          Display a DCPS Endpoint Cache.
+15:18:36.098 	qcache <ep> [<query>] Query cache data of the specified endpoint:
+15:18:36.098 	                      where: <ep>: endpoint, <query>: SQL Query string.
+15:18:36.098 	sproxy [<ep>]         Display Proxy contexts.
+15:18:36.098 	rproxy [<ep>]         Restart Proxy context.
+15:18:36.099 	seqos <ep>            Display endpoint QoS parameters.
+15:18:36.099 	scrypto <ep>          Display entity crypto parameters.
+15:18:36.099 	sscache               Display security cache.
+15:18:36.099 	rehs                  Request a rehandshake.
+15:18:36.099 	srx                   Display the RTPS Receiver context.
+15:18:36.099 	stx                   Display the RTPS Transmitter context.
+15:18:36.099 	sfd                   Display the status of the file descriptors.
+15:18:36.099 	asp <d>               Assert participant.
+15:18:36.099 	ase <ep>              Assert writer endpoint.
+15:18:36.099 	dtls                  Display DTLS connection related info.
+15:18:36.099 	spdb                  Display the policy database.
+15:18:36.099 	sfwd                  Display the forwarder state.
+15:18:36.099 	ftrace <n>            Start forwarder tracing for <n> events.
+15:18:36.099 	d [<p> [<n>]]         Dump memory.
+15:18:36.099 	da [<p> [<n>]]        Dump memory in ASCII.
+15:18:36.099 	db [<p> [<n>]]        Dump memory in hex bytes.
+15:18:36.099 	ds [<p> [<n>]]        Dump memory in hex 16-bit values.
+15:18:36.099 	dl [<p> [<n>]]        Dump memory in hex 32-bit values.
+15:18:36.100 	dm [<p> [<n>]]        Dump memory in mixed hex/ASCII.
+15:18:36.100 	indent <tab> <n>      Set indent type (if <tab>=1: use TABs).
+15:18:36.100 	taflags <flags>       Set type attribute display flags.
+15:18:36.100 	                      <flags>: 1=header, 2=size, 4=elsize, 8=ofs.
+15:18:36.100 	server [<port>]       Start debug server on the given port.
+15:18:36.100 	env                   Display configuration data (=sconf).
+15:18:36.100 	set <var> <value>     Set the configuration variable to given value.
+15:18:36.100 	unset <var>           Unset the configuration variable.
+15:18:36.100 	suspend <value>       Suspend with given mode.
+15:18:36.100 	activate <value>      Activate with given mode.
+15:18:36.100 	help                  Display general help.
+15:18:36.100 	exit                  Close remote connection.

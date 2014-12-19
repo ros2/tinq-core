@@ -900,6 +900,7 @@ static thread_result_t dds_core (void *arg)
 	thread_return (NULL);
 }
 
+
 static void dds_wakeup_event (HANDLE h, short revents, void *arg)
 {
 #ifndef _WIN32
@@ -1417,6 +1418,13 @@ int dds_init (void)
 
 	log_printf (DDS_ID, 0, "QoS pools initialized.\r\n");
 
+#if defined (NUTTX_RTOS)
+	/* Initialize threading support. */
+#ifdef THREADS_USED
+	dds_init_threads ();
+#endif
+#endif
+
 	error = disc_init ();
 	if (error)
 		fatal_printf ("disc_init() failed: error = %d", error);
@@ -1475,9 +1483,11 @@ int dds_init (void)
 	PROF_INIT ("W:Waitset", dds_w_waitset);
 	PROF_INIT ("W:Listen", dds_w_listen);
 
+#if !defined (NUTTX_RTOS)
 	/* Initialize threading support. */
 #ifdef THREADS_USED
 	dds_init_threads ();
+#endif
 #endif
 
 	tmr_init (&shm_timer, "SharedMemory");
@@ -1636,7 +1646,7 @@ int DDS_Transport_parameters (LocatorKind_t kind, void *pars)
 #endif
 
 /* DDS_get_purge_delay -- Get the *_delete_contained_entities() delay in
-			  microseconds. Default setting is 50ms. */
+			  microseconds. Default setting is 50us. */
 
 unsigned DDS_get_purge_delay (void)
 {

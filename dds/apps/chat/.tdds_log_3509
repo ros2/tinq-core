@@ -1,0 +1,204 @@
+15:02:54.305 SPDP: New participant (Technicolor Chatroom) [8f937eb8:00524a7f:03e90000] detected!
+15:02:54.305 SPDP: Connecting builtin endpoints.
+15:02:54.305 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:00524a7f:03e90000.
+15:02:54.305 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:00524a7f:03e90000.
+15:02:54.305 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:00524a7f:03e90000.
+15:02:54.305 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:00524a7f:03e90000.
+15:02:54.305 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:00524a7f:03e90000.
+15:02:54.306 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:00524a7f:03e90000.
+15:02:54.307 SEDP: New subscription (imu_topic/Vector3) from peer!
+15:02:54.307 SEDP: New publication (imu_topic/Vector3) from peer!
+15:03:13.883 SPDP: New participant (Technicolor Chatroom) [8f937eb8:00534a83:03e90000] detected!
+15:03:13.883 SPDP: Connecting builtin endpoints.
+15:03:13.883 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:00534a83:03e90000.
+15:03:13.883 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:00534a83:03e90000.
+15:03:13.884 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:00534a83:03e90000.
+15:03:13.884 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:00534a83:03e90000.
+15:03:13.884 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:00534a83:03e90000.
+15:03:13.884 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:00534a83:03e90000.
+15:03:13.885 SEDP: New subscription (imu_topic/Vector3) from peer!
+15:03:13.885 SEDP: New publication (imu_topic/Vector3) from peer!
+15:03:44.728 SPDP: Participant (Technicolor Chatroom) [8f937eb8:00524a7f:03e90000] removed!
+15:03:44.729 RTPS: matched reader remove (SEDPbuiltinPublicationsWriter) to 8f937eb8:00524a7f:03e90000.
+15:03:44.729 RTPS: matched writer remove (SEDPbuiltinPublicationsReader) to 8f937eb8:00524a7f:03e90000.
+15:03:44.729 RTPS: matched reader remove (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:00524a7f:03e90000.
+15:03:44.729 RTPS: matched writer remove (SEDPbuiltinSubscriptionsReader) to 8f937eb8:00524a7f:03e90000.
+15:03:44.729 RTPS: matched reader remove (BuiltinParticipantMessageWriter) to 8f937eb8:00524a7f:03e90000.
+15:03:44.729 RTPS: matched writer remove (BuiltinParticipantMessageReader) to 8f937eb8:00524a7f:03e90000.
+15:04:04.309 SPDP: Participant (Technicolor Chatroom) [8f937eb8:00534a83:03e90000] removed!
+15:04:04.310 RTPS: matched reader remove (SEDPbuiltinPublicationsWriter) to 8f937eb8:00534a83:03e90000.
+15:04:04.310 RTPS: matched writer remove (SEDPbuiltinPublicationsReader) to 8f937eb8:00534a83:03e90000.
+15:04:04.310 RTPS: matched reader remove (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:00534a83:03e90000.
+15:04:04.310 RTPS: matched writer remove (SEDPbuiltinSubscriptionsReader) to 8f937eb8:00534a83:03e90000.
+15:04:04.310 RTPS: matched reader remove (BuiltinParticipantMessageWriter) to 8f937eb8:00534a83:03e90000.
+15:04:04.310 RTPS: matched writer remove (BuiltinParticipantMessageReader) to 8f937eb8:00534a83:03e90000.
+15:26:06.582 SPDP: New participant (Technicolor Chatroom) [8f937eb8:00544efe:03e90000] detected!
+15:26:06.582 SPDP: Connecting builtin endpoints.
+15:26:06.582 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:00544efe:03e90000.
+15:26:06.582 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:00544efe:03e90000.
+15:26:06.583 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:00544efe:03e90000.
+15:26:06.583 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:00544efe:03e90000.
+15:26:06.583 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:00544efe:03e90000.
+15:26:06.583 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:00544efe:03e90000.
+15:26:06.583 SEDP: New subscription (imu_topic/Vector3) from peer!
+15:26:06.583 SEDP: New publication (imu_topic/Vector3) from peer!
+15:26:57.007 SPDP: Participant (Technicolor Chatroom) [8f937eb8:00544efe:03e90000] removed!
+15:26:57.007 RTPS: matched reader remove (SEDPbuiltinPublicationsWriter) to 8f937eb8:00544efe:03e90000.
+15:26:57.007 RTPS: matched writer remove (SEDPbuiltinPublicationsReader) to 8f937eb8:00544efe:03e90000.
+15:26:57.007 RTPS: matched reader remove (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:00544efe:03e90000.
+15:26:57.008 RTPS: matched writer remove (SEDPbuiltinSubscriptionsReader) to 8f937eb8:00544efe:03e90000.
+15:26:57.008 RTPS: matched reader remove (BuiltinParticipantMessageWriter) to 8f937eb8:00544efe:03e90000.
+15:26:57.008 RTPS: matched writer remove (BuiltinParticipantMessageReader) to 8f937eb8:00544efe:03e90000.
+15:27:04.332 SPDP: New participant (Technicolor Chatroom) [8f937eb8:00554f2e:03e90000] detected!
+15:27:04.332 SPDP: Connecting builtin endpoints.
+15:27:04.332 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:00554f2e:03e90000.
+15:27:04.332 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:00554f2e:03e90000.
+15:27:04.332 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:00554f2e:03e90000.
+15:27:04.332 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:00554f2e:03e90000.
+15:27:04.332 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:00554f2e:03e90000.
+15:27:04.332 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:00554f2e:03e90000.
+15:27:04.334 SEDP: New subscription (imu_topic/Vector3) from peer!
+15:27:04.334 SEDP: New publication (imu_topic/Vector3) from peer!
+15:27:37.046 SPDP: New participant (Technicolor Chatroom) [8f937eb8:0056500e:03e90000] detected!
+15:27:37.046 SPDP: Connecting builtin endpoints.
+15:27:37.046 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:0056500e:03e90000.
+15:27:37.046 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:0056500e:03e90000.
+15:27:37.046 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:0056500e:03e90000.
+15:27:37.046 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:0056500e:03e90000.
+15:27:37.046 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:0056500e:03e90000.
+15:27:37.047 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:0056500e:03e90000.
+15:27:37.047 SEDP: New subscription (imu_topic/Vector3) from peer!
+15:27:37.048 SEDP: New publication (imu_topic/Vector3) from peer!
+15:27:54.747 SPDP: Participant (Technicolor Chatroom) [8f937eb8:00554f2e:03e90000] removed!
+15:27:54.747 RTPS: matched reader remove (SEDPbuiltinPublicationsWriter) to 8f937eb8:00554f2e:03e90000.
+15:27:54.747 RTPS: matched writer remove (SEDPbuiltinPublicationsReader) to 8f937eb8:00554f2e:03e90000.
+15:27:54.747 RTPS: matched reader remove (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:00554f2e:03e90000.
+15:27:54.747 RTPS: matched writer remove (SEDPbuiltinSubscriptionsReader) to 8f937eb8:00554f2e:03e90000.
+15:27:54.747 RTPS: matched reader remove (BuiltinParticipantMessageWriter) to 8f937eb8:00554f2e:03e90000.
+15:27:54.747 RTPS: matched writer remove (BuiltinParticipantMessageReader) to 8f937eb8:00554f2e:03e90000.
+15:28:27.470 SPDP: Participant (Technicolor Chatroom) [8f937eb8:0056500e:03e90000] removed!
+15:28:27.470 RTPS: matched reader remove (SEDPbuiltinPublicationsWriter) to 8f937eb8:0056500e:03e90000.
+15:28:27.470 RTPS: matched writer remove (SEDPbuiltinPublicationsReader) to 8f937eb8:0056500e:03e90000.
+15:28:27.470 RTPS: matched reader remove (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:0056500e:03e90000.
+15:28:27.470 RTPS: matched writer remove (SEDPbuiltinSubscriptionsReader) to 8f937eb8:0056500e:03e90000.
+15:28:27.470 RTPS: matched reader remove (BuiltinParticipantMessageWriter) to 8f937eb8:0056500e:03e90000.
+15:28:27.470 RTPS: matched writer remove (BuiltinParticipantMessageReader) to 8f937eb8:0056500e:03e90000.
+15:31:33.682 SPDP: New participant (Technicolor Chatroom) [8f937eb8:0056500e:03e90000] detected!
+15:31:33.682 SPDP: Connecting builtin endpoints.
+15:31:33.682 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:0056500e:03e90000.
+15:31:33.682 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:0056500e:03e90000.
+15:31:33.682 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:0056500e:03e90000.
+15:31:33.682 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:0056500e:03e90000.
+15:31:33.682 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:0056500e:03e90000.
+15:31:33.682 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:0056500e:03e90000.
+15:31:33.682 SEDP: New subscription (imu_topic/Vector3) from peer!
+15:31:33.683 SEDP: New publication (imu_topic/Vector3) from peer!
+15:33:26.202 SPDP: Participant (Technicolor Chatroom) [8f937eb8:0056500e:03e90000] removed!
+15:33:26.202 RTPS: matched reader remove (SEDPbuiltinPublicationsWriter) to 8f937eb8:0056500e:03e90000.
+15:33:26.202 RTPS: matched writer remove (SEDPbuiltinPublicationsReader) to 8f937eb8:0056500e:03e90000.
+15:33:26.202 RTPS: matched reader remove (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:0056500e:03e90000.
+15:33:26.202 RTPS: matched writer remove (SEDPbuiltinSubscriptionsReader) to 8f937eb8:0056500e:03e90000.
+15:33:26.202 RTPS: matched reader remove (BuiltinParticipantMessageWriter) to 8f937eb8:0056500e:03e90000.
+15:33:26.202 RTPS: matched writer remove (BuiltinParticipantMessageReader) to 8f937eb8:0056500e:03e90000.
+15:38:28.795 SPDP: New participant (Technicolor Chatroom) [8f937eb8:005750a7:03e90000] detected!
+15:38:28.795 SPDP: Connecting builtin endpoints.
+15:38:28.795 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:005750a7:03e90000.
+15:38:28.795 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:005750a7:03e90000.
+15:38:28.795 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:005750a7:03e90000.
+15:38:28.796 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:005750a7:03e90000.
+15:38:28.796 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:005750a7:03e90000.
+15:38:28.796 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:005750a7:03e90000.
+15:38:28.797 SEDP: New subscription (imu_topic/Vector3) from peer!
+15:38:28.797 SEDP: New publication (imu_topic/Vector3) from peer!
+15:39:07.532 SPDP: New participant (Technicolor Chatroom) [8f937eb8:005850d5:03e90000] detected!
+15:39:07.532 SPDP: Connecting builtin endpoints.
+15:39:07.532 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:005850d5:03e90000.
+15:39:07.532 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:005850d5:03e90000.
+15:39:07.532 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:005850d5:03e90000.
+15:39:07.532 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:005850d5:03e90000.
+15:39:07.532 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:005850d5:03e90000.
+15:39:07.532 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:005850d5:03e90000.
+15:39:07.534 SEDP: New subscription (imu_topic/Vector3) from peer!
+15:39:07.535 SEDP: New publication (imu_topic/Vector3) from peer!
+15:39:19.218 SPDP: Participant (Technicolor Chatroom) [8f937eb8:005750a7:03e90000] removed!
+15:39:19.219 RTPS: matched reader remove (SEDPbuiltinPublicationsWriter) to 8f937eb8:005750a7:03e90000.
+15:39:19.219 RTPS: matched writer remove (SEDPbuiltinPublicationsReader) to 8f937eb8:005750a7:03e90000.
+15:39:19.219 RTPS: matched reader remove (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:005750a7:03e90000.
+15:39:19.219 RTPS: matched writer remove (SEDPbuiltinSubscriptionsReader) to 8f937eb8:005750a7:03e90000.
+15:39:19.219 RTPS: matched reader remove (BuiltinParticipantMessageWriter) to 8f937eb8:005750a7:03e90000.
+15:39:19.219 RTPS: matched writer remove (BuiltinParticipantMessageReader) to 8f937eb8:005750a7:03e90000.
+15:39:57.959 SPDP: Participant (Technicolor Chatroom) [8f937eb8:005850d5:03e90000] removed!
+15:39:57.959 RTPS: matched reader remove (SEDPbuiltinPublicationsWriter) to 8f937eb8:005850d5:03e90000.
+15:39:57.959 RTPS: matched writer remove (SEDPbuiltinPublicationsReader) to 8f937eb8:005850d5:03e90000.
+15:39:57.959 RTPS: matched reader remove (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:005850d5:03e90000.
+15:39:57.959 RTPS: matched writer remove (SEDPbuiltinSubscriptionsReader) to 8f937eb8:005850d5:03e90000.
+15:39:57.959 RTPS: matched reader remove (BuiltinParticipantMessageWriter) to 8f937eb8:005850d5:03e90000.
+15:39:57.959 RTPS: matched writer remove (BuiltinParticipantMessageReader) to 8f937eb8:005850d5:03e90000.
+15:40:08.336 SPDP: New participant (Technicolor Chatroom) [8f937eb8:005850d5:03e90000] detected!
+15:40:08.336 SPDP: Connecting builtin endpoints.
+15:40:08.336 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:005850d5:03e90000.
+15:40:08.336 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:005850d5:03e90000.
+15:40:08.336 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:005850d5:03e90000.
+15:40:08.336 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:005850d5:03e90000.
+15:40:08.336 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:005850d5:03e90000.
+15:40:08.336 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:005850d5:03e90000.
+15:40:13.232 SEDP: New subscription (imu_topic/Vector3) from peer!
+15:40:13.232 SEDP: New publication (imu_topic/Vector3) from peer!
+15:41:53.265 SPDP: Participant (Technicolor Chatroom) [8f937eb8:005850d5:03e90000] removed!
+15:41:53.265 RTPS: matched reader remove (SEDPbuiltinPublicationsWriter) to 8f937eb8:005850d5:03e90000.
+15:41:53.265 RTPS: matched writer remove (SEDPbuiltinPublicationsReader) to 8f937eb8:005850d5:03e90000.
+15:41:53.265 RTPS: matched reader remove (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:005850d5:03e90000.
+15:41:53.265 RTPS: matched writer remove (SEDPbuiltinSubscriptionsReader) to 8f937eb8:005850d5:03e90000.
+15:41:53.265 RTPS: matched reader remove (BuiltinParticipantMessageWriter) to 8f937eb8:005850d5:03e90000.
+15:41:53.265 RTPS: matched writer remove (BuiltinParticipantMessageReader) to 8f937eb8:005850d5:03e90000.
+16:05:47.590 SPDP: New participant (Technicolor Chatroom) [8f937eb8:00595675:03e90000] detected!
+16:05:47.590 SPDP: Connecting builtin endpoints.
+16:05:47.590 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:00595675:03e90000.
+16:05:47.590 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:00595675:03e90000.
+16:05:47.590 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:00595675:03e90000.
+16:05:47.590 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:00595675:03e90000.
+16:05:47.590 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:00595675:03e90000.
+16:05:47.590 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:00595675:03e90000.
+16:05:47.591 SEDP: New subscription (imu_topic/Vector3) from peer!
+16:05:47.591 SEDP: New publication (imu_topic/Vector3) from peer!
+16:06:38.014 SPDP: Participant (Technicolor Chatroom) [8f937eb8:00595675:03e90000] removed!
+16:06:38.014 RTPS: matched reader remove (SEDPbuiltinPublicationsWriter) to 8f937eb8:00595675:03e90000.
+16:06:38.014 RTPS: matched writer remove (SEDPbuiltinPublicationsReader) to 8f937eb8:00595675:03e90000.
+16:06:38.014 RTPS: matched reader remove (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:00595675:03e90000.
+16:06:38.014 RTPS: matched writer remove (SEDPbuiltinSubscriptionsReader) to 8f937eb8:00595675:03e90000.
+16:06:38.014 RTPS: matched reader remove (BuiltinParticipantMessageWriter) to 8f937eb8:00595675:03e90000.
+16:06:38.014 RTPS: matched writer remove (BuiltinParticipantMessageReader) to 8f937eb8:00595675:03e90000.
+16:06:57.516 SPDP: New participant (Technicolor Chatroom) [8f937eb8:005a56b9:03e90000] detected!
+16:06:57.516 SPDP: Connecting builtin endpoints.
+16:06:57.516 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:005a56b9:03e90000.
+16:06:57.517 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:005a56b9:03e90000.
+16:06:57.517 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:005a56b9:03e90000.
+16:06:57.517 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:005a56b9:03e90000.
+16:06:57.517 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:005a56b9:03e90000.
+16:06:57.517 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:005a56b9:03e90000.
+16:06:57.518 SEDP: New subscription (imu_topic/Vector3) from peer!
+16:06:57.519 SEDP: New publication (imu_topic/Vector3) from peer!
+16:08:29.651 SPDP: Participant (Technicolor Chatroom) [8f937eb8:005a56b9:03e90000] removed!
+16:08:29.651 RTPS: matched reader remove (SEDPbuiltinPublicationsWriter) to 8f937eb8:005a56b9:03e90000.
+16:08:29.651 RTPS: matched writer remove (SEDPbuiltinPublicationsReader) to 8f937eb8:005a56b9:03e90000.
+16:08:29.651 RTPS: matched reader remove (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:005a56b9:03e90000.
+16:08:29.651 RTPS: matched writer remove (SEDPbuiltinSubscriptionsReader) to 8f937eb8:005a56b9:03e90000.
+16:08:29.651 RTPS: matched reader remove (BuiltinParticipantMessageWriter) to 8f937eb8:005a56b9:03e90000.
+16:08:29.651 RTPS: matched writer remove (BuiltinParticipantMessageReader) to 8f937eb8:005a56b9:03e90000.
+16:46:43.246 SPDP: New participant (Technicolor Chatroom) [8f937eb8:005b7987:03e90000] detected!
+16:46:43.246 SPDP: Connecting builtin endpoints.
+16:46:43.246 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:005b7987:03e90000.
+16:46:43.246 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:005b7987:03e90000.
+16:46:43.246 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:005b7987:03e90000.
+16:46:43.246 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:005b7987:03e90000.
+16:46:43.246 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:005b7987:03e90000.
+16:46:43.246 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:005b7987:03e90000.
+16:46:43.247 SEDP: New subscription (imu_topic/Vector3) from peer!
+16:46:43.247 SEDP: New publication (imu_topic/Vector3) from peer!
+16:47:43.671 SPDP: Participant (Technicolor Chatroom) [8f937eb8:005b7987:03e90000] removed!
+16:47:43.671 RTPS: matched reader remove (SEDPbuiltinPublicationsWriter) to 8f937eb8:005b7987:03e90000.
+16:47:43.671 RTPS: matched writer remove (SEDPbuiltinPublicationsReader) to 8f937eb8:005b7987:03e90000.
+16:47:43.671 RTPS: matched reader remove (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:005b7987:03e90000.
+16:47:43.671 RTPS: matched writer remove (SEDPbuiltinSubscriptionsReader) to 8f937eb8:005b7987:03e90000.
+16:47:43.671 RTPS: matched reader remove (BuiltinParticipantMessageWriter) to 8f937eb8:005b7987:03e90000.
+16:47:43.671 RTPS: matched writer remove (BuiltinParticipantMessageReader) to 8f937eb8:005b7987:03e90000.

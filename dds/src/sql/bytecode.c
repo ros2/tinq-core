@@ -209,7 +209,8 @@ static const unsigned char *data_ptr (DBW                   *wp,
 		prefix = ((cp [0] << 8) | cp [1]) >> 1;
 		if (prefix == MODE_CDR || prefix == MODE_PL_CDR) {
 			swap = (cp [1] & 1) ^ ENDIAN_CPU;
-			ofs = cdr_field_offset (cp + ofs, ofs, field, tp,
+			//ofs = cdr_field_offset (cp + ofs, ofs, field, tp,
+			ofs = cdr_field_offset (cp + ofs, CDR_DOFS, field, tp,
 								swap, &error);
 			ofs = ALIGN (ofs, type->align > 8 ? 8 : type->align);
 			if (type->string)
@@ -357,6 +358,13 @@ PROF_PID (bc_prog_pid)
 #ifdef ANDROID
 #define strtold strtod
 #endif
+
+#if defined (NUTTX_RTOS)
+				/* In our architecture and with arm-none-eabi compiler double and long 
+				double have the same size thereby srtold and strtod can be used interchangeably */
+#define strtold strtod
+#endif
+
 
 /* bc_interpret -- Interpret a bytecode program (progcode, proglen), with the
 		   given parameter list (pars, npars) over a data sample (data,

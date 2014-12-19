@@ -1,0 +1,525 @@
+11:32:15.519 List pools created.
+11:32:15.519 String pool initialized.
+11:32:15.519 Typecode pools created.
+11:32:15.519 Typesupport initialized.
+11:32:15.519 Socket handler initialized.
+11:32:15.519 Timer pool initialized.
+11:32:15.519 Data buffer pools created.
+11:32:15.519 Existing host identifier reused.
+11:32:15.520 Unique GUID prefix created: 8f937eb8:0000729f:03e90000
+11:32:15.520 Locator pools created.
+11:32:15.520 History cache pools created.
+11:32:15.520 Entities: reserved=98, maximum=4294967295
+11:32:15.520 Domain pools created.
+11:32:15.520 RTPS Initialised.
+11:32:15.520 IP: scope = link..global
+11:32:15.520 IP interfaces:
+11:32:15.520     eth1     : 172.23.1.215
+11:32:15.520 TCP: local secure TCP server disabled
+11:32:15.520 TCP: local TCP server disabled
+11:32:15.520 RTPS over IPv4 Initialised.
+11:32:15.520 IPv6: scope = site..global
+11:32:15.520 RTPS over IPv6 Initialised.
+11:32:15.520 QoS pools initialized.
+11:32:15.520 DDS: DynamicType_register(ParticipantMessageData): 5 blocks, 416 bytes
+11:32:15.520 DDS: DynamicType_register(BinaryProperty): 3 blocks, 272 bytes
+11:32:15.520 DDS: DynamicType_register(Property): 2 blocks, 216 bytes
+11:32:15.520 DDS: DynamicType_register(DataHolder): 6 blocks, 616 bytes
+11:32:15.521 DDS: DynamicType_register(MessageIdentity): 3 blocks, 272 bytes
+11:32:15.521 DDS: DynamicType_register(ParticipantGenericMessage): 3 blocks, 432 bytes
+11:32:15.521 DDS: DynamicType_register(ParticipantStatelessMessage): 2 blocks, 144 bytes
+11:32:15.521 DDS: DynamicType_register(ParticipantVolatileSecureMessage): 2 blocks, 144 bytes
+11:32:15.521 Discovery initialized.
+11:32:15.521 DCPS Initialised.
+11:32:15.521 DDS: core thread created.
+11:32:15.521 DDS: core thread running.
+11:32:15.521 Security: validate local permissions. 
+11:32:15.521 DDS: domain security mode = 0x0
+11:32:15.521 UDP: adding 172.23.1.215:7759 on [6]
+11:32:15.521 UDP: adding 239.255.0.1:7401 on [7]
+11:32:15.521 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7401
+11:32:15.521 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7401 on 172.23.1.215:7759
+11:32:15.521 RTPS: starting Discovery protocols.
+11:32:15.521 UDP: adding 172.23.1.215:7758 on [8]
+11:32:15.521 UDP: adding 239.255.0.1:7400 on [9]
+11:32:15.521 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7400
+11:32:15.521 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7400 on 172.23.1.215:7758
+11:32:15.521 SPDP: starting protocol for domain #0.
+11:32:15.521 RTPS: writer (SPDPbuiltinParticipantWriter) created.
+11:32:15.521 RTPS: reader (SPDPbuiltinParticipantReader) created.
+11:32:15.521 RTPS: reader (SEDPbuiltinPublicationsReader) created.
+11:32:15.521 RTPS: reader (SEDPbuiltinSubscriptionsReader) created.
+11:32:15.521 RTPS: writer (SEDPbuiltinPublicationsWriter) created.
+11:32:15.521 RTPS: writer (SEDPbuiltinSubscriptionsWriter) created.
+11:32:15.521 RTPS: reader (BuiltinParticipantMessageReader) created.
+11:32:15.521 RTPS: writer (BuiltinParticipantMessageWriter) created.
+11:32:15.521 SPDP: registering Participant key.
+11:32:15.521 SPDP: Send Participant data.
+11:32:15.522 DDS: DynamicTypeSupport_create_type_support(Vector3): 1 blocks, 104 bytes
+11:32:15.522 SEDP: Writer (imu/simple_msgs::dds_::Vector3_) added.
+11:32:15.522 SEDP: Send publication (imu/simple_msgs::dds_::Vector3_)
+11:32:15.522 SEDP: Reader (imu/simple_msgs::dds_::Vector3_) added.
+11:32:15.522 SEDP: Send subscription (imu/simple_msgs::dds_::Vector3_)
+11:32:16.217 SPDP: New participant detected!
+11:32:16.217 SPDP: Connecting builtin endpoints.
+11:32:16.217 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to ac1701d7:00007297:00000001.
+11:32:16.218 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to ac1701d7:00007297:00000001.
+11:32:16.218 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to ac1701d7:00007297:00000001.
+11:32:16.218 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to ac1701d7:00007297:00000001.
+11:32:19.024 Domain 0 (pid=174): {1}
+11:32:19.025 	GUID prefix: 8f937eb8:00ae729f:03e90000
+11:32:19.025 	RTPS Protocol version: v2.1
+11:32:19.025 	Vendor Id: 1.14 - Technicolor, Inc. - Qeo
+11:32:19.025 	Technicolor DDS version: 4.0-0, Forward: 0
+11:32:19.025 	SecureTransport: none
+11:32:19.025 	Authorisation: Authenticated
+11:32:19.025 	Entity name: Technicolor Chatroom
+11:32:19.025 	Flags: Enabled
+11:32:19.025 	Meta Unicast: 
+11:32:19.025 		UDP:172.23.1.215:7758(3) {MD,UC} H:3
+11:32:19.025 	Meta Multicast: 
+11:32:19.025 		UDP:239.255.0.1:7400(4) {MD,MC} H:4
+11:32:19.025 	Default Unicast: 
+11:32:19.025 		UDP:172.23.1.215:7759(1) {UD,UC} H:1
+11:32:19.025 	Default Multicast: 
+11:32:19.025 		UDP:239.255.0.1:7401(2) {UD,MC} H:2
+11:32:19.025 	Manual Liveliness: 0
+11:32:19.025 	Lease duration: 50.000000000s
+11:32:19.025 	Endpoints: 10 entries (5 readers, 5 writers).
+11:32:19.025 		000001-3, {22}, InlineQoS: No, Writer, imu/simple_msgs::dds_::Vector3_
+11:32:19.025 		000002-4, {24}, InlineQoS: No, Reader, imu/simple_msgs::dds_::Vector3_
+11:32:19.025 	Topics: 
+11:32:19.025 	    BuiltinParticipantMessageReader/ParticipantMessageData 
+11:32:19.026 	    BuiltinParticipantMessageWriter/ParticipantMessageData 
+11:32:19.026 	    SEDPbuiltinPublicationsReader/PublicationBuiltinTopicData 
+11:32:19.026 	    SEDPbuiltinPublicationsWriter/PublicationBuiltinTopicData 
+11:32:19.026 	    SEDPbuiltinSubscriptionsReader/SubscriptionBuiltinTopicData 
+11:32:19.026 	    SEDPbuiltinSubscriptionsWriter/SubscriptionBuiltinTopicData 
+11:32:19.026 	    SPDPbuiltinParticipantReader/ParticipantBuiltinTopicData 
+11:32:19.026 	    SPDPbuiltinParticipantWriter/ParticipantBuiltinTopicData 
+11:32:19.026 	    imu/simple_msgs::dds_::Vector3_ 
+11:32:19.026 	Security: level=Unclassified, access=any, RTPS=clear
+11:32:19.026 	Resend period: 10.000000000s
+11:32:19.026 	Destination Locators: 
+11:32:19.026 		UDP:239.255.0.1:7400(4) {MD,MC} H:4
+11:32:19.026 		TCP:239.255.0.1:7400 {MD,MC}
+11:32:19.026 	Discovered participants:
+11:32:19.026 	    Peer #0: {25} - Local activity: 0.08s
+11:32:19.026 		GUID prefix: ac1701d7:00007297:00000001
+11:32:19.026 		RTPS Protocol version: v2.1
+11:32:19.026 		Vendor Id: 1.1 - Real-Time Innovations, Inc. - Connext DDS
+11:32:19.026 		Meta Unicast: 
+11:32:19.026 			UDPv6:2:7:207:::7410 {MD,UC}
+11:32:19.026 			UDP:172.23.1.215:7410 {MD,UC}
+11:32:19.026 		Meta Multicast: 
+11:32:19.026 			UDP:239.255.0.1:7400(4) {MD,MC} H:4
+11:32:19.026 		Default Unicast: 
+11:32:19.026 			UDPv6:2:7:207:::7411 {UD,UC}
+11:32:19.027 			UDP:172.23.1.215:7411 {UD,UC}
+11:32:19.027 		Manual Liveliness: 0
+11:32:19.027 		Lease duration: 100.000000000s
+11:32:19.027 		Endpoints: 4 entries (2 readers, 2 writers).
+11:32:19.027 		Topics:  <none>
+11:32:19.027 		Source: 
+11:32:19.027 			UDP:172.23.1.215:35149 {MD,UC}
+11:32:19.027 		Timer = 99.21s
+11:32:29.935 Domain 0 (pid=174): {1}
+11:32:29.935 	GUID prefix: 8f937eb8:00ae729f:03e90000
+11:32:29.935 	RTPS Protocol version: v2.1
+11:32:29.935 	Vendor Id: 1.14 - Technicolor, Inc. - Qeo
+11:32:29.935 	Technicolor DDS version: 4.0-0, Forward: 0
+11:32:29.935 	SecureTransport: none
+11:32:29.935 	Authorisation: Authenticated
+11:32:29.935 	Entity name: Technicolor Chatroom
+11:32:29.935 	Flags: Enabled
+11:32:29.935 	Meta Unicast: 
+11:32:29.935 		UDP:172.23.1.215:7758(3) {MD,UC} H:3
+11:32:29.935 	Meta Multicast: 
+11:32:29.935 		UDP:239.255.0.1:7400(4) {MD,MC} H:4
+11:32:29.935 	Default Unicast: 
+11:32:29.935 		UDP:172.23.1.215:7759(1) {UD,UC} H:1
+11:32:29.935 	Default Multicast: 
+11:32:29.935 		UDP:239.255.0.1:7401(2) {UD,MC} H:2
+11:32:29.935 	Manual Liveliness: 0
+11:32:29.935 	Lease duration: 50.000000000s
+11:32:29.935 	Endpoints: 10 entries (5 readers, 5 writers).
+11:32:29.935 		000001-3, {22}, InlineQoS: No, Writer, imu/simple_msgs::dds_::Vector3_
+11:32:29.935 		000002-4, {24}, InlineQoS: No, Reader, imu/simple_msgs::dds_::Vector3_
+11:32:29.935 	Topics: 
+11:32:29.935 	    BuiltinParticipantMessageReader/ParticipantMessageData 
+11:32:29.935 	    BuiltinParticipantMessageWriter/ParticipantMessageData 
+11:32:29.935 	    SEDPbuiltinPublicationsReader/PublicationBuiltinTopicData 
+11:32:29.935 	    SEDPbuiltinPublicationsWriter/PublicationBuiltinTopicData 
+11:32:29.935 	    SEDPbuiltinSubscriptionsReader/SubscriptionBuiltinTopicData 
+11:32:29.935 	    SEDPbuiltinSubscriptionsWriter/SubscriptionBuiltinTopicData 
+11:32:29.935 	    SPDPbuiltinParticipantReader/ParticipantBuiltinTopicData 
+11:32:29.935 	    SPDPbuiltinParticipantWriter/ParticipantBuiltinTopicData 
+11:32:29.935 	    imu/simple_msgs::dds_::Vector3_ 
+11:32:29.935 	Security: level=Unclassified, access=any, RTPS=clear
+11:32:29.935 	Resend period: 10.000000000s
+11:32:29.935 	Destination Locators: 
+11:32:29.935 		UDP:239.255.0.1:7400(4) {MD,MC} H:4
+11:32:29.935 		TCP:239.255.0.1:7400 {MD,MC}
+11:32:29.935 	Discovered participants:
+11:32:29.935 	    Peer #0: {25} - Local activity: 9.07s
+11:32:29.936 		GUID prefix: ac1701d7:00007297:00000001
+11:32:29.936 		RTPS Protocol version: v2.1
+11:32:29.936 		Vendor Id: 1.1 - Real-Time Innovations, Inc. - Connext DDS
+11:32:29.936 		Meta Unicast: 
+11:32:29.936 			UDPv6:2:7:207:::7410 {MD,UC}
+11:32:29.936 			UDP:172.23.1.215:7410 {MD,UC}
+11:32:29.936 		Meta Multicast: 
+11:32:29.936 			UDP:239.255.0.1:7400(4) {MD,MC} H:4
+11:32:29.936 		Default Unicast: 
+11:32:29.936 			UDPv6:2:7:207:::7411 {UD,UC}
+11:32:29.936 			UDP:172.23.1.215:7411 {UD,UC}
+11:32:29.936 		Manual Liveliness: 0
+11:32:29.936 		Lease duration: 100.000000000s
+11:32:29.936 		Endpoints: 4 entries (2 readers, 2 writers).
+11:32:29.936 		Topics:  <none>
+11:32:29.936 		Source: 
+11:32:29.936 			UDP:172.23.1.215:35149 {MD,UC}
+11:32:29.936 		Timer = 90.30s
+11:33:33.282 DCPS:
+11:33:33.282     0/000001-03 W{22}	0	imu/simple_msgs::dds_::Vector3_
+11:33:33.282     0/000002-04 R{24}	0	imu/simple_msgs::dds_::Vector3_
+11:33:33.282     0/000003-c2 W{13}	1/1	SEDPbuiltinPublicationsWriter/PublicationBuiltinTopicData
+11:33:33.282     0/000003-c7 R{9}	0/0	SEDPbuiltinPublicationsReader/PublicationBuiltinTopicData
+11:33:33.282     0/000004-c2 W{15}	1/1	SEDPbuiltinSubscriptionsWriter/SubscriptionBuiltinTopicData
+11:33:33.282     0/000004-c7 R{11}	0/0	SEDPbuiltinSubscriptionsReader/SubscriptionBuiltinTopicData
+11:33:33.282     0/000100-c2 W{5}	1/1	SPDPbuiltinParticipantWriter/ParticipantBuiltinTopicData
+11:33:33.282     0/000100-c7 R{7}	0/0	SPDPbuiltinParticipantReader/ParticipantBuiltinTopicData
+11:33:33.282     0/000200-c2 W{19}	0/0	BuiltinParticipantMessageWriter/ParticipantMessageData
+11:33:33.282     0/000200-c7 R{17}	0/0	BuiltinParticipantMessageReader/ParticipantMessageData
+11:33:33.282 RTPS:
+11:33:33.282     0/000003-c2 W{13}	1/1	SEDPbuiltinPublicationsWriter/PublicationBuiltinTopicData
+11:33:33.282 			    ->	GUID: ac1701d7:00007297:00000001-000003-c7 {26}
+11:33:33.282     0/000003-c7 R{9}	0/0	SEDPbuiltinPublicationsReader/PublicationBuiltinTopicData
+11:33:33.282 			    ->	GUID: ac1701d7:00007297:00000001-000003-c2 {27}
+11:33:33.282     0/000004-c2 W{15}	1/1	SEDPbuiltinSubscriptionsWriter/SubscriptionBuiltinTopicData
+11:33:33.282 			    ->	GUID: ac1701d7:00007297:00000001-000004-c7 {28}
+11:33:33.283     0/000004-c7 R{11}	0/0	SEDPbuiltinSubscriptionsReader/SubscriptionBuiltinTopicData
+11:33:33.283 			    ->	GUID: ac1701d7:00007297:00000001-000004-c2 {29}
+11:33:33.283     0/000100-c2 W{5}	2/1	SPDPbuiltinParticipantWriter/ParticipantBuiltinTopicData
+11:33:33.283 			    ->	Locator: UDP:239.255.0.1:7400(4) {5}
+11:33:33.283 			    ->	Locator: TCP:239.255.0.1:7400 {5}
+11:33:33.283     0/000100-c7 R{7}	0/0	SPDPbuiltinParticipantReader/ParticipantBuiltinTopicData
+11:33:33.283     0/000200-c2 W{19}	0/0	BuiltinParticipantMessageWriter/ParticipantMessageData
+11:33:33.283     0/000200-c7 R{17}	0/0	BuiltinParticipantMessageReader/ParticipantMessageData
+11:33:43.190 TDDS Debug shell -- (c) Technicolor, 2012
+11:33:43.190 Following commands are available:
+11:33:43.190 	ssys                  Display system-specific data.
+11:33:43.190 	stimer                Display the timers.
+11:33:43.190 	sstr                  Display the string cache.
+11:33:43.190 	spool                 Display the pools.
+11:33:43.190 	spoola                Display the pools (extended).
+11:33:43.190 	scx [<cx>]            Display connections.
+11:33:43.190 	scxa [<cx>]           Display connections (extended).
+11:33:43.190 	scxq                  Display queued connections.
+11:33:43.190 	sloc                  Display locators.
+11:33:43.190 	sconfig               Display configuration data.
+11:33:43.190 	sdomain <d> <lf> <rf> Display domain (d) info.
+11:33:43.190 	                      <lf> and <rf> are bitmaps for local/remote info.
+11:33:43.190 	                      1=Locator, 2=Builtin, 4=Endp, 8=Type, 10=Topic.
+11:33:43.190 	sdisc                 Display discovery info.
+11:33:43.190 	sdisca                Display all discovery info (sdisc + endpoints)
+11:33:43.190 	stype [<name>]        Display Type information.
+11:33:43.190 	sqos                  Display QoS parameters.
+11:33:43.190 	stopic <d> [<name>]   Display Topic information.
+11:33:43.190 	sendpoints            Display the DCPS/RTPS Readers/Writers.
+11:33:43.190 	scache <ep>           Display an RTPS Endpoint Cache.
+11:33:43.190 	sdcache <ep>          Display a DCPS Endpoint Cache.
+11:33:43.190 	qcache <ep> [<query>] Query cache data of the specified endpoint:
+11:33:43.190 	                      where: <ep>: endpoint, <query>: SQL Query string.
+11:33:43.190 	sproxy [<ep>]         Display Proxy contexts.
+11:33:43.191 	rproxy [<ep>]         Restart Proxy context.
+11:33:43.191 	seqos <ep>            Display endpoint QoS parameters.
+11:33:43.191 	scrypto <ep>          Display entity crypto parameters.
+11:33:43.191 	sscache               Display security cache.
+11:33:43.191 	rehs                  Request a rehandshake.
+11:33:43.191 	srx                   Display the RTPS Receiver context.
+11:33:43.191 	stx                   Display the RTPS Transmitter context.
+11:33:43.191 	sfd                   Display the status of the file descriptors.
+11:33:43.191 	asp <d>               Assert participant.
+11:33:43.191 	ase <ep>              Assert writer endpoint.
+11:33:43.191 	dtls                  Display DTLS connection related info.
+11:33:43.191 	spdb                  Display the policy database.
+11:33:43.191 	sfwd                  Display the forwarder state.
+11:33:43.191 	ftrace <n>            Start forwarder tracing for <n> events.
+11:33:43.191 	d [<p> [<n>]]         Dump memory.
+11:33:43.191 	da [<p> [<n>]]        Dump memory in ASCII.
+11:33:43.191 	db [<p> [<n>]]        Dump memory in hex bytes.
+11:33:43.191 	ds [<p> [<n>]]        Dump memory in hex 16-bit values.
+11:33:43.191 	dl [<p> [<n>]]        Dump memory in hex 32-bit values.
+11:33:43.191 	dm [<p> [<n>]]        Dump memory in mixed hex/ASCII.
+11:33:43.191 	indent <tab> <n>      Set indent type (if <tab>=1: use TABs).
+11:33:43.191 	taflags <flags>       Set type attribute display flags.
+11:33:43.191 	                      <flags>: 1=header, 2=size, 4=elsize, 8=ofs.
+11:33:43.191 	server [<port>]       Start debug server on the given port.
+11:33:43.191 	env                   Display configuration data (=sconf).
+11:33:43.191 	set <var> <value>     Set the configuration variable to given value.
+11:33:43.191 	unset <var>           Unset the configuration variable.
+11:33:43.191 	suspend <value>       Suspend with given mode.
+11:33:43.191 	activate <value>      Activate with given mode.
+11:33:43.191 	help                  Display general help.
+11:33:43.191 	exit                  Close remote connection.
+11:33:54.499 ?number expected!
+11:33:54.499 BuiltinParticipantMessageReader/ParticipantMessageData:
+11:33:54.499 	# of local create/find_topic() calls = 1, # of discoveries = 0
+11:33:54.499 	Writers: <none>
+11:33:54.499 	Readers:
+11:33:54.499 		R:  {17}	8f937eb8:00ae729f:03e90000-000200-c7
+11:33:54.499 BuiltinParticipantMessageWriter/ParticipantMessageData:
+11:33:54.500 	# of local create/find_topic() calls = 1, # of discoveries = 0
+11:33:54.500 	Writers:
+11:33:54.500 		W:  {19}	8f937eb8:00ae729f:03e90000-000200-c2
+11:33:54.500 	Readers: <none>
+11:33:54.500 SEDPbuiltinPublicationsReader/PublicationBuiltinTopicData:
+11:33:54.500 	# of local create/find_topic() calls = 1, # of discoveries = 0
+11:33:54.500 	Writers:
+11:33:54.500 		DW: {27}	ac1701d7:00007297:00000001-000003-c2
+11:33:54.500 	Readers:
+11:33:54.500 		R:  {9}	8f937eb8:00ae729f:03e90000-000003-c7
+11:33:54.500 SEDPbuiltinPublicationsWriter/PublicationBuiltinTopicData:
+11:33:54.500 	# of local create/find_topic() calls = 1, # of discoveries = 0
+11:33:54.500 	Writers:
+11:33:54.500 		W:  {13}	8f937eb8:00ae729f:03e90000-000003-c2
+11:33:54.500 	Readers:
+11:33:54.500 		DR: {26}	ac1701d7:00007297:00000001-000003-c7
+11:33:54.500 SEDPbuiltinSubscriptionsReader/SubscriptionBuiltinTopicData:
+11:33:54.500 	# of local create/find_topic() calls = 1, # of discoveries = 0
+11:33:54.500 	Writers:
+11:33:54.500 		DW: {29}	ac1701d7:00007297:00000001-000004-c2
+11:33:54.500 	Readers:
+11:33:54.500 		R:  {11}	8f937eb8:00ae729f:03e90000-000004-c7
+11:33:54.500 SEDPbuiltinSubscriptionsWriter/SubscriptionBuiltinTopicData:
+11:33:54.500 	# of local create/find_topic() calls = 1, # of discoveries = 0
+11:33:54.500 	Writers:
+11:33:54.500 		W:  {15}	8f937eb8:00ae729f:03e90000-000004-c2
+11:33:54.501 	Readers:
+11:33:54.501 		DR: {28}	ac1701d7:00007297:00000001-000004-c7
+11:33:54.501 SPDPbuiltinParticipantReader/ParticipantBuiltinTopicData:
+11:33:54.501 	# of local create/find_topic() calls = 1, # of discoveries = 0
+11:33:54.501 	Writers: <none>
+11:33:54.501 	Readers:
+11:33:54.501 		R:  {7}	8f937eb8:00ae729f:03e90000-000100-c7
+11:33:54.501 SPDPbuiltinParticipantWriter/ParticipantBuiltinTopicData:
+11:33:54.501 	# of local create/find_topic() calls = 1, # of discoveries = 0
+11:33:54.501 	Writers:
+11:33:54.501 		W:  {5}	8f937eb8:00ae729f:03e90000-000100-c2
+11:33:54.501 	Readers: <none>
+11:33:54.501 imu/simple_msgs::dds_::Vector3_:
+11:33:54.501 	# of local create/find_topic() calls = 1, # of discoveries = 0
+11:33:54.501 	Writers:
+11:33:54.501 		W:  {22}	8f937eb8:00ae729f:03e90000-000001-3
+11:33:54.501 	Readers:
+11:33:54.501 		R:  {24}	8f937eb8:00ae729f:03e90000-000002-4
+11:34:03.308 TDDS Debug shell -- (c) Technicolor, 2012
+11:34:03.308 Following commands are available:
+11:34:03.308 	ssys                  Display system-specific data.
+11:34:03.308 	stimer                Display the timers.
+11:34:03.308 	sstr                  Display the string cache.
+11:34:03.308 	spool                 Display the pools.
+11:34:03.308 	spoola                Display the pools (extended).
+11:34:03.308 	scx [<cx>]            Display connections.
+11:34:03.308 	scxa [<cx>]           Display connections (extended).
+11:34:03.308 	scxq                  Display queued connections.
+11:34:03.308 	sloc                  Display locators.
+11:34:03.308 	sconfig               Display configuration data.
+11:34:03.308 	sdomain <d> <lf> <rf> Display domain (d) info.
+11:34:03.308 	                      <lf> and <rf> are bitmaps for local/remote info.
+11:34:03.308 	                      1=Locator, 2=Builtin, 4=Endp, 8=Type, 10=Topic.
+11:34:03.308 	sdisc                 Display discovery info.
+11:34:03.308 	sdisca                Display all discovery info (sdisc + endpoints)
+11:34:03.308 	stype [<name>]        Display Type information.
+11:34:03.308 	sqos                  Display QoS parameters.
+11:34:03.308 	stopic <d> [<name>]   Display Topic information.
+11:34:03.308 	sendpoints            Display the DCPS/RTPS Readers/Writers.
+11:34:03.309 	scache <ep>           Display an RTPS Endpoint Cache.
+11:34:03.309 	sdcache <ep>          Display a DCPS Endpoint Cache.
+11:34:03.309 	qcache <ep> [<query>] Query cache data of the specified endpoint:
+11:34:03.309 	                      where: <ep>: endpoint, <query>: SQL Query string.
+11:34:03.309 	sproxy [<ep>]         Display Proxy contexts.
+11:34:03.309 	rproxy [<ep>]         Restart Proxy context.
+11:34:03.309 	seqos <ep>            Display endpoint QoS parameters.
+11:34:03.309 	scrypto <ep>          Display entity crypto parameters.
+11:34:03.309 	sscache               Display security cache.
+11:34:03.309 	rehs                  Request a rehandshake.
+11:34:03.309 	srx                   Display the RTPS Receiver context.
+11:34:03.309 	stx                   Display the RTPS Transmitter context.
+11:34:03.309 	sfd                   Display the status of the file descriptors.
+11:34:03.309 	asp <d>               Assert participant.
+11:34:03.309 	ase <ep>              Assert writer endpoint.
+11:34:03.309 	dtls                  Display DTLS connection related info.
+11:34:03.309 	spdb                  Display the policy database.
+11:34:03.309 	sfwd                  Display the forwarder state.
+11:34:03.309 	ftrace <n>            Start forwarder tracing for <n> events.
+11:34:03.309 	d [<p> [<n>]]         Dump memory.
+11:34:03.309 	da [<p> [<n>]]        Dump memory in ASCII.
+11:34:03.309 	db [<p> [<n>]]        Dump memory in hex bytes.
+11:34:03.309 	ds [<p> [<n>]]        Dump memory in hex 16-bit values.
+11:34:03.309 	dl [<p> [<n>]]        Dump memory in hex 32-bit values.
+11:34:03.309 	dm [<p> [<n>]]        Dump memory in mixed hex/ASCII.
+11:34:03.309 	indent <tab> <n>      Set indent type (if <tab>=1: use TABs).
+11:34:03.309 	taflags <flags>       Set type attribute display flags.
+11:34:03.310 	                      <flags>: 1=header, 2=size, 4=elsize, 8=ofs.
+11:34:03.310 	server [<port>]       Start debug server on the given port.
+11:34:03.310 	env                   Display configuration data (=sconf).
+11:34:03.310 	set <var> <value>     Set the configuration variable to given value.
+11:34:03.310 	unset <var>           Unset the configuration variable.
+11:34:03.310 	suspend <value>       Suspend with given mode.
+11:34:03.310 	activate <value>      Activate with given mode.
+11:34:03.310 	help                  Display general help.
+11:34:03.310 	exit                  Close remote connection.
+11:34:13.117 ?number expected!
+11:34:13.117 BuiltinParticipantMessageReader/ParticipantMessageData:
+11:34:13.117 	# of local create/find_topic() calls = 1, # of discoveries = 0
+11:34:13.117 	Writers: <none>
+11:34:13.117 	Readers:
+11:34:13.117 		R:  {17}	8f937eb8:00ae729f:03e90000-000200-c7
+11:34:13.117 BuiltinParticipantMessageWriter/ParticipantMessageData:
+11:34:13.117 	# of local create/find_topic() calls = 1, # of discoveries = 0
+11:34:13.117 	Writers:
+11:34:13.117 		W:  {19}	8f937eb8:00ae729f:03e90000-000200-c2
+11:34:13.117 	Readers: <none>
+11:34:13.117 SEDPbuiltinPublicationsReader/PublicationBuiltinTopicData:
+11:34:13.117 	# of local create/find_topic() calls = 1, # of discoveries = 0
+11:34:13.117 	Writers:
+11:34:13.118 		DW: {27}	ac1701d7:00007297:00000001-000003-c2
+11:34:13.118 	Readers:
+11:34:13.118 		R:  {9}	8f937eb8:00ae729f:03e90000-000003-c7
+11:34:13.118 SEDPbuiltinPublicationsWriter/PublicationBuiltinTopicData:
+11:34:13.118 	# of local create/find_topic() calls = 1, # of discoveries = 0
+11:34:13.118 	Writers:
+11:34:13.118 		W:  {13}	8f937eb8:00ae729f:03e90000-000003-c2
+11:34:13.118 	Readers:
+11:34:13.118 		DR: {26}	ac1701d7:00007297:00000001-000003-c7
+11:34:13.118 SEDPbuiltinSubscriptionsReader/SubscriptionBuiltinTopicData:
+11:34:13.118 	# of local create/find_topic() calls = 1, # of discoveries = 0
+11:34:13.118 	Writers:
+11:34:13.118 		DW: {29}	ac1701d7:00007297:00000001-000004-c2
+11:34:13.118 	Readers:
+11:34:13.118 		R:  {11}	8f937eb8:00ae729f:03e90000-000004-c7
+11:34:13.118 SEDPbuiltinSubscriptionsWriter/SubscriptionBuiltinTopicData:
+11:34:13.118 	# of local create/find_topic() calls = 1, # of discoveries = 0
+11:34:13.118 	Writers:
+11:34:13.118 		W:  {15}	8f937eb8:00ae729f:03e90000-000004-c2
+11:34:13.118 	Readers:
+11:34:13.118 		DR: {28}	ac1701d7:00007297:00000001-000004-c7
+11:34:13.118 SPDPbuiltinParticipantReader/ParticipantBuiltinTopicData:
+11:34:13.118 	# of local create/find_topic() calls = 1, # of discoveries = 0
+11:34:13.118 	Writers: <none>
+11:34:13.118 	Readers:
+11:34:13.118 		R:  {7}	8f937eb8:00ae729f:03e90000-000100-c7
+11:34:13.119 SPDPbuiltinParticipantWriter/ParticipantBuiltinTopicData:
+11:34:13.119 	# of local create/find_topic() calls = 1, # of discoveries = 0
+11:34:13.119 	Writers:
+11:34:13.119 		W:  {5}	8f937eb8:00ae729f:03e90000-000100-c2
+11:34:13.119 	Readers: <none>
+11:34:13.119 imu/simple_msgs::dds_::Vector3_:
+11:34:13.119 	# of local create/find_topic() calls = 1, # of discoveries = 0
+11:34:13.119 	Writers:
+11:34:13.119 		W:  {22}	8f937eb8:00ae729f:03e90000-000001-3
+11:34:13.119 	Readers:
+11:34:13.119 		R:  {24}	8f937eb8:00ae729f:03e90000-000002-4
+11:34:20.825 0/000003-c2 W{13} - SEDPbuiltinPublicationsWriter/PublicationBuiltinTopicData:
+11:34:20.825     GUID: ac1701d7:00007297:00000001-000003-c7 {26} - 
+11:34:20.826 	InlineQoS=0, Reliable=1, Active=0, Marshall=1, MCast=1, Tunnel=0
+11:34:20.826 	States (Control/Tx/Ack): READY/ANNOUNCING/WAITING
+11:34:20.826 	Changes: : (1)
+11:34:20.826 		{UNDERWAY:1	[0x7f4a18000f90*1:ALIVE:h=1,0.1]}
+11:34:20.826 	LastAck=0
+11:34:20.826 	Unicast locators: 
+11:34:20.826 		UDP:172.23.1.215:7410
+11:34:20.826 	Multicast locators: 
+11:34:20.826 		UDP:239.255.0.1:7400(4)
+11:34:20.826 	Direct reply locator: not set
+11:34:20.826 	Last: 0.1, Nack-timer: 0.14s, local=1, remote=0
+11:34:20.826 	# of DATA messages sent:     1
+11:34:20.826 	# of GAPs sent:              0
+11:34:20.826 	# of HEARTBEATs sent:        45
+11:34:20.826 	# of ACKNACKs received:      0
+11:34:20.826 	# of DATAFRAG messages sent: 0
+11:34:20.826 	# of HEARTBEATFRAGs sent:    0
+11:34:20.826 	# of NACKFRAGs received:     0
+11:34:20.826 	Next GUID: (nil)
+11:34:20.827 0/000003-c7 R{9} - SEDPbuiltinPublicationsReader/PublicationBuiltinTopicData:
+11:34:20.827     GUID: ac1701d7:00007297:00000001-000003-c2 {27} - 
+11:34:20.827 	Reliable=1, Active=0, MCast=1, Tunnel=0
+11:34:20.827 	States (Control/Ack): READY/WAITING
+11:34:20.827 	Changes: : (0)
+11:34:20.827 	LastHeartbeat=0
+11:34:20.827 	Unicast locators: 
+11:34:20.827 		UDP:172.23.1.215:7410
+11:34:20.827 	Multicast locators: 
+11:34:20.827 		UDP:239.255.0.1:7400(4)
+11:34:20.827 	Direct reply locator: not set
+11:34:20.827 	Next: 0.1, Heartbeat-timer: 0.07s, LocalInst=1, RemoteInst=0
+11:34:20.827 	# of DATA messages received: 0
+11:34:20.827 	# of GAPs received:          0
+11:34:20.827 	# of HEARTBEATs received:    0
+11:34:20.827 	# of ACKNACKs sent:          1039
+11:34:20.827 	# of DATAFRAG messages recvd:0
+11:34:20.827 	# of HEARTBEATFRAGs received:0
+11:34:20.827 	# of NACKFRAGs sent:         0
+11:34:20.827 	Next GUID: (nil)
+11:34:20.827 0/000004-c2 W{15} - SEDPbuiltinSubscriptionsWriter/SubscriptionBuiltinTopicData:
+11:34:20.827     GUID: ac1701d7:00007297:00000001-000004-c7 {28} - 
+11:34:20.827 	InlineQoS=0, Reliable=1, Active=0, Marshall=1, MCast=1, Tunnel=0
+11:34:20.828 	States (Control/Tx/Ack): READY/ANNOUNCING/WAITING
+11:34:20.828 	Changes: : (1)
+11:34:20.828 		{UNDERWAY:1	[0x7f4a18001f70*1:ALIVE:h=1,0.1]}
+11:34:20.828 	LastAck=0
+11:34:20.828 	Unicast locators: 
+11:34:20.828 		UDP:172.23.1.215:7410
+11:34:20.828 	Multicast locators: 
+11:34:20.828 		UDP:239.255.0.1:7400(4)
+11:34:20.828 	Direct reply locator: not set
+11:34:20.828 	Last: 0.1, Nack-timer: 0.14s, local=2, remote=0
+11:34:20.828 	# of DATA messages sent:     1
+11:34:20.828 	# of GAPs sent:              0
+11:34:20.828 	# of HEARTBEATs sent:        39
+11:34:20.828 	# of ACKNACKs received:      0
+11:34:20.828 	# of DATAFRAG messages sent: 0
+11:34:20.828 	# of HEARTBEATFRAGs sent:    0
+11:34:20.828 	# of NACKFRAGs received:     0
+11:34:20.828 	Next GUID: (nil)
+11:34:20.828 0/000004-c7 R{11} - SEDPbuiltinSubscriptionsReader/SubscriptionBuiltinTopicData:
+11:34:20.828     GUID: ac1701d7:00007297:00000001-000004-c2 {29} - 
+11:34:20.828 	Reliable=1, Active=0, MCast=1, Tunnel=0
+11:34:20.828 	States (Control/Ack): READY/WAITING
+11:34:20.828 	Changes: : (0)
+11:34:20.828 	LastHeartbeat=0
+11:34:20.828 	Unicast locators: 
+11:34:20.828 		UDP:172.23.1.215:7410
+11:34:20.828 	Multicast locators: 
+11:34:20.828 		UDP:239.255.0.1:7400(4)
+11:34:20.829 	Direct reply locator: not set
+11:34:20.829 	Next: 0.1, Heartbeat-timer: 0.07s, LocalInst=2, RemoteInst=0
+11:34:20.829 	# of DATA messages received: 0
+11:34:20.829 	# of GAPs received:          0
+11:34:20.829 	# of HEARTBEATs received:    0
+11:34:20.829 	# of ACKNACKs sent:          1039
+11:34:20.829 	# of DATAFRAG messages recvd:0
+11:34:20.829 	# of HEARTBEATFRAGs received:0
+11:34:20.829 	# of NACKFRAGs sent:         0
+11:34:20.829 	Next GUID: (nil)
+11:34:20.829 0/000100-c2 W{5} - SPDPbuiltinParticipantWriter/ParticipantBuiltinTopicData:
+11:34:20.829     UDP:239.255.0.1:7400(4) - 
+11:34:20.829 	InlineQoS=0, Reliable=0, Active=0, Marshall=1, MCast=1, Tunnel=0
+11:34:20.829 	States (Control/Tx/Ack): READY/IDLE/WAITING
+11:34:20.829 	Changes: : (1)
+11:34:20.829 		{UNDERWAY:1	[0x1a12da0*2:ALIVE:h=1,0.1]}
+11:34:20.829 	# of DATA messages sent:     19
+11:34:20.829 	# of DATAFRAG messages sent: 0
+11:34:20.829 	Next GUID: (nil)
+11:34:20.829     TCP:239.255.0.1:7400 - 
+11:34:20.829 	InlineQoS=0, Reliable=0, Active=0, Marshall=1, MCast=1, Tunnel=0
+11:34:20.829 	States (Control/Tx/Ack): READY/IDLE/WAITING
+11:34:20.829 	Changes: : (1)
+11:34:20.829 		{UNDERWAY:1	[0x1a12da0*2:ALIVE:h=1,0.1]}
+11:34:20.829 	# of DATA messages sent:     19
+11:34:20.829 	# of DATAFRAG messages sent: 0
+11:34:20.829 	Next GUID: (nil)
+11:34:20.830 0/000200-c2 W{19} - BuiltinParticipantMessageWriter/ParticipantMessageData:
+11:34:20.830 0/000200-c7 R{17} - BuiltinParticipantMessageReader/ParticipantMessageData:

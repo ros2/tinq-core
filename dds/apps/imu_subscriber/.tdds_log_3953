@@ -1,0 +1,82 @@
+17:11:46.782 List pools created.
+17:11:46.782 String pool initialized.
+17:11:46.782 Typecode pools created.
+17:11:46.782 Typesupport initialized.
+17:11:46.782 Socket handler initialized.
+17:11:46.782 Timer pool initialized.
+17:11:46.782 Data buffer pools created.
+17:11:46.782 Existing host identifier reused.
+17:11:46.782 Unique GUID prefix created: 8f937eb8:00000f71:03e90000
+17:11:46.782 Locator pools created.
+17:11:46.782 History cache pools created.
+17:11:46.782 Entities: reserved=98, maximum=4294967295
+17:11:46.782 Domain pools created.
+17:11:46.782 RTPS Initialised.
+17:11:46.782 IP: scope = link..global
+17:11:46.782 IP interfaces:
+17:11:46.782     eth1     : 172.23.1.215
+17:11:46.782 TCP: local secure TCP server disabled
+17:11:46.782 TCP: local TCP server disabled
+17:11:46.782 RTPS over IPv4 Initialised.
+17:11:46.782 IPv6: scope = site..global
+17:11:46.783 RTPS over IPv6 Initialised.
+17:11:46.783 QoS pools initialized.
+17:11:46.783 DDS: DynamicType_register(ParticipantMessageData): 5 blocks, 416 bytes
+17:11:46.783 DDS: DynamicType_register(BinaryProperty): 3 blocks, 272 bytes
+17:11:46.783 DDS: DynamicType_register(Property): 2 blocks, 216 bytes
+17:11:46.783 DDS: DynamicType_register(DataHolder): 6 blocks, 616 bytes
+17:11:46.783 DDS: DynamicType_register(MessageIdentity): 3 blocks, 272 bytes
+17:11:46.783 DDS: DynamicType_register(ParticipantGenericMessage): 3 blocks, 432 bytes
+17:11:46.783 DDS: DynamicType_register(ParticipantStatelessMessage): 2 blocks, 144 bytes
+17:11:46.783 DDS: DynamicType_register(ParticipantVolatileSecureMessage): 2 blocks, 144 bytes
+17:11:46.783 Discovery initialized.
+17:11:46.783 DCPS Initialised.
+17:11:46.783 DDS: core thread created.
+17:11:46.783 DDS: core thread running.
+17:11:46.783 Security: validate local permissions. 
+17:11:46.783 DDS: domain security mode = 0x0
+17:11:46.783 UDP: adding 172.23.1.215:7621 on [6]
+17:11:46.783 UDP: adding 239.255.0.1:7401 on [7]
+17:11:46.784 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7401
+17:11:46.784 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7401 on 172.23.1.215:7621
+17:11:46.784 RTPS: starting Discovery protocols.
+17:11:46.784 UDP: adding 172.23.1.215:7620 on [8]
+17:11:46.784 UDP: adding 239.255.0.1:7400 on [9]
+17:11:46.784 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7400
+17:11:46.784 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7400 on 172.23.1.215:7620
+17:11:46.784 SPDP: starting protocol for domain #0.
+17:11:46.784 RTPS: writer (SPDPbuiltinParticipantWriter) created.
+17:11:46.784 RTPS: reader (SPDPbuiltinParticipantReader) created.
+17:11:46.784 RTPS: reader (SEDPbuiltinPublicationsReader) created.
+17:11:46.784 RTPS: reader (SEDPbuiltinSubscriptionsReader) created.
+17:11:46.784 RTPS: writer (SEDPbuiltinPublicationsWriter) created.
+17:11:46.784 RTPS: writer (SEDPbuiltinSubscriptionsWriter) created.
+17:11:46.784 RTPS: reader (BuiltinParticipantMessageReader) created.
+17:11:46.784 RTPS: writer (BuiltinParticipantMessageWriter) created.
+17:11:46.784 SPDP: registering Participant key.
+17:11:46.784 SPDP: Send Participant data.
+17:11:46.784 DDS: DynamicTypeSupport_create_type_support(Vector3): 1 blocks, 104 bytes
+17:11:46.784 SEDP: Writer (imu_topic/Vector3) added.
+17:11:46.784 SEDP: Send publication (imu_topic/Vector3)
+17:11:46.784 SEDP: Reader (imu_topic/Vector3) added.
+17:11:46.784 SEDP: Send subscription (imu_topic/Vector3)
+17:11:46.785 SPDP: New participant (Technicolor Chatroom) [8f937eb8:00670f5d:03e90000] detected!
+17:11:46.785 SPDP: Connecting builtin endpoints.
+17:11:46.785 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:00670f5d:03e90000.
+17:11:46.785 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:00670f5d:03e90000.
+17:11:46.785 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:00670f5d:03e90000.
+17:11:46.785 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:00670f5d:03e90000.
+17:11:46.785 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:00670f5d:03e90000.
+17:11:46.785 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:00670f5d:03e90000.
+17:11:46.785 SPDP: New participant (Technicolor Chatroom) [8f937eb8:004c1c1e:03e90000] detected!
+17:11:46.785 SPDP: Connecting builtin endpoints.
+17:11:46.785 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:004c1c1e:03e90000.
+17:11:46.785 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:004c1c1e:03e90000.
+17:11:46.785 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:004c1c1e:03e90000.
+17:11:46.785 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:004c1c1e:03e90000.
+17:11:46.785 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:004c1c1e:03e90000.
+17:11:46.785 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:004c1c1e:03e90000.
+17:11:46.785 SEDP: New subscription (imu_topic/Vector3) from peer!
+17:11:46.786 SEDP: New publication (imu_topic/Vector3) from peer!
+17:11:46.786 SEDP: New subscription (Chat/ChatMsg) from peer!
+17:11:46.786 SEDP: New publication (Chat/ChatMsg) from peer!

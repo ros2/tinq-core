@@ -1,0 +1,154 @@
+10:13:47.574 List pools created.
+10:13:47.574 String pool initialized.
+10:13:47.574 Typecode pools created.
+10:13:47.574 Typesupport initialized.
+10:13:47.574 Socket handler initialized.
+10:13:47.574 Timer pool initialized.
+10:13:47.574 Data buffer pools created.
+10:13:47.575 Existing host identifier reused.
+10:13:47.575 Unique GUID prefix created: 8f937eb8:00003a4a:03e90000
+10:13:47.575 Locator pools created.
+10:13:47.575 History cache pools created.
+10:13:47.575 Entities: reserved=98, maximum=4294967295
+10:13:47.575 Domain pools created.
+10:13:47.575 RTPS Initialised.
+10:13:47.575 IP: scope = link..global
+10:13:47.575 IP interfaces:
+10:13:47.575     eth0     : 192.168.0.2
+10:13:47.575     eth1     : 172.23.1.215
+10:13:47.575 TCP: local secure TCP server disabled
+10:13:47.575 TCP: local TCP server disabled
+10:13:47.575 RTPS over IPv4 Initialised.
+10:13:47.575 IPv6: scope = site..global
+10:13:47.575 RTPS over IPv6 Initialised.
+10:13:47.575 QoS pools initialized.
+10:13:47.576 DDS: DynamicType_register(ParticipantMessageData): 5 blocks, 416 bytes
+10:13:47.576 DDS: DynamicType_register(BinaryProperty): 3 blocks, 272 bytes
+10:13:47.576 DDS: DynamicType_register(Property): 2 blocks, 216 bytes
+10:13:47.576 DDS: DynamicType_register(DataHolder): 6 blocks, 616 bytes
+10:13:47.576 DDS: DynamicType_register(MessageIdentity): 3 blocks, 272 bytes
+10:13:47.576 DDS: DynamicType_register(ParticipantGenericMessage): 3 blocks, 432 bytes
+10:13:47.576 DDS: DynamicType_register(ParticipantStatelessMessage): 2 blocks, 144 bytes
+10:13:47.576 DDS: DynamicType_register(ParticipantVolatileSecureMessage): 2 blocks, 144 bytes
+10:13:47.576 Discovery initialized.
+10:13:47.576 DCPS Initialised.
+10:13:47.576 DDS: core thread created.
+10:13:47.576 DDS: core thread running.
+10:13:47.576 Security: validate local permissions. 
+10:13:47.576 DDS: domain security mode = 0x0
+10:13:47.577 UDP: adding 192.168.0.2:7827 on [6]
+10:13:47.577 UDP: adding 172.23.1.215:7827 on [7]
+10:13:47.577 UDP: adding 239.255.0.1:7401 on [8]
+10:13:47.577 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7401
+10:13:47.577 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7401 on 192.168.0.2:7827
+10:13:47.577 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7401 on 172.23.1.215:7827
+10:13:47.577 RTPS: starting Discovery protocols.
+10:13:47.577 UDP: adding 192.168.0.2:7826 on [9]
+10:13:47.577 UDP: adding 172.23.1.215:7826 on [10]
+10:13:47.577 UDP: adding 239.255.0.1:7400 on [11]
+10:13:47.577 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7400
+10:13:47.577 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7400 on 192.168.0.2:7826
+10:13:47.577 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7400 on 172.23.1.215:7826
+10:13:47.577 SPDP: starting protocol for domain #0.
+10:13:47.577 RTPS: writer (SPDPbuiltinParticipantWriter) created.
+10:13:47.577 RTPS: reader (SPDPbuiltinParticipantReader) created.
+10:13:47.577 RTPS: reader (SEDPbuiltinPublicationsReader) created.
+10:13:47.577 RTPS: reader (SEDPbuiltinSubscriptionsReader) created.
+10:13:47.577 RTPS: writer (SEDPbuiltinPublicationsWriter) created.
+10:13:47.577 RTPS: writer (SEDPbuiltinSubscriptionsWriter) created.
+10:13:47.577 RTPS: reader (BuiltinParticipantMessageReader) created.
+10:13:47.578 RTPS: writer (BuiltinParticipantMessageWriter) created.
+10:13:47.578 SPDP: registering Participant key.
+10:13:47.578 SPDP: Send Participant data.
+10:13:47.578 DDS: DynamicTypeSupport_create_type_support(Vector3): 1 blocks, 104 bytes
+10:13:47.578 SEDP: Writer (imu/simple_msgs::dds_::Vector3Float_) added.
+10:13:47.578 SEDP: Send publication (imu/simple_msgs::dds_::Vector3Float_)
+10:13:47.578 SEDP: Reader (imu/simple_msgs::dds_::Vector3Float_) added.
+10:13:47.578 SEDP: Send subscription (imu/simple_msgs::dds_::Vector3Float_)
+10:13:47.578 SPDP: New participant detected!
+10:13:47.578 SPDP: Connecting builtin endpoints.
+10:13:47.578 RTPS: matched writer add (BuiltinParticipantMessageReader) to 36cb7a74:0000011a:00000001.
+10:13:47.578 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 36cb7a74:0000011a:00000001.
+10:13:47.578 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 36cb7a74:0000011a:00000001.
+10:13:47.578 SPDP: New participant detected!
+10:13:47.578 SPDP: Connecting builtin endpoints.
+10:13:47.579 RTPS: matched writer add (BuiltinParticipantMessageReader) to 36cb7a74:0000005d:00000001.
+10:13:47.579 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 36cb7a74:0000005d:00000001.
+10:13:47.579 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 36cb7a74:0000005d:00000001.
+10:13:47.579 SPDP: New participant detected!
+10:13:47.579 SPDP: Connecting builtin endpoints.
+10:13:47.579 RTPS: matched writer add (BuiltinParticipantMessageReader) to 36cb7a74:0000000b:00000001.
+10:13:47.579 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 36cb7a74:0000000b:00000001.
+10:13:47.579 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 36cb7a74:0000000b:00000001.
+10:13:47.579 SPDP: New participant detected!
+10:13:47.579 SPDP: Connecting builtin endpoints.
+10:13:47.579 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 36cb7a74:00000062:00000001.
+10:13:47.579 RTPS: matched writer add (BuiltinParticipantMessageReader) to 36cb7a74:00000062:00000001.
+10:13:47.579 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 36cb7a74:00000062:00000001.
+10:13:47.579 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 36cb7a74:00000062:00000001.
+10:13:47.579 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 36cb7a74:00000062:00000001.
+10:13:47.579 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 36cb7a74:00000062:00000001.
+10:13:47.579 SPDP: New participant detected!
+10:13:47.579 SPDP: Connecting builtin endpoints.
+10:13:47.579 RTPS: matched writer add (BuiltinParticipantMessageReader) to 36cb7a74:00000030:00000001.
+10:13:47.579 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 36cb7a74:00000030:00000001.
+10:13:47.579 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 36cb7a74:00000030:00000001.
+10:13:47.580 SPDP: New participant (Technicolor Chatroom) [8f937eb8:00cf3a47:03e90000] detected!
+10:13:47.580 SPDP: Connecting builtin endpoints.
+10:13:47.580 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:00cf3a47:03e90000.
+10:13:47.580 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:00cf3a47:03e90000.
+10:13:47.580 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:00cf3a47:03e90000.
+10:13:47.580 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:00cf3a47:03e90000.
+10:13:47.580 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:00cf3a47:03e90000.
+10:13:47.580 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:00cf3a47:03e90000.
+10:13:47.581 Discovery: Matched reader detected!
+10:13:47.581 RTPS: writer (imu) created.
+10:13:47.581 RTPS: matched reader add (imu) to 8f937eb8:00cf3a47:03e90000.
+10:13:47.581 SEDP: New subscription (imu/simple_msgs::dds_::Vector3Float_) from peer!
+10:13:47.581 Discovery: Match writer detected!
+10:13:47.581 RTPS: reader (imu) created.
+10:13:47.581 RTPS: matched writer add (imu) to 8f937eb8:00cf3a47:03e90000.
+10:13:47.581 SEDP: New publication (imu/simple_msgs::dds_::Vector3Float_) from peer!
+10:13:47.581 SEDP: New publication (d_status/durabilityModule2::d_status_s) from peer!
+10:13:47.581 SEDP: New publication (d_newGroup/durabilityModule2::d_newGroup_s) from peer!
+10:13:47.581 SEDP: New publication (d_groupsRequest/durabilityModule2::d_groupsRequest_s) from peer!
+10:13:47.581 SEDP: New publication (d_statusRequest/durabilityModule2::d_statusRequest_s) from peer!
+10:13:47.581 SEDP: New publication (d_sampleRequest/durabilityModule2::d_sampleRequest_s) from peer!
+10:13:47.581 SEDP: New publication (d_nameSpaces/durabilityModule2::d_nameSpaces_s) from peer!
+10:13:47.581 SEDP: New publication (d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s) from peer!
+10:13:47.581 SEDP: New publication (d_deleteData/durabilityModule2::d_deleteData_s) from peer!
+10:13:47.582 SEDP: New publication (d_sampleChain/durabilityModule2::d_sampleChain_s) from peer!
+10:13:47.582 SEDP: New publication (DCPSTopic/kernelModule::v_topicInfo) from peer!
+10:13:47.582 SEDP: New publication (DCPSPublication/kernelModule::v_publicationInfo) from peer!
+10:13:47.582 SEDP: New publication (DCPSParticipant/kernelModule::v_participantInfo) from peer!
+10:13:47.582 SEDP: New publication (CMParticipant/kernelModule::v_participantCMInfo) from peer!
+10:13:47.582 SEDP: New publication (DCPSSubscription/kernelModule::v_subscriptionInfo) from peer!
+10:13:47.582 SEDP: New publication (DCPSHeartbeat/kernelModule::v_heartbeatInfo) from peer!
+10:13:47.582 SEDP: New publication (DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand) from peer!
+10:13:47.582 SEDP: New publication (DCPSDelivery/kernelModule::v_deliveryInfo) from peer!
+10:13:47.582 SEDP: New subscription (DCPSTopic/kernelModule::v_topicInfo) from peer!
+10:13:47.582 SEDP: New subscription (DCPSSubscription/kernelModule::v_subscriptionInfo) from peer!
+10:13:47.582 SEDP: New subscription (DCPSPublication/kernelModule::v_publicationInfo) from peer!
+10:13:47.582 SEDP: New subscription (DCPSHeartbeat/kernelModule::v_heartbeatInfo) from peer!
+10:13:47.582 SEDP: New subscription (DCPSParticipant/kernelModule::v_participantInfo) from peer!
+10:13:47.582 SEDP: New subscription (DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand) from peer!
+10:13:47.582 topic_create(imu): incompatible type name!
+10:13:47.582 SEDP: New subscription (imu/simple_msgs::dds_::Imu32_) from peer!
+10:13:47.583 SEDP: New subscription (DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand) from peer!
+10:13:47.583 SEDP: New subscription (DCPSSubscription/kernelModule::v_subscriptionInfo) from peer!
+10:13:47.583 SEDP: New subscription (CMParticipant/kernelModule::v_participantCMInfo) from peer!
+10:13:47.583 SEDP: New subscription (DCPSParticipant/kernelModule::v_participantInfo) from peer!
+10:13:47.583 SEDP: New subscription (DCPSPublication/kernelModule::v_publicationInfo) from peer!
+10:13:47.583 SEDP: New subscription (DCPSTopic/kernelModule::v_topicInfo) from peer!
+10:13:47.583 SEDP: New subscription (DCPSPublication/kernelModule::v_publicationInfo) from peer!
+10:13:47.583 SEDP: New subscription (DCPSSubscription/kernelModule::v_subscriptionInfo) from peer!
+10:13:47.583 SEDP: New subscription (DCPSParticipant/kernelModule::v_participantInfo) from peer!
+10:13:47.583 SEDP: New subscription (d_nameSpaces/durabilityModule2::d_nameSpaces_s) from peer!
+10:13:47.583 SEDP: New subscription (d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s) from peer!
+10:13:47.583 SEDP: New subscription (d_status/durabilityModule2::d_status_s) from peer!
+10:13:47.583 SEDP: New subscription (d_groupsRequest/durabilityModule2::d_groupsRequest_s) from peer!
+10:13:47.583 SEDP: New subscription (d_deleteData/durabilityModule2::d_deleteData_s) from peer!
+10:13:47.583 SEDP: New subscription (d_newGroup/durabilityModule2::d_newGroup_s) from peer!
+10:13:47.583 SEDP: New subscription (d_sampleRequest/durabilityModule2::d_sampleRequest_s) from peer!
+10:13:47.583 SEDP: New subscription (d_sampleChain/durabilityModule2::d_sampleChain_s) from peer!
+10:13:48.115 SPDP: Participant locality update (36cb7a74:0000011a:00000001 is local now).

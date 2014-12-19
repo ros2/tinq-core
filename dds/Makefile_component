@@ -9,8 +9,14 @@ dds_NATIVE_SECURITY := 1
 dds_QEO_SECURITY := 1
 #dds_DTLS_SECURITY := 1
 
+# The license of this component
+
 # The exported header files for this component
 dds_INCLUDES                := api/headers
+
+dds_CFLAGS                  := -DDDS_FLAVOUR=0 
+
+dds_FLAVOUR                 := technicolor
 
 # The linker flags that have to be added to use the libraries of this component
 dds_LIBS                    := -ldds $$(rt_LIBS)
@@ -36,13 +42,6 @@ dds_TEST_PARTS_INSTALL       = libsystests.so@$$(libdir/)unittests/libsystests.s
                                #filter_test@$$(bindir/)filter_test:755 
                                #type_test@$$(bindir/)type_test:755 
                                #disc_test@$$(bindir/)disc_test:755
-dds_TEST_ELEM_INSTALL       =  apps/dcps/testScript.sh@$$(bindir/)testScript.sh:755 \
-                               apps/dcps/securityQeo.xml@$$(bindir/)security.xml:644 \
-                               apps/dcps/qeoCerts/bad.pem@$$(bindir/)qeoCerts/bad.pem:644 \
-                               apps/dcps/qeoCerts/first-key.pem@@$$(bindir/)qeoCerts/first-key.pem:644 \
-                               apps/dcps/qeoCerts/first.pem@$$(bindir/)qeoCerts/first.pem:644 \
-                               apps/dcps/qeoCerts/second-key.pem@$$(bindir/)qeoCerts/second-key.pem:644 \
-                               apps/dcps/qeoCerts/second.pem@$$(bindir/)qeoCerts/second.pem:644
 else
 dds_TEST_PARTS_INSTALL       = libsystests.so@$$(libdir/)unittests/libsystests.so:644 \
                                dcps_test@$$(bindir/)dcps_test:755 \
@@ -77,10 +76,10 @@ include $(projectdir/)build/Makefile_component_top
 
 DDS_TYPE_SYSTEM:=XTYPES
 
-# Workaround for raw multicast to different endian hosts
-
-dds_EXTRA_DEFINES           += -DRTPS_MARSHALL_ALWAYS -DDDS_HIST_PURGE_NA
-##< Libraries
+# Workaround for raw multicast to different endian hosts, History counts for Unregister/Dispose, CDR align at encapsulation header
+ 
+dds_EXTRA_DEFINES           += -DRTPS_MARSHALL_ALWAYS -DDDS_HIST_PURGE_NA -DCDR_DOFS=4
+ 
 dds.LIBRARIES               := libdds
 
 dds.libdds_SRCS             := \
@@ -89,40 +88,39 @@ dds.libdds_SRCS             := \
                                                              ipc.c ipfilter.c libx.c log.c md5.c nmatch.c pool.c prof.c random.c \
                                                              skiplist.c sock.c str.c strseq.c sys.c thread.c timer.c) \
                                $(addprefix src/dcps/,        dcps_builtin.c dcps_dbg.c dcps_dpfact.c dcps_entity.c dcps_event.c dcps_main.c \
-                                                             dcps_part.c dcps_pub.c dcps_qos.c dcps_reader.c dcps_sub.c dcps_topic.c \
-                                                             dcps_waitset.c dcps_writer.c) \
+			                                     dcps_part.c dcps_pub.c dcps_qos.c dcps_reader.c dcps_sub.c dcps_topic.c \
+							     dcps_waitset.c dcps_writer.c) \
                                $(addprefix src/dds/,         dds.c dds_seq.c domain.c guard.c guid.c locator.c uqos.c) \
                                $(addprefix src/disc/,        disc_tc.c disc_ep.c disc_match.c disc_sub.c disc_pub.c disc_msg.c \
-                                                             disc_sedp.c disc_spdp.c disc_main.c disc_ctt.c disc_psmp.c disc_cdd.c \
-                                                             disc_policy_updater.c) \
+							     disc_sedp.c disc_spdp.c disc_main.c disc_ctt.c disc_psmp.c disc_cdd.c \
+							     disc_policy_updater.c) \
                                $(addprefix src/rtps/,        rtps_check.c rtps_clist.c rtps_dbg.c rtps_frag.c rtps_main.c rtps_msg.c \
-                                                             rtps_mux.c rtps_sfbr.c rtps_sfbw.c rtps_sfrr.c rtps_sfrw.c rtps_slbr.c \
-                                                             rtps_slbw.c rtps_slrw.c) \
+			                                     rtps_mux.c rtps_sfbr.c rtps_sfbw.c rtps_sfrr.c rtps_sfrw.c rtps_slbr.c \
+							     rtps_slbw.c rtps_slrw.c rtps_trace.c) \
                                $(addprefix src/trans/ip/,    ri_dtls.c ri_tcp.c ri_tcp_sock.c ri_tls.c ri_udp.c rtps_ip.c) \
                                $(addprefix src/sql/,         bytecode.c parse.c scan.c)
                                
-ifneq ($(filter $(TARG_OS),MACOS IOS),)
+ifneq ($(filter $(TARG_OS),MACOS IOS),)		       
 dds.libdds_SRCS             += $(addprefix src/dynip/,       di_darwin.c di_main.c)
 else
 dds.libdds_SRCS             += $(addprefix src/dynip/,       di_linux.c di_main.c)
 endif
                                
-ifeq ($(DDS_TYPE_SYSTEM),XTYPES)
-dds.libdds_SRCS             += $(addprefix src/xtypes/,      builtin.c pid.c pl_cdr.c tsm.c vtc.c xcdr.c xdata.c xtopic.c xtypecode.c xtypes.c)
+ifeq ($(DDS_TYPE_SYSTEM),XTYPES)			       
+dds.libdds_SRCS             += $(addprefix src/xtypes/,      xtypes_builtin.c pid.c pl_cdr.c tsm.c vtc.c xcdr.c xdata.c xtopic.c xtypecode.c xtypes.c)
 else
 dds.libdds_SRCS             += $(addprefix src/typecode/,    cdr.c pid.c pl_cdr.c typecode.c)
 endif
                                
 ifeq ($(dds_DEBUG), 1)
 dds.libdds_SRCS             += $(addprefix src/dbg/,         debug.c) \
-                               $(addprefix src/co/,          tty.c) \
-                               $(addprefix src/rtps/,        rtps_trace.c)
+	                       $(addprefix src/co/,          tty.c)
 endif
 
 ifneq ($(dds_FORCE_MALLOC),)
 dds_EXTRA_DEFINES           += -DFORCE_MALLOC 
 endif
-ifeq ($(DDS_TYPE_SYSTEM),XTYPES)
+ifeq ($(DDS_TYPE_SYSTEM),XTYPES)			       
 dds_EXTRA_DEFINES           += -DXTYPES_USED
 endif
 ifneq ($(dds_LOG_FILE),)
@@ -133,25 +131,25 @@ dds_EXTRA_DEFINES           += -DDDS_SECURITY
 ifneq ($(dds_OLD_SECURITY), 1)
 dds_EXTRA_DEFINES           += -DDDS_NATIVE_SECURITY
 dds_EXTRA_DEFINES           += -DCOMMON_NAME_ALTERATION
-dds_EXTRA_DEFINES           += -DDDS_QEO_TYPES
-dds.libdds_SRCS             += $(addprefix src/nsec/,       sec_access.c sec_auth.c sec_a_std.c sec_compat.c sec_id.c sec_logging.c \
-                                                            sec_main.c sec_perm.c sec_p_std.c sec_util.c sec_cdata.c sec_c_std.c \
-                                                            sec_crypto.c)
+dds_EXTRA_DEFINES	    += -DDDS_QEO_TYPES
+dds.libdds_SRCS             += $(addprefix src/nsec/,		sec_access.c sec_auth.c sec_a_std.c sec_compat.c sec_id.c sec_logging.c \
+								sec_main.c sec_perm.c sec_p_std.c sec_util.c sec_cdata.c sec_c_std.c \
+								sec_crypto.c)
 ifeq ($(dds_QEO_SECURITY), 1)
 dds_EXTRA_DEFINES           += -DQEO_SECURITY
-dds.libdds_SRCS             += $(addprefix src/nsec/,       sec_a_qeo.c sec_p_qeo.c sec_qeo_policy.c)
+dds.libdds_SRCS             += $(addprefix src/nsec/,		sec_a_qeo.c sec_p_qeo.c sec_qeo_policy.c)
 endif
 ifeq ($(dds_DTLS_SECURITY), 1)
 dds_EXTRA_DEFINES           += -DDTLS_SECURITY
-dds.libdds_SRCS             += $(addprefix src/nsec/,       sec_a_dtls.c sec_p_dtls.c)
+dds.libdds_SRCS             += $(addprefix src/nsec/,		sec_a_dtls.c sec_p_dtls.c)
 endif
-dds.libdds_SRCS             += $(addprefix plugins/nsecplug/, sp_access.c sp_access_db.c sp_access_populate.c sp_auth.c sp_cert.c \
-                                                              sp_sys_cert_none.c sp_cred.c sp_crypto.c sp_main.c sp_sys.c \
-                                                              sp_sys_cert.c sp_sys_crypto.c)
+dds.libdds_SRCS             += $(addprefix plugins/nsecplug/,	sp_access.c sp_access_db.c sp_access_populate.c sp_auth.c sp_cert.c \
+								sp_sys_cert_none.c sp_cred.c sp_crypto.c sp_main.c sp_sys.c \
+								sp_sys_cert.c sp_sys_crypto.c)
 else
-dds.libdds_SRCS             += $(addprefix src/security/,     security.c)
-dds.libdds_SRCS             += $(addprefix plugins/secplug/,  msecplug.c)
-dds.libdds_SRCS             += $(addprefix plugins/security/, engine_fs.c)
+dds.libdds_SRCS             += $(addprefix src/security/,	security.c)
+dds.libdds_SRCS             += $(addprefix plugins/secplug/,	msecplug.c)
+dds.libdds_SRCS             += $(addprefix plugins/security/,	engine_fs.c)
 endif
 dds_INCLUDES                += $(openssl_INCLUDES)
 dds_EXTRA_LIBS              += $(openssl_LIBS)
@@ -161,7 +159,7 @@ endif
 dds_LIBS                    += $(dds_EXTRA_LIBS)
 endif
 dds_EXTRA_DEFINES           += -DDDS_FORWARD
-dds.libdds_SRCS             += $(addprefix src/rtps/,          rtps_ft.c rtps_fwd.c)
+dds.libdds_SRCS             += $(addprefix src/rtps/,		rtps_ft.c rtps_fwd.c)
 
 dds.PEDANTIC                :=
 ifneq ($(E), GOOG_X86ANDROID)
@@ -170,7 +168,7 @@ dds.PEDANTIC                := -pedantic
 endif
 endif
 dds.libdds_LOCALINCLUDES    := $(dds_INCLUDES) src/include
-dds.libdds_LOCALDEFINES     := -Wextra -Wall -Wno-long-long $(dds.PEDANTIC) $(dds_EXTRA_DEFINES) -DNO_ATOMIC -DDCPS_ZERO_BUFFER -DPTHREADS_USED -D_XOPEN_SOURCE=600 -D_DEFAULT_SOURCE -D_SVID_SOURCE -DRTPS_USED -DDDS_AUTO_LIVELINESS -DDDS_DYN_IP -DDDS_TYPECODE -DDDS_TCP -DBIGDATA -DNO_CERTIFICATE_TIME_VALIDITY_CHECK # -DDDS_IPV6 -DLOG_FILE  -DCTRACE_USED -DCTRACE_ATEXIT 
+dds.libdds_LOCALDEFINES     := -Wextra -Wall -Wno-long-long $(dds.PEDANTIC) $(dds_EXTRA_DEFINES) -DNO_ATOMIC -DDCPS_ZERO_BUFFER -DPTHREADS_USED -D_XOPEN_SOURCE=600 -D_SVID_SOURCE -DRTPS_USED -DDDS_AUTO_LIVELINESS -DDDS_DYN_IP -DDDS_TYPECODE -DDDS_TCP -DBIGDATA -DNO_CERTIFICATE_TIME_VALIDITY_CHECK # -DDDS_IPV6 -DLOG_FILE  -DCTRACE_USED -DCTRACE_ATEXIT 
 ifeq ($(dds_WERROR), 1)
 dds.libdds_LOCALDEFINES     += -Werror
 endif
@@ -179,13 +177,13 @@ ifeq ($(dds_DEBUG), 1)
 dds.libdds_LOCALDEFINES     += -DDDS_DEBUG -DDDS_SERVER -DEXTRA_STATS -DDDS_TRACE -DRTPS_TRACE -DMSG_TRACE -DFORWARD_TRC -DFORWARD_TRC_FWD -DUSE_ABORT
 endif
 dds.libdds_LDADD            += $(dds_EXTRA_LIBS) $(rt_LIBS)
-##>
-##< Programs
+
+
 dds.PROGRAMS                += ddsfreeshm
 
 dds.ddsfreeshm_SRCS         := tools/shm/freeshm.c
 dds.ddsfreeshm_LOCALDEFINES := -Wextra -Wall -Wno-long-long $(dds.PEDANTIC)
-##>
+
 ##< Test Parts
 dds.LIBRARIES               += libend2end libsystests
        
@@ -281,7 +279,7 @@ dds.disc_test_LDADD             := $(dds_LIBS)
 dds.disc_test_LOCALDEFINES      := $(dds.libdds_LOCALDEFINES)
 
 dds.chat_SRCS              := apps/chat/main.c
-ifeq ($(DDS_TYPE_SYSTEM),XTYPES)
+ifeq ($(DDS_TYPE_SYSTEM),XTYPES)			       
 dds.chat_SRCS              += apps/chat/chat_msg.c src/co/tty.c #TODO JaSm apps/chat/crc32.c
 endif
 dds.chat_LOCALINCLUDES     := $(dds_INCLUDES) src/include
@@ -291,7 +289,7 @@ dds.chat_LOCALDEFINES      := $(dds.libdds_LOCALDEFINES)
 
 
 dds.api_test_SRCS               := $(addprefix test/api/, main.c ta_aux.c ta_seq.c ta_type.c ta_pfact.c ta_part.c ta_topic.c\
-                                                          ta_pub.c ta_sub.c ta_writer.c ta_reader.c ta_disc.c ta_data.c)
+	                                              ta_pub.c ta_sub.c ta_writer.c ta_reader.c ta_disc.c ta_data.c)
 dds.api_test_LOCALINCLUDES      := $(dds_INCLUDES) src/include
 dds.api_test_LDDEPS             := libdds.so
 dds.api_test_LDADD              := $(dds_LIBS)
@@ -310,15 +308,19 @@ dds.aac_test_LOCALINCLUDES      := $(dds_INCLUDES) src/include /usr/include/libx
 dds.aac_test_LOCALDEFINES       := -Wextra -Wall -Wno-long-long $(dds.PEDANTIC) -DDDS_NO_MCAST -DXTYPES_USED -DNO_ATOMIC -DDCPS_ZERO_BUFFER -DPTHREADS_USED -D_XOPEN_SOURCE=600 -D_SVID_SOURCE -DRTPS_USED -DDDS_AUTO_LIVELINESS -DDDS_DYN_IP -DDDS_TYPECODE -DDDS_TCP -DBIGDATA -DMSECPLUG_WITH_SECXML -DDDS_DEBUG -DLOG_FILE -DDDS_NATIVE_SECURITY -DDDS_SECURITY -DDDS_FORWARD -DDDS_QEO_TYPES
 dds.aac_test_LDADD              := -Wl,-Bstatic -L$(dds_PREFIX) -Wl,-Bdynamic $(rt_LIBS) $(dds_EXTRA_LIBS) -lm -lxml2
 dds.aac_test_LDDEPS             := 
+dds_$(E)_TEST_INSTALL           += && cp $(projectdir/)apps/dcps/testScript.sh $(bindir/)testScript.sh \
+                                   && cp $(projectdir/)apps/dcps/securityQeo.xml $(bindir/)security.xml \
+                                   && cp -r $(projectdir)/apps/dcps/qeoCerts/ $(bindir/)qeoCerts/
 endif
 ##>
-##< Documentation
+
+
 dds.DOCUMENTS     := user
 dds.user_TITLE     = Technicolor DDS User Manual
 dds.user_TITLE_ALT =
 dds.user_DOC_ID    = 20120411-0000
 dds.user_CHAPTERS  = user_manual.ditamap
-##>
+
 include $(projectdir/)build/Makefile_component_bot
 endif
 

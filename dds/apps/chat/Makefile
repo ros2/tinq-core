@@ -36,7 +36,7 @@ dds_CSRCS  = ${DDS}/dds.c ${DDS}/domain.c ${DDS}/locator.c ${DDS}/guid.c \
              ${DDS}/dds_seq.c ${DDS}/uqos.c ${DDS}/guard.c
 type_CSRCS = ${TYPE}/xtypecode.c ${TYPE}/xtypes.c ${TYPE}/xdata.c \
              ${TYPE}/xcdr.c ${TYPE}/tsm.c ${TYPE}/pl_cdr.c ${TYPE}/pid.c \
-             ${TYPE}/xtopic.c ${TYPE}/builtin.c ${TYPE}/vtc.c
+             ${TYPE}/xtopic.c ${TYPE}/xtypes_builtin.c ${TYPE}/vtc.c
 dcps_CSRCS = ${DCPS}/dcps_main.c ${DCPS}/dcps_dpfact.c ${DCPS}/dcps_part.c \
 	     ${DCPS}/dcps_pub.c ${DCPS}/dcps_sub.c ${DCPS}/dcps_topic.c \
 	     ${DCPS}/dcps_reader.c ${DCPS}/dcps_writer.c ${DCPS}/dcps_event.c \
@@ -107,10 +107,9 @@ LIB_PATH = -L../../../qeo-c-import/openssl/output/install/usr/local/lib
 LIBS     = 
 
 DEFINES  = -DPTHREADS_USED -DFORCE_MALLOC -DTTY_NORMAL -DRTPS_USED -DCDD_USED -DDDS_DEBUG \
-	   -DEXTRA_STATS -DLOG_FILE -DXTYPES_USED \
+	   -DEXTRA_STATS -DLOG_FILE -DXTYPES_USED -DDDS_IPV6 -DUDP_OS_MCAST -DDDS_TCP \
 	   -DBIGDATA -DDDS_FORWARD  -DDDS_SECURITY -DDDS_NATIVE_SECURITY -DMSECPLUG_WITH_SECXML
 
-# -DDDS_TYPECODE
 #-DDDS_BUILTINS -
 #-DDDS_AUTO_LIVELINESS
 #-DDDS_SECURITY

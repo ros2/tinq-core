@@ -1751,7 +1751,12 @@ void rtps_ip_rx_fd (SOCKET fd, short revents, void *arg)
 	if (nread < 0) {
 #endif /* !_WIN32 */
 #else /* !USE_RECVMSG */
+#if defined NUTTX_RTOS
+	//nread = ringBuffer_recvfrom(fd, (char *) rtps_rx_buf, MAX_RX_SIZE, 0, sa, &ssize);
+	nread = thread_recvfrom(fd, (char *) rtps_rx_buf, MAX_RX_SIZE, 0, sa, &ssize);
+#else	
 	nread = recvfrom (fd, (char *) rtps_rx_buf, MAX_RX_SIZE, 0, sa, &ssize);
+#endif
 #ifdef _WIN32
 	if (nread == SOCKET_ERROR) {
 #else /* !_WIN32 */
@@ -1767,6 +1772,18 @@ void rtps_ip_rx_fd (SOCKET fd, short revents, void *arg)
 		mds_pool_free (mhdr_pool, mp);
 		return;
 	}
+/* DEBUGGING purposes */
+#if 0
+	printf("Received %d bytes bytes\n", nread);	
+	printf("---------- \n");
+	int i;
+	for (i= 0; i < nread; i++)
+	{
+	    printf("%02X", rtps_rx_buf[i]);
+	}
+	printf("\n");
+#endif
+
 	if (!nread) {
 		cxp->stats.empty_read++;
 		mds_pool_free (mhdr_pool, mp);
@@ -2305,6 +2322,26 @@ void rtps_ip_dump_queued (void)
 			if (ip [i] && ip [i]->stats.nqueued)
 				rtps_ip_dump_cx (ip [i], 1);
 
+}
+
+int rtps_ip_get_nlocators(void)
+{
+	return nlocators;
+}
+
+void rtps_ip_get_fds (int* locs, int nlocs)
+{
+	if (nlocators != nlocs){
+		printf("Number of locators issue: nlocators=%d, nlocs=%d\n", nlocators, nlocs);
+		return;
+	}
+
+	int i;
+	for (i = 0; i <= (unsigned) maxlocator; i++ ){
+		if (ip [i]){
+			locs[i] = ip[i]->fd;		
+		}
+	}
 }
 
 void rtps_ip_dump (const char *buf, int extra)

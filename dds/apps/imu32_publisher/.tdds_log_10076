@@ -1,0 +1,70 @@
+14:00:03.026 List pools created.
+14:00:03.026 String pool initialized.
+14:00:03.026 Typecode pools created.
+14:00:03.026 Typesupport initialized.
+14:00:03.026 Socket handler initialized.
+14:00:03.026 Timer pool initialized.
+14:00:03.026 Data buffer pools created.
+14:00:03.026 Existing host identifier reused.
+14:00:03.026 Unique GUID prefix created: 91416dab:0000275c:03e90000
+14:00:03.026 Locator pools created.
+14:00:03.026 History cache pools created.
+14:00:03.026 Entities: reserved=98, maximum=4294967295
+14:00:03.026 Domain pools created.
+14:00:03.026 RTPS Initialised.
+14:00:03.026 IP: scope = link..global
+14:00:03.026 IP interfaces:
+14:00:03.026     eth1     : 172.23.1.215
+14:00:03.026 TCP: local secure TCP server disabled
+14:00:03.026 TCP: local TCP server disabled
+14:00:03.026 RTPS over IPv4 Initialised.
+14:00:03.026 IPv6: scope = site..global
+14:00:03.027 RTPS over IPv6 Initialised.
+14:00:03.027 QoS pools initialized.
+14:00:03.027 DDS: DynamicType_register(ParticipantMessageData): 5 blocks, 400 bytes
+14:00:03.027 DDS: DynamicType_register(BinaryProperty): 3 blocks, 256 bytes
+14:00:03.027 DDS: DynamicType_register(Property): 2 blocks, 200 bytes
+14:00:03.027 DDS: DynamicType_register(DataHolder): 6 blocks, 600 bytes
+14:00:03.027 DDS: DynamicType_register(MessageIdentity): 3 blocks, 256 bytes
+14:00:03.027 DDS: DynamicType_register(ParticipantGenericMessage): 3 blocks, 416 bytes
+14:00:03.027 DDS: DynamicType_register(ParticipantStatelessMessage): 2 blocks, 128 bytes
+14:00:03.027 DDS: DynamicType_register(ParticipantVolatileSecureMessage): 2 blocks, 128 bytes
+14:00:03.027 Discovery initialized.
+14:00:03.027 DCPS Initialised.
+14:00:03.027 DDS: core thread created.
+14:00:03.027 DDS: core thread running.
+14:00:03.027 Security: validate local permissions. 
+14:00:03.027 DDS: domain security mode = 0x0
+14:00:03.027 UDP: adding 172.23.1.215:7431 on [6]
+14:00:03.027 UDP: adding 239.255.0.1:7401 on [7]
+14:00:03.027 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7401
+14:00:03.027 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7401 on 172.23.1.215:7431
+14:00:03.027 RTPS: starting Discovery protocols.
+14:00:03.027 UDP: adding 172.23.1.215:7430 on [8]
+14:00:03.027 UDP: adding 239.255.0.1:7400 on [9]
+14:00:03.027 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7400
+14:00:03.028 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7400 on 172.23.1.215:7430
+14:00:03.028 SPDP: starting protocol for domain #0.
+14:00:03.028 RTPS: writer (SPDPbuiltinParticipantWriter) created.
+14:00:03.028 RTPS: reader (SPDPbuiltinParticipantReader) created.
+14:00:03.028 RTPS: reader (SEDPbuiltinPublicationsReader) created.
+14:00:03.028 RTPS: reader (SEDPbuiltinSubscriptionsReader) created.
+14:00:03.028 RTPS: writer (SEDPbuiltinPublicationsWriter) created.
+14:00:03.028 RTPS: writer (SEDPbuiltinSubscriptionsWriter) created.
+14:00:03.028 RTPS: reader (BuiltinParticipantMessageReader) created.
+14:00:03.028 RTPS: writer (BuiltinParticipantMessageWriter) created.
+14:00:03.028 SPDP: registering Participant key.
+14:00:03.028 SPDP: Send Participant data.
+14:00:03.028 DDS: DynamicTypeSupport_create_type_support(Imu32): 1 blocks, 88 bytes
+14:00:03.028 SEDP: Writer (imu/simple_msgs::dds_::Imu32_) added.
+14:00:03.028 SEDP: Send publication (imu/simple_msgs::dds_::Imu32_)
+14:00:03.028 SEDP: Reader (imu/simple_msgs::dds_::Imu32_) added.
+14:00:03.028 SEDP: Send subscription (imu/simple_msgs::dds_::Imu32_)
+14:00:03.029 SPDP: New participant detected!
+14:00:03.029 SPDP: Connecting builtin endpoints.
+14:00:03.029 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to ac1701a8:000035cf:00000001.
+14:00:03.029 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to ac1701a8:000035cf:00000001.
+14:00:03.029 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to ac1701a8:000035cf:00000001.
+14:00:03.029 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to ac1701a8:000035cf:00000001.
+14:00:03.040 SEDP: New subscription (TestServiceStringRequest/DDS::String) from peer!
+14:00:03.040 SEDP: New publication (TestServiceStringReply/DDS::String) from peer!

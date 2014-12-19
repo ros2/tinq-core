@@ -1,0 +1,62 @@
+11:45:06.281 List pools created.
+11:45:06.281 String pool initialized.
+11:45:06.281 Typecode pools created.
+11:45:06.281 Typesupport initialized.
+11:45:06.281 Socket handler initialized.
+11:45:06.281 Timer pool initialized.
+11:45:06.281 Data buffer pools created.
+11:45:06.281 Existing host identifier reused.
+11:45:06.281 Unique GUID prefix created: 91416dab:000026a9:03e90000
+11:45:06.281 Locator pools created.
+11:45:06.281 History cache pools created.
+11:45:06.282 Entities: reserved=98, maximum=4294967295
+11:45:06.282 Domain pools created.
+11:45:06.282 RTPS Initialised.
+11:45:06.282 IP: scope = link..global
+11:45:06.282 IP interfaces:
+11:45:06.282     eth1     : 172.23.1.215
+11:45:06.282 TCP: local secure TCP server disabled
+11:45:06.282 TCP: local TCP server disabled
+11:45:06.282 RTPS over IPv4 Initialised.
+11:45:06.282 IPv6: scope = site..global
+11:45:06.283 RTPS over IPv6 Initialised.
+11:45:06.283 QoS pools initialized.
+11:45:06.283 DDS: DynamicType_register(ParticipantMessageData): 5 blocks, 416 bytes
+11:45:06.283 DDS: DynamicType_register(BinaryProperty): 3 blocks, 272 bytes
+11:45:06.283 DDS: DynamicType_register(Property): 2 blocks, 216 bytes
+11:45:06.283 DDS: DynamicType_register(DataHolder): 6 blocks, 616 bytes
+11:45:06.283 DDS: DynamicType_register(MessageIdentity): 3 blocks, 272 bytes
+11:45:06.283 DDS: DynamicType_register(ParticipantGenericMessage): 3 blocks, 432 bytes
+11:45:06.283 DDS: DynamicType_register(ParticipantStatelessMessage): 2 blocks, 144 bytes
+11:45:06.283 DDS: DynamicType_register(ParticipantVolatileSecureMessage): 2 blocks, 144 bytes
+11:45:06.284 Discovery initialized.
+11:45:06.284 DCPS Initialised.
+11:45:06.286 DDS: core thread created.
+11:45:06.286 DDS: core thread running.
+11:45:06.286 Security: validate local permissions. 
+11:45:06.286 DDS: domain security mode = 0x0
+11:45:06.286 UDP: adding 172.23.1.215:7481 on [6]
+11:45:06.286 UDP: adding 239.255.0.1:7401 on [7]
+11:45:06.286 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7401
+11:45:06.286 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7401 on 172.23.1.215:7481
+11:45:06.286 RTPS: starting Discovery protocols.
+11:45:06.286 UDP: adding 172.23.1.215:7480 on [8]
+11:45:06.286 UDP: adding 239.255.0.1:7400 on [9]
+11:45:06.286 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7400
+11:45:06.286 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7400 on 172.23.1.215:7480
+11:45:06.286 SPDP: starting protocol for domain #0.
+11:45:06.286 RTPS: writer (SPDPbuiltinParticipantWriter) created.
+11:45:06.286 RTPS: reader (SPDPbuiltinParticipantReader) created.
+11:45:06.286 RTPS: reader (SEDPbuiltinPublicationsReader) created.
+11:45:06.286 RTPS: reader (SEDPbuiltinSubscriptionsReader) created.
+11:45:06.286 RTPS: writer (SEDPbuiltinPublicationsWriter) created.
+11:45:06.286 RTPS: writer (SEDPbuiltinSubscriptionsWriter) created.
+11:45:06.286 RTPS: reader (BuiltinParticipantMessageReader) created.
+11:45:06.286 RTPS: writer (BuiltinParticipantMessageWriter) created.
+11:45:06.287 SPDP: registering Participant key.
+11:45:06.287 SPDP: Send Participant data.
+11:45:06.287 DDS: DynamicTypeSupport_create_type_support(Vector3_dos): 1 blocks, 104 bytes
+11:45:06.287 SEDP: Writer (imu/simple_msgs::dds_::Vector3_dos_) added.
+11:45:06.287 SEDP: Send publication (imu/simple_msgs::dds_::Vector3_dos_)
+11:45:06.287 SEDP: Reader (imu/simple_msgs::dds_::Vector3_dos_) added.
+11:45:06.287 SEDP: Send subscription (imu/simple_msgs::dds_::Vector3_dos_)

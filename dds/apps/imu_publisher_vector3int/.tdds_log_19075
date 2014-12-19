@@ -1,0 +1,186 @@
+15:03:13.879 List pools created.
+15:03:13.880 String pool initialized.
+15:03:13.880 Typecode pools created.
+15:03:13.880 Typesupport initialized.
+15:03:13.880 Socket handler initialized.
+15:03:13.881 Timer pool initialized.
+15:03:13.881 Data buffer pools created.
+15:03:13.881 Existing host identifier reused.
+15:03:13.881 Unique GUID prefix created: 8f937eb8:00004a83:03e90000
+15:03:13.881 Locator pools created.
+15:03:13.881 History cache pools created.
+15:03:13.881 Entities: reserved=98, maximum=4294967295
+15:03:13.881 Domain pools created.
+15:03:13.881 RTPS Initialised.
+15:03:13.881 IP: scope = link..global
+15:03:13.881 IP interfaces:
+15:03:13.881     eth1     : 172.23.1.215
+15:03:13.881 TCP: local secure TCP server disabled
+15:03:13.881 TCP: local TCP server disabled
+15:03:13.881 RTPS over IPv4 Initialised.
+15:03:13.881 IPv6: scope = site..global
+15:03:13.882 RTPS over IPv6 Initialised.
+15:03:13.882 QoS pools initialized.
+15:03:13.882 DDS: DynamicType_register(ParticipantMessageData): 5 blocks, 416 bytes
+15:03:13.882 DDS: DynamicType_register(BinaryProperty): 3 blocks, 272 bytes
+15:03:13.882 DDS: DynamicType_register(Property): 2 blocks, 216 bytes
+15:03:13.882 DDS: DynamicType_register(DataHolder): 6 blocks, 616 bytes
+15:03:13.882 DDS: DynamicType_register(MessageIdentity): 3 blocks, 272 bytes
+15:03:13.882 DDS: DynamicType_register(ParticipantGenericMessage): 3 blocks, 432 bytes
+15:03:13.882 DDS: DynamicType_register(ParticipantStatelessMessage): 2 blocks, 144 bytes
+15:03:13.882 DDS: DynamicType_register(ParticipantVolatileSecureMessage): 2 blocks, 144 bytes
+15:03:13.882 Discovery initialized.
+15:03:13.882 DCPS Initialised.
+15:03:13.882 DDS: core thread created.
+15:03:13.883 DDS: core thread running.
+15:03:13.883 Security: validate local permissions. 
+15:03:13.883 DDS: domain security mode = 0x0
+15:03:13.883 UDP: adding 172.23.1.215:7577 on [6]
+15:03:13.883 UDP: adding 239.255.0.1:7401 on [7]
+15:03:13.883 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7401
+15:03:13.883 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7401 on 172.23.1.215:7577
+15:03:13.883 RTPS: starting Discovery protocols.
+15:03:13.883 UDP: adding 172.23.1.215:7576 on [8]
+15:03:13.883 UDP: adding 239.255.0.1:7400 on [9]
+15:03:13.883 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7400
+15:03:13.883 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7400 on 172.23.1.215:7576
+15:03:13.883 SPDP: starting protocol for domain #0.
+15:03:13.883 RTPS: writer (SPDPbuiltinParticipantWriter) created.
+15:03:13.883 RTPS: reader (SPDPbuiltinParticipantReader) created.
+15:03:13.883 RTPS: reader (SEDPbuiltinPublicationsReader) created.
+15:03:13.883 RTPS: reader (SEDPbuiltinSubscriptionsReader) created.
+15:03:13.883 RTPS: writer (SEDPbuiltinPublicationsWriter) created.
+15:03:13.883 RTPS: writer (SEDPbuiltinSubscriptionsWriter) created.
+15:03:13.883 RTPS: reader (BuiltinParticipantMessageReader) created.
+15:03:13.883 RTPS: writer (BuiltinParticipantMessageWriter) created.
+15:03:13.883 SPDP: registering Participant key.
+15:03:13.883 SPDP: Send Participant data.
+15:03:13.883 DDS: DynamicTypeSupport_create_type_support(Vector3): 1 blocks, 104 bytes
+15:03:13.883 SEDP: Writer (imu_topic/Vector3) added.
+15:03:13.883 SEDP: Send publication (imu_topic/Vector3)
+15:03:13.883 SEDP: Reader (imu_topic/Vector3) added.
+15:03:13.883 SEDP: Send subscription (imu_topic/Vector3)
+15:03:13.884 SPDP: New participant (Technicolor Chatroom) [8f937eb8:004c1c1e:03e90000] detected!
+15:03:13.884 SPDP: Connecting builtin endpoints.
+15:03:13.884 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:004c1c1e:03e90000.
+15:03:13.884 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:004c1c1e:03e90000.
+15:03:13.884 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:004c1c1e:03e90000.
+15:03:13.884 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:004c1c1e:03e90000.
+15:03:13.884 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:004c1c1e:03e90000.
+15:03:13.884 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:004c1c1e:03e90000.
+15:03:13.885 SPDP: New participant (Technicolor Chatroom) [8f937eb8:004d0db5:03e90000] detected!
+15:03:13.885 SPDP: Connecting builtin endpoints.
+15:03:13.885 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:004d0db5:03e90000.
+15:03:13.885 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:004d0db5:03e90000.
+15:03:13.885 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:004d0db5:03e90000.
+15:03:13.885 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:004d0db5:03e90000.
+15:03:13.885 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:004d0db5:03e90000.
+15:03:13.885 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:004d0db5:03e90000.
+15:03:13.885 SEDP: New subscription (Chat/ChatMsg) from peer!
+15:03:13.885 SEDP: New publication (Chat/ChatMsg) from peer!
+15:03:13.886 SEDP: New subscription (Chat/ChatMsg) from peer!
+15:03:13.886 SEDP: New publication (Chat/ChatMsg) from peer!
+15:03:14.884 Warning: DDS_DataWriter_register_instance: invalid parameters!
+15:03:15.884 Warning: DDS_DataWriter_register_instance: invalid parameters!
+15:03:16.884 Warning: DDS_DataWriter_register_instance: invalid parameters!
+15:03:17.884 Warning: DDS_DataWriter_register_instance: invalid parameters!
+15:03:18.885 Warning: DDS_DataWriter_register_instance: invalid parameters!
+15:03:19.087   Name          PSize  BSize  Rsrvd    Max MPUse CPUse MXUse CXUse Alloc  NoMem
+15:03:19.087   ----          -----  -----  -----    --- ----- ----- ----- ----- -----  -----
+15:03:19.087 List:
+15:03:19.087   SLIST             0    144      0      *     0     0     0     0     0      0
+15:03:19.087   SL0               0     32      0      *     0     0    56    55    59      0
+15:03:19.087   SL1               0     48      0      *     0     0    13    12    13      0
+15:03:19.087   SL2               0     64      0      *     0     0     0     0     0      0
+15:03:19.087   SL3               0     80      0      *     0     0     0     0     0      0
+15:03:19.087   SL4               0     96      0      *     0     0     0     0     0      0
+15:03:19.087   SL5               0    112      0      *     0     0     0     0     0      0
+15:03:19.087   SL6               0    128      0      *     0     0     0     0     0      0
+15:03:19.087   SL7               0    144      0      *     0     0     0     0     0      0
+15:03:19.087 String:
+15:03:19.087   STRING            0     24      0      *     0     0    71    71    71      0
+15:03:19.087   STR_REF           0     16      0      *     0     0    71    71    71      0
+15:03:19.087 Timer:
+15:03:19.087   TIMER             0     48      0      *     0     0    11     1    17      0
+15:03:19.087 Buffers:
+15:03:19.087   DATA_BUF(0)       0   8216      0      *     0     0     0     0     0      0
+15:03:19.087   DATA_BUF(1)       0   4120      0      *     0     0     0     0     0      0
+15:03:19.087   DATA_BUF(2)       0   2072      0      *     0     0     0     0     0      0
+15:03:19.087   DATA_BUF(3)       0   1048      0      *     0     0     0     0     0      0
+15:03:19.087   DATA_BUF(4)       0    536      0      *     0     0     0     0     0      0
+15:03:19.087   DATA_BUF(5)       0    280      0      *     0     0     0     0     0      0
+15:03:19.087   DATA_BUF(6)       0    152      0      *     0     0     0     0     0      0
+15:03:19.087   DATA_BUF(7)       0     88      0      *     0     0     0     0     0      0
+15:03:19.087 Locators:
+15:03:19.087   LOCREF            0     16      0      *     0     0    71    64   115      0
+15:03:19.087   LOCATOR           0     40      0      *     0     0    13    12    17      0
+15:03:19.088 QoS:
+15:03:19.088   QOS_REF           0     16      0      *     0     0     3     3     3      0
+15:03:19.088   QOS_DATA          0    112      0      *     0     0     3     3     3      0
+15:03:19.088 Cache:
+15:03:19.088   HIST_CACHE        0    200      0      *     0     0    10    10    10      0
+15:03:19.088   CHANGE            0     64      0      *     0     0     9     4    33      0
+15:03:19.088   INSTANCE          0    152      0      *     0     0     4     3    18      0
+15:03:19.088   CCREF             0     32      0      *     0     0     8     6    46      0
+15:03:19.088   CREF              0     16      0      *     0     0     1     1     1      0
+15:03:19.088   CWAIT             0    104      0      *     0     0     0     0     0      0
+15:03:19.088   CXFER             0     72      0      *     0     0     0     0     0      0
+15:03:19.088   XFLIST            0     56      0      *     0     0     0     0     0      0
+15:03:19.088   FILTER            0    120      0      *     0     0     0     0     0      0
+15:03:19.088   FINST             0     64      0      *     0     0     0     0     0      0
+15:03:19.088 Domain:
+15:03:19.088   DOMAIN            0   1648      0      5     0     0     1     1     1      0
+15:03:19.088   DPARTICIPANT      0    728      0      *     0     0     2     2     2      0
+15:03:19.088   TYPE              0     32      0      *     0     0     6     6     6      0
+15:03:19.088   TOPIC             0    144      0      *     0     0    10    10    10      0
+15:03:19.088   FILTER_TOPIC      0    240      0      *     0     0     0     0     0      0
+15:03:19.088   PUBLISHER         0    264      0      *     0     0     2     2     2      0
+15:03:19.088   SUBSCRIBER        0    272      0      *     0     0     2     2     2      0
+15:03:19.088   WRITER            0    240      0      *     0     0     5     5     5      0
+15:03:19.088   READER            0    352      0      *     0     0     5     5     5      0
+15:03:19.088   DWRITER           0     80      0      *     0     0     8     8     8      0
+15:03:19.088   DREADER           0     96      0      *     0     0     8     8     8      0
+15:03:19.088   GUARD             0     56      0      *     0     0     0     0     0      0
+15:03:19.088   PREFIX            0     40      0      *     0     0     1     0    11      0
+15:03:19.088 DDS:
+15:03:19.088   NOTIFICATION      0     24      0      *     0     0     1     0    15      0
+15:03:19.088   WS_DEFERED        0     24      0      *     0     0     0     0     0      0
+15:03:19.088   CFG_UPDATE        0     24      0      *     0     0     0     0     0      0
+15:03:19.088 DCPS:
+15:03:19.088   SAMPLE_INFO       0     56      0      *     0     0     1     1     1      0
+15:03:19.088   WAITSET           0    120      0      *     0     0     1     1     1      0
+15:03:19.088   STATUS_COND       0     56      0      *     0     0     0     0     0      0
+15:03:19.088   READ_COND         0     64      0      *     0     0     1     1     1      0
+15:03:19.088   QUERY_COND        0    152      0      *     0     0     0     0     0      0
+15:03:19.088   GUARD_COND        0     48      0      *     0     0     0     0     0      0
+15:03:19.088   TOPIC_WAIT        0     80      0      *     0     0     0     0     0      0
+15:03:19.088 RTPS:
+15:03:19.088   READER            0     72      0      *     0     0     4     4     4      0
+15:03:19.088   WRITER            0     88      0      *     0     0     4     4     4      0
+15:03:19.088   REM_READER        0    232      0      *     0     0     8     8     8      0
+15:03:19.088   REM_WRITER        0    208      0      *     0     0     6     6     6      0
+15:03:19.088   CCREF             0     48      0      *     0     0     6     2     6      0
+15:03:19.088   MSG_BUF           0    224      0      *     0     0     5     0    61      0
+15:03:19.088   MSG_ELEM_BUF      0    160      0      *     0     0     5     0    65      0
+15:03:19.088   MSG_REF           0     16      0      *     0     0     0     0     0      0
+15:03:19.088 IP:
+15:03:19.088   IP_CX             0    240      0   1025     0     0     5     5     5      0
+15:03:19.088 XTYPES:
+15:03:19.088   DYNTYPE           0     24      0      *     0     0     2     1     2      0
+15:03:19.088   DYNDREF           0     16      0      *     0     0     2     0    15      0
+15:03:19.089 SECURITY:
+15:03:19.089   DATA_HOLDER       0     56      0      *     0     0     0     0     0      0
+15:03:19.089   PROPERTY          0     16      0      *     0     0     0     0     0      0
+15:03:19.089   BIN_PROPERTY      0     32      0      *     0     0     0     0     0      0
+15:03:19.089   HOLDER_SEQ        0     24      0      *     0     0     0     0     0      0
+15:03:19.089 
+15:03:19.089 Pool/max/xmax/used/xused memory = 12288/12288/28992/12288/25512 bytes (731 mallocs) (335%/307%)
+15:03:19.089 Dynamically allocated: 38588 bytes.
+15:03:19.089 malloc statistics: 90 blocks, 43828 bytes, 0 failures.
+15:03:19.089 realloc statistics: 5 blocks, 352 bytes, 0 failures.
+15:03:19.089 free statistics: 37 blocks, 5592 bytes.
+15:03:19.089 Dynamic pool block stats: <=64K - max/used/msize/size: 6/1/256/1916
+15:03:19.089                            >64K - max/used           : 0/0
+15:03:19.089 Total heap memory: 41280 bytes.
+15:03:19.885 Warning: DDS_DataWriter_register_instance: invalid parameters!
+15:03:20.885 Warning: DDS_DataWriter_register_instance: invalid parameters!

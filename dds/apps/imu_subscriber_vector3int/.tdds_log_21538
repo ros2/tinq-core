@@ -1,0 +1,604 @@
+10:10:33.219 List pools created.
+10:10:33.219 String pool initialized.
+10:10:33.219 Typecode pools created.
+10:10:33.219 Typesupport initialized.
+10:10:33.219 Socket handler initialized.
+10:10:33.219 Timer pool initialized.
+10:10:33.219 Data buffer pools created.
+10:10:33.219 Existing host identifier reused.
+10:10:33.219 Unique GUID prefix created: 8f937eb8:00005422:03e90000
+10:10:33.219 Locator pools created.
+10:10:33.219 History cache pools created.
+10:10:33.219 Entities: reserved=98, maximum=4294967295
+10:10:33.219 Domain pools created.
+10:10:33.219 RTPS Initialised.
+10:10:33.219 IP: scope = link..global
+10:10:33.219 IP interfaces:
+10:10:33.219     eth1     : 172.23.1.215
+10:10:33.219 TCP: local secure TCP server disabled
+10:10:33.219 TCP: local TCP server disabled
+10:10:33.219 RTPS over IPv4 Initialised.
+10:10:33.219 IPv6: scope = site..global
+10:10:33.220 RTPS over IPv6 Initialised.
+10:10:33.220 QoS pools initialized.
+10:10:33.220 DDS: DynamicType_register(ParticipantMessageData): 5 blocks, 416 bytes
+10:10:33.220 DDS: DynamicType_register(BinaryProperty): 3 blocks, 272 bytes
+10:10:33.220 DDS: DynamicType_register(Property): 2 blocks, 216 bytes
+10:10:33.220 DDS: DynamicType_register(DataHolder): 6 blocks, 616 bytes
+10:10:33.220 DDS: DynamicType_register(MessageIdentity): 3 blocks, 272 bytes
+10:10:33.220 DDS: DynamicType_register(ParticipantGenericMessage): 3 blocks, 432 bytes
+10:10:33.220 DDS: DynamicType_register(ParticipantStatelessMessage): 2 blocks, 144 bytes
+10:10:33.220 DDS: DynamicType_register(ParticipantVolatileSecureMessage): 2 blocks, 144 bytes
+10:10:33.220 Discovery initialized.
+10:10:33.220 DCPS Initialised.
+10:10:33.220 DDS: core thread created.
+10:10:33.220 DDS: core thread running.
+10:10:33.221 Security: validate local permissions. 
+10:10:33.221 DDS: domain security mode = 0x0
+10:10:33.221 UDP: adding 172.23.1.215:7681 on [6]
+10:10:33.221 UDP: adding 239.255.0.1:7401 on [7]
+10:10:33.221 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7401
+10:10:33.221 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7401 on 172.23.1.215:7681
+10:10:33.221 RTPS: starting Discovery protocols.
+10:10:33.221 UDP: adding 172.23.1.215:7680 on [8]
+10:10:33.221 UDP: adding 239.255.0.1:7400 on [9]
+10:10:33.221 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7400
+10:10:33.221 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7400 on 172.23.1.215:7680
+10:10:33.221 SPDP: starting protocol for domain #0.
+10:10:33.221 RTPS: writer (SPDPbuiltinParticipantWriter) created.
+10:10:33.221 RTPS: reader (SPDPbuiltinParticipantReader) created.
+10:10:33.221 RTPS: reader (SEDPbuiltinPublicationsReader) created.
+10:10:33.221 RTPS: reader (SEDPbuiltinSubscriptionsReader) created.
+10:10:33.221 RTPS: writer (SEDPbuiltinPublicationsWriter) created.
+10:10:33.221 RTPS: writer (SEDPbuiltinSubscriptionsWriter) created.
+10:10:33.222 RTPS: reader (BuiltinParticipantMessageReader) created.
+10:10:33.222 RTPS: writer (BuiltinParticipantMessageWriter) created.
+10:10:33.222 SPDP: registering Participant key.
+10:10:33.222 SPDP: Send Participant data.
+10:10:33.222 DDS: DynamicTypeSupport_create_type_support(Vector3): 1 blocks, 104 bytes
+10:10:33.222 SEDP: Writer (imu_topic/Vector3) added.
+10:10:33.222 SEDP: Send publication (imu_topic/Vector3)
+10:10:33.222 SEDP: Reader (imu_topic/Vector3) added.
+10:10:33.222 SEDP: Send subscription (imu_topic/Vector3)
+10:10:34.882 SPDP: New participant detected!
+10:10:34.882 SPDP: Connecting builtin endpoints.
+10:10:34.882 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 33ffed7c:00000062:00000001.
+10:10:34.882 RTPS: matched writer add (BuiltinParticipantMessageReader) to 33ffed7c:00000062:00000001.
+10:10:34.882 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 33ffed7c:00000062:00000001.
+10:10:34.882 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 33ffed7c:00000062:00000001.
+10:10:34.882 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 33ffed7c:00000062:00000001.
+10:10:34.882 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 33ffed7c:00000062:00000001.
+10:10:34.883 SPDP: New participant detected!
+10:10:34.883 SPDP: Connecting builtin endpoints.
+10:10:34.883 RTPS: matched writer add (BuiltinParticipantMessageReader) to 33ffed7c:0000000b:00000001.
+10:10:34.883 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 33ffed7c:0000000b:00000001.
+10:10:34.883 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 33ffed7c:0000000b:00000001.
+10:10:34.883 SPDP: New participant detected!
+10:10:34.883 SPDP: Connecting builtin endpoints.
+10:10:34.883 RTPS: matched writer add (BuiltinParticipantMessageReader) to 33ffed7c:00000030:00000001.
+10:10:34.883 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 33ffed7c:00000030:00000001.
+10:10:34.883 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 33ffed7c:00000030:00000001.
+10:10:34.884 SPDP: New participant detected!
+10:10:34.884 SPDP: Connecting builtin endpoints.
+10:10:34.884 RTPS: matched writer add (BuiltinParticipantMessageReader) to 33ffed7c:0000005d:00000001.
+10:10:34.884 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 33ffed7c:0000005d:00000001.
+10:10:34.884 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 33ffed7c:0000005d:00000001.
+10:10:34.884 SEDP: New publication (DCPSTopic/kernelModule::v_topicInfo) from peer!
+10:10:34.884 SEDP: New publication (DCPSPublication/kernelModule::v_publicationInfo) from peer!
+10:10:34.884 SEDP: New publication (DCPSParticipant/kernelModule::v_participantInfo) from peer!
+10:10:34.884 SEDP: New publication (CMParticipant/kernelModule::v_participantCMInfo) from peer!
+10:10:34.884 SEDP: New publication (DCPSSubscription/kernelModule::v_subscriptionInfo) from peer!
+10:10:34.884 SEDP: New publication (DCPSHeartbeat/kernelModule::v_heartbeatInfo) from peer!
+10:10:34.884 SEDP: New publication (DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand) from peer!
+10:10:34.884 SEDP: New publication (DCPSDelivery/kernelModule::v_deliveryInfo) from peer!
+10:10:34.884 SEDP: New subscription (DCPSTopic/kernelModule::v_topicInfo) from peer!
+10:10:34.884 SEDP: New subscription (DCPSSubscription/kernelModule::v_subscriptionInfo) from peer!
+10:10:34.884 SEDP: New subscription (DCPSPublication/kernelModule::v_publicationInfo) from peer!
+10:10:34.884 SEDP: New subscription (DCPSHeartbeat/kernelModule::v_heartbeatInfo) from peer!
+10:10:34.884 SEDP: New subscription (DCPSParticipant/kernelModule::v_participantInfo) from peer!
+10:10:34.884 SEDP: New subscription (DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand) from peer!
+10:10:34.885 SEDP: New subscription (DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand) from peer!
+10:10:34.885 SEDP: New subscription (DCPSSubscription/kernelModule::v_subscriptionInfo) from peer!
+10:10:34.885 SEDP: New subscription (CMParticipant/kernelModule::v_participantCMInfo) from peer!
+10:10:34.885 SEDP: New subscription (DCPSParticipant/kernelModule::v_participantInfo) from peer!
+10:10:34.885 SEDP: New subscription (DCPSPublication/kernelModule::v_publicationInfo) from peer!
+10:10:34.885 SEDP: New subscription (DCPSTopic/kernelModule::v_topicInfo) from peer!
+10:10:34.885 SEDP: New subscription (DCPSPublication/kernelModule::v_publicationInfo) from peer!
+10:10:34.885 SEDP: New subscription (DCPSSubscription/kernelModule::v_subscriptionInfo) from peer!
+10:10:34.885 SEDP: New subscription (DCPSParticipant/kernelModule::v_participantInfo) from peer!
+10:10:34.885 SEDP: New publication (d_status/durabilityModule2::d_status_s) from peer!
+10:10:34.984 SEDP: New publication (d_newGroup/durabilityModule2::d_newGroup_s) from peer!
+10:10:34.984 SEDP: New publication (d_groupsRequest/durabilityModule2::d_groupsRequest_s) from peer!
+10:10:34.984 SEDP: New publication (d_statusRequest/durabilityModule2::d_statusRequest_s) from peer!
+10:10:34.985 SEDP: New publication (d_sampleRequest/durabilityModule2::d_sampleRequest_s) from peer!
+10:10:34.985 SEDP: New publication (d_nameSpaces/durabilityModule2::d_nameSpaces_s) from peer!
+10:10:34.985 SEDP: New publication (d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s) from peer!
+10:10:34.985 SEDP: New publication (d_deleteData/durabilityModule2::d_deleteData_s) from peer!
+10:10:34.985 SEDP: New publication (d_sampleChain/durabilityModule2::d_sampleChain_s) from peer!
+10:10:34.985 SEDP: New subscription (d_nameSpaces/durabilityModule2::d_nameSpaces_s) from peer!
+10:10:34.986 SEDP: New subscription (d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s) from peer!
+10:10:34.986 SEDP: New subscription (d_status/durabilityModule2::d_status_s) from peer!
+10:10:34.986 SEDP: New subscription (d_groupsRequest/durabilityModule2::d_groupsRequest_s) from peer!
+10:10:34.986 SEDP: New subscription (d_deleteData/durabilityModule2::d_deleteData_s) from peer!
+10:10:34.986 SEDP: New subscription (d_newGroup/durabilityModule2::d_newGroup_s) from peer!
+10:10:34.987 SEDP: New subscription (d_sampleRequest/durabilityModule2::d_sampleRequest_s) from peer!
+10:10:34.987 SEDP: New subscription (d_sampleChain/durabilityModule2::d_sampleChain_s) from peer!
+10:10:36.066 SPDP: New participant detected!
+10:10:36.066 SPDP: Connecting builtin endpoints.
+10:10:36.066 RTPS: matched writer add (BuiltinParticipantMessageReader) to 33ffed7c:0000011a:00000001.
+10:10:36.066 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 33ffed7c:0000011a:00000001.
+10:10:36.066 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 33ffed7c:0000011a:00000001.
+10:10:36.068 SEDP: New publication (imu/simple_msgs::dds_::Vector3_) from peer!
+10:10:38.125 Domain 0 (pid=135): {1}
+10:10:38.126 	GUID prefix: 8f937eb8:00875422:03e90000
+10:10:38.126 	RTPS Protocol version: v2.1
+10:10:38.126 	Vendor Id: 1.14 - Technicolor, Inc. - Qeo
+10:10:38.126 	Technicolor DDS version: 4.0-0, Forward: 0
+10:10:38.126 	SecureTransport: none
+10:10:38.126 	Authorisation: Authenticated
+10:10:38.126 	Entity name: Technicolor Chatroom
+10:10:38.126 	Flags: Enabled
+10:10:38.126 	Meta Unicast: 
+10:10:38.126 		UDP:172.23.1.215:7680(3) {MD,UC} H:3
+10:10:38.126 	Meta Multicast: 
+10:10:38.126 		UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:10:38.126 	Default Unicast: 
+10:10:38.126 		UDP:172.23.1.215:7681(1) {UD,UC} H:1
+10:10:38.126 	Default Multicast: 
+10:10:38.126 		UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:10:38.126 	Manual Liveliness: 0
+10:10:38.126 	Lease duration: 50.000000000s
+10:10:38.126 	Endpoints: 10 entries (5 readers, 5 writers).
+10:10:38.126 		000001-3, {22}, InlineQoS: No, Writer, imu_topic/Vector3
+10:10:38.126 		000002-4, {24}, InlineQoS: No, Reader, imu_topic/Vector3
+10:10:38.126 	Topics: 
+10:10:38.126 	    BuiltinParticipantMessageReader/ParticipantMessageData 
+10:10:38.126 	    BuiltinParticipantMessageWriter/ParticipantMessageData 
+10:10:38.126 	    CMParticipant/kernelModule::v_participantCMInfo 
+10:10:38.126 	    DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand 
+10:10:38.126 	    DCPSDelivery/kernelModule::v_deliveryInfo 
+10:10:38.126 	    DCPSHeartbeat/kernelModule::v_heartbeatInfo 
+10:10:38.126 	    DCPSParticipant/kernelModule::v_participantInfo 
+10:10:38.126 	    DCPSPublication/kernelModule::v_publicationInfo 
+10:10:38.126 	    DCPSSubscription/kernelModule::v_subscriptionInfo 
+10:10:38.126 	    DCPSTopic/kernelModule::v_topicInfo 
+10:10:38.127 	    SEDPbuiltinPublicationsReader/PublicationBuiltinTopicData 
+10:10:38.127 	    SEDPbuiltinPublicationsWriter/PublicationBuiltinTopicData 
+10:10:38.127 	    SEDPbuiltinSubscriptionsReader/SubscriptionBuiltinTopicData 
+10:10:38.127 	    SEDPbuiltinSubscriptionsWriter/SubscriptionBuiltinTopicData 
+10:10:38.127 	    SPDPbuiltinParticipantReader/ParticipantBuiltinTopicData 
+10:10:38.127 	    SPDPbuiltinParticipantWriter/ParticipantBuiltinTopicData 
+10:10:38.127 	    d_deleteData/durabilityModule2::d_deleteData_s 
+10:10:38.127 	    d_groupsRequest/durabilityModule2::d_groupsRequest_s 
+10:10:38.127 	    d_nameSpaces/durabilityModule2::d_nameSpaces_s 
+10:10:38.127 	    d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s 
+10:10:38.127 	    d_newGroup/durabilityModule2::d_newGroup_s 
+10:10:38.127 	    d_sampleChain/durabilityModule2::d_sampleChain_s 
+10:10:38.127 	    d_sampleRequest/durabilityModule2::d_sampleRequest_s 
+10:10:38.127 	    d_status/durabilityModule2::d_status_s 
+10:10:38.127 	    d_statusRequest/durabilityModule2::d_statusRequest_s 
+10:10:38.127 	    imu/simple_msgs::dds_::Vector3_ imu_topic/Vector3 
+10:10:38.127 	Security: level=Unclassified, access=any, RTPS=clear
+10:10:38.127 	Resend period: 10.000000000s
+10:10:38.127 	Destination Locators: 
+10:10:38.127 		UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:10:38.127 		TCP:239.255.0.1:7400 {MD,MC}
+10:10:38.127 	Discovered participants:
+10:10:38.127 	    Peer #0: {32} - Local activity: 3.02s
+10:10:38.127 		GUID prefix: 33ffed7c:0000000b:00000001
+10:10:38.127 		RTPS Protocol version: v2.1
+10:10:38.127 		Vendor Id: 1.2 - PrismTech, Inc. - OpenSplice DDS
+10:10:38.127 		Meta Unicast: 
+10:10:38.127 			UDP:172.23.1.215:50167 {MD,UC}
+10:10:38.127 		Meta Multicast: 
+10:10:38.127 			UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:10:38.127 		Default Unicast: 
+10:10:38.127 			UDP:172.23.1.215:50167 {MD,UC}
+10:10:38.128 		Default Multicast: 
+10:10:38.128 			UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:10:38.128 		Manual Liveliness: 0
+10:10:38.128 		Lease duration: 11.000000000s
+10:10:38.128 		Endpoints: 11 entries (0 readers, 11 writers).
+10:10:38.128 			000001-2, {44}, InlineQoS: No, Writer, DCPSTopic/kernelModule::v_topicInfo
+10:10:38.128 			000002-2, {46}, InlineQoS: No, Writer, DCPSPublication/kernelModule::v_publicationInfo
+10:10:38.128 			000003-2, {48}, InlineQoS: No, Writer, DCPSParticipant/kernelModule::v_participantInfo
+10:10:38.128 			000004-2, {50}, InlineQoS: No, Writer, CMParticipant/kernelModule::v_participantCMInfo
+10:10:38.128 			000005-2, {52}, InlineQoS: No, Writer, DCPSSubscription/kernelModule::v_subscriptionInfo
+10:10:38.128 			000006-2, {54}, InlineQoS: No, Writer, DCPSHeartbeat/kernelModule::v_heartbeatInfo
+10:10:38.128 			000007-2, {56}, InlineQoS: No, Writer, DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand
+10:10:38.128 			000008-3, {58}, InlineQoS: No, Writer, DCPSDelivery/kernelModule::v_deliveryInfo
+10:10:38.128 		Topics: 
+10:10:38.128 		    CMParticipant/kernelModule::v_participantCMInfo 
+10:10:38.128 		    DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand 
+10:10:38.128 		    DCPSDelivery/kernelModule::v_deliveryInfo 
+10:10:38.128 		    DCPSHeartbeat/kernelModule::v_heartbeatInfo 
+10:10:38.128 		    DCPSParticipant/kernelModule::v_participantInfo 
+10:10:38.128 		    DCPSPublication/kernelModule::v_publicationInfo 
+10:10:38.128 		    DCPSSubscription/kernelModule::v_subscriptionInfo 
+10:10:38.128 		    DCPSTopic/kernelModule::v_topicInfo 
+10:10:38.128 		Source: 
+10:10:38.128 			UDP:172.23.1.215:45017 {MD,UC}
+10:10:38.128 		Timer = 7.77s
+10:10:38.128 	    Peer #1: {36} - Local activity: 3.02s
+10:10:38.128 		GUID prefix: 33ffed7c:00000030:00000001
+10:10:38.128 		RTPS Protocol version: v2.1
+10:10:38.128 		Vendor Id: 1.2 - PrismTech, Inc. - OpenSplice DDS
+10:10:38.128 		Meta Unicast: 
+10:10:38.128 			UDP:172.23.1.215:56514 {MD,UC}
+10:10:38.128 		Meta Multicast: 
+10:10:38.128 			UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:10:38.128 		Default Unicast: 
+10:10:38.129 			UDP:172.23.1.215:56514 {MD,UC}
+10:10:38.129 		Default Multicast: 
+10:10:38.129 			UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:10:38.129 		Manual Liveliness: 0
+10:10:38.129 		Lease duration: 11.000000000s
+10:10:38.129 		Endpoints: 9 entries (6 readers, 3 writers).
+10:10:38.129 			000001-7, {60}, InlineQoS: No, Reader, DCPSTopic/kernelModule::v_topicInfo
+10:10:38.129 			000002-7, {61}, InlineQoS: No, Reader, DCPSSubscription/kernelModule::v_subscriptionInfo
+10:10:38.129 			000003-7, {62}, InlineQoS: No, Reader, DCPSPublication/kernelModule::v_publicationInfo
+10:10:38.129 			000004-7, {63}, InlineQoS: No, Reader, DCPSHeartbeat/kernelModule::v_heartbeatInfo
+10:10:38.129 			000005-7, {64}, InlineQoS: No, Reader, DCPSParticipant/kernelModule::v_participantInfo
+10:10:38.129 			000006-7, {65}, InlineQoS: No, Reader, DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand
+10:10:38.129 		Topics: 
+10:10:38.129 		    DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand 
+10:10:38.129 		    DCPSHeartbeat/kernelModule::v_heartbeatInfo 
+10:10:38.129 		    DCPSParticipant/kernelModule::v_participantInfo 
+10:10:38.129 		    DCPSPublication/kernelModule::v_publicationInfo 
+10:10:38.129 		    DCPSSubscription/kernelModule::v_subscriptionInfo 
+10:10:38.129 		    DCPSTopic/kernelModule::v_topicInfo 
+10:10:38.129 		Source: 
+10:10:38.129 			UDP:172.23.1.215:45017 {MD,UC}
+10:10:38.129 		Timer = 7.77s
+10:10:38.129 	    Peer #2: {40} - Local activity: 3.02s
+10:10:38.129 		GUID prefix: 33ffed7c:0000005d:00000001
+10:10:38.129 		RTPS Protocol version: v2.1
+10:10:38.129 		Vendor Id: 1.2 - PrismTech, Inc. - OpenSplice DDS
+10:10:38.129 		Meta Unicast: 
+10:10:38.129 			UDP:172.23.1.215:42841 {MD,UC}
+10:10:38.129 		Meta Multicast: 
+10:10:38.129 			UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:10:38.129 		Default Unicast: 
+10:10:38.129 			UDP:172.23.1.215:42841 {MD,UC}
+10:10:38.129 		Default Multicast: 
+10:10:38.129 			UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:10:38.130 		Manual Liveliness: 0
+10:10:38.130 		Lease duration: 11.000000000s
+10:10:38.130 		Endpoints: 20 entries (8 readers, 12 writers).
+10:10:38.130 			000001-2, {75}, InlineQoS: No, Writer, d_status/durabilityModule2::d_status_s
+10:10:38.130 			000002-2, {77}, InlineQoS: No, Writer, d_newGroup/durabilityModule2::d_newGroup_s
+10:10:38.130 			000003-2, {79}, InlineQoS: No, Writer, d_groupsRequest/durabilityModule2::d_groupsRequest_s
+10:10:38.130 			000004-2, {81}, InlineQoS: No, Writer, d_statusRequest/durabilityModule2::d_statusRequest_s
+10:10:38.130 			000005-2, {83}, InlineQoS: No, Writer, d_sampleRequest/durabilityModule2::d_sampleRequest_s
+10:10:38.130 			000006-2, {85}, InlineQoS: No, Writer, d_nameSpaces/durabilityModule2::d_nameSpaces_s
+10:10:38.130 			000007-2, {87}, InlineQoS: No, Writer, d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s
+10:10:38.130 			000008-2, {89}, InlineQoS: No, Writer, d_deleteData/durabilityModule2::d_deleteData_s
+10:10:38.130 			000009-2, {91}, InlineQoS: No, Writer, d_sampleChain/durabilityModule2::d_sampleChain_s
+10:10:38.130 			00000a-7, {93}, InlineQoS: No, Reader, d_nameSpaces/durabilityModule2::d_nameSpaces_s
+10:10:38.130 			00000b-7, {94}, InlineQoS: No, Reader, d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s
+10:10:38.130 			00000c-7, {95}, InlineQoS: No, Reader, d_status/durabilityModule2::d_status_s
+10:10:38.130 			00000d-7, {96}, InlineQoS: No, Reader, d_groupsRequest/durabilityModule2::d_groupsRequest_s
+10:10:38.130 			00000e-7, {97}, InlineQoS: No, Reader, d_deleteData/durabilityModule2::d_deleteData_s
+10:10:38.130 			00000f-7, {98}, InlineQoS: No, Reader, d_newGroup/durabilityModule2::d_newGroup_s
+10:10:38.130 			000010-7, {99}, InlineQoS: No, Reader, d_sampleRequest/durabilityModule2::d_sampleRequest_s
+10:10:38.130 			000011-7, {100}, InlineQoS: No, Reader, d_sampleChain/durabilityModule2::d_sampleChain_s
+10:10:38.130 		Topics: 
+10:10:38.130 		    d_deleteData/durabilityModule2::d_deleteData_s 
+10:10:38.130 		    d_groupsRequest/durabilityModule2::d_groupsRequest_s 
+10:10:38.130 		    d_nameSpaces/durabilityModule2::d_nameSpaces_s 
+10:10:38.130 		    d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s 
+10:10:38.130 		    d_newGroup/durabilityModule2::d_newGroup_s 
+10:10:38.130 		    d_sampleChain/durabilityModule2::d_sampleChain_s 
+10:10:38.130 		    d_sampleRequest/durabilityModule2::d_sampleRequest_s 
+10:10:38.130 		    d_status/durabilityModule2::d_status_s 
+10:10:38.130 		    d_statusRequest/durabilityModule2::d_statusRequest_s 
+10:10:38.130 		Source: 
+10:10:38.130 			UDP:172.23.1.215:45017 {MD,UC}
+10:10:38.131 		Timer = 7.77s
+10:10:38.131 	    Peer #3: {25} - Local activity: 3.02s
+10:10:38.131 		GUID prefix: 33ffed7c:00000062:00000001
+10:10:38.131 		RTPS Protocol version: v2.1
+10:10:38.131 		Vendor Id: 1.2 - PrismTech, Inc. - OpenSplice DDS
+10:10:38.131 		Meta Unicast: 
+10:10:38.131 			UDP:172.23.1.215:41066 {MD,UC}
+10:10:38.131 		Meta Multicast: 
+10:10:38.131 			UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:10:38.131 		Default Unicast: 
+10:10:38.131 			UDP:172.23.1.215:41066 {MD,UC}
+10:10:38.131 		Default Multicast: 
+10:10:38.131 			UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:10:38.131 		Manual Liveliness: 0
+10:10:38.131 		Lease duration: 11.000000000s
+10:10:38.131 		Endpoints: 15 entries (12 readers, 3 writers).
+10:10:38.131 			000001-7, {66}, InlineQoS: No, Reader, DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand
+10:10:38.131 			000002-7, {67}, InlineQoS: No, Reader, DCPSSubscription/kernelModule::v_subscriptionInfo
+10:10:38.131 			000003-7, {68}, InlineQoS: No, Reader, CMParticipant/kernelModule::v_participantCMInfo
+10:10:38.131 			000004-7, {69}, InlineQoS: No, Reader, DCPSParticipant/kernelModule::v_participantInfo
+10:10:38.131 			000005-7, {70}, InlineQoS: No, Reader, DCPSPublication/kernelModule::v_publicationInfo
+10:10:38.131 			000006-7, {71}, InlineQoS: No, Reader, DCPSTopic/kernelModule::v_topicInfo
+10:10:38.131 			000007-7, {72}, InlineQoS: No, Reader, DCPSPublication/kernelModule::v_publicationInfo
+10:10:38.131 			000008-7, {73}, InlineQoS: No, Reader, DCPSSubscription/kernelModule::v_subscriptionInfo
+10:10:38.131 			000009-7, {74}, InlineQoS: No, Reader, DCPSParticipant/kernelModule::v_participantInfo
+10:10:38.131 		Topics: 
+10:10:38.131 		    CMParticipant/kernelModule::v_participantCMInfo 
+10:10:38.131 		    DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand 
+10:10:38.131 		    DCPSParticipant/kernelModule::v_participantInfo 
+10:10:38.131 		    DCPSPublication/kernelModule::v_publicationInfo 
+10:10:38.131 		    DCPSSubscription/kernelModule::v_subscriptionInfo 
+10:10:38.131 		    DCPSTopic/kernelModule::v_topicInfo 
+10:10:38.132 		Source: 
+10:10:38.132 			UDP:172.23.1.215:45017 {MD,UC}
+10:10:38.132 		Timer = 7.77s
+10:10:38.132 	    Peer #4: {101} - Local activity: 2.00s
+10:10:38.132 		GUID prefix: 33ffed7c:0000011a:00000001
+10:10:38.132 		RTPS Protocol version: v2.1
+10:10:38.132 		Vendor Id: 1.2 - PrismTech, Inc. - OpenSplice DDS
+10:10:38.132 		Meta Unicast: 
+10:10:38.132 			UDP:172.23.1.215:32878 {MD,UC}
+10:10:38.132 		Meta Multicast: 
+10:10:38.132 			UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:10:38.132 		Default Unicast: 
+10:10:38.132 			UDP:172.23.1.215:32878 {MD,UC}
+10:10:38.132 		Default Multicast: 
+10:10:38.132 			UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:10:38.132 		Manual Liveliness: 0
+10:10:38.132 		Lease duration: 11.000000000s
+10:10:38.132 		Endpoints: 4 entries (0 readers, 4 writers).
+10:10:38.132 			000001-3, {105}, InlineQoS: No, Writer, imu/simple_msgs::dds_::Vector3_
+10:10:38.132 		Topics: 
+10:10:38.132 		    imu/simple_msgs::dds_::Vector3_ 
+10:10:38.132 		Source: 
+10:10:38.132 			UDP:172.23.1.215:45017 {MD,UC}
+10:10:38.132 		Timer = 8.96s
+10:10:53.516 SPDP: New participant (Technicolor Chatroom) [8f937eb8:00885455:03e90000] detected!
+10:10:53.516 SPDP: Connecting builtin endpoints.
+10:10:53.516 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:00885455:03e90000.
+10:10:53.516 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:00885455:03e90000.
+10:10:53.516 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:00885455:03e90000.
+10:10:53.516 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:00885455:03e90000.
+10:10:53.516 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:00885455:03e90000.
+10:10:53.517 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:00885455:03e90000.
+10:10:53.518 topic_create(imu): incompatible type name!
+10:10:53.518 SEDP: New subscription (imu/Vector3) from peer!
+10:10:53.518 topic_create(imu): incompatible type name!
+10:10:53.518 SEDP: New publication (imu/Vector3) from peer!
+10:11:01.249 Domain 0 (pid=135): {1}
+10:11:01.249 	GUID prefix: 8f937eb8:00875422:03e90000
+10:11:01.249 	RTPS Protocol version: v2.1
+10:11:01.249 	Vendor Id: 1.14 - Technicolor, Inc. - Qeo
+10:11:01.249 	Technicolor DDS version: 4.0-0, Forward: 0
+10:11:01.249 	SecureTransport: none
+10:11:01.249 	Authorisation: Authenticated
+10:11:01.249 	Entity name: Technicolor Chatroom
+10:11:01.249 	Flags: Enabled
+10:11:01.249 	Meta Unicast: 
+10:11:01.249 		UDP:172.23.1.215:7680(3) {MD,UC} H:3
+10:11:01.249 	Meta Multicast: 
+10:11:01.249 		UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:11:01.249 	Default Unicast: 
+10:11:01.249 		UDP:172.23.1.215:7681(1) {UD,UC} H:1
+10:11:01.249 	Default Multicast: 
+10:11:01.249 		UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:11:01.250 	Manual Liveliness: 0
+10:11:01.250 	Lease duration: 50.000000000s
+10:11:01.250 	Endpoints: 10 entries (5 readers, 5 writers).
+10:11:01.250 		000001-3, {22}, InlineQoS: No, Writer, imu_topic/Vector3
+10:11:01.250 		000002-4, {24}, InlineQoS: No, Reader, imu_topic/Vector3
+10:11:01.250 	Topics: 
+10:11:01.250 	    BuiltinParticipantMessageReader/ParticipantMessageData 
+10:11:01.250 	    BuiltinParticipantMessageWriter/ParticipantMessageData 
+10:11:01.250 	    CMParticipant/kernelModule::v_participantCMInfo 
+10:11:01.250 	    DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand 
+10:11:01.250 	    DCPSDelivery/kernelModule::v_deliveryInfo 
+10:11:01.250 	    DCPSHeartbeat/kernelModule::v_heartbeatInfo 
+10:11:01.250 	    DCPSParticipant/kernelModule::v_participantInfo 
+10:11:01.250 	    DCPSPublication/kernelModule::v_publicationInfo 
+10:11:01.250 	    DCPSSubscription/kernelModule::v_subscriptionInfo 
+10:11:01.250 	    DCPSTopic/kernelModule::v_topicInfo 
+10:11:01.250 	    SEDPbuiltinPublicationsReader/PublicationBuiltinTopicData 
+10:11:01.250 	    SEDPbuiltinPublicationsWriter/PublicationBuiltinTopicData 
+10:11:01.250 	    SEDPbuiltinSubscriptionsReader/SubscriptionBuiltinTopicData 
+10:11:01.250 	    SEDPbuiltinSubscriptionsWriter/SubscriptionBuiltinTopicData 
+10:11:01.250 	    SPDPbuiltinParticipantReader/ParticipantBuiltinTopicData 
+10:11:01.250 	    SPDPbuiltinParticipantWriter/ParticipantBuiltinTopicData 
+10:11:01.250 	    d_deleteData/durabilityModule2::d_deleteData_s 
+10:11:01.250 	    d_groupsRequest/durabilityModule2::d_groupsRequest_s 
+10:11:01.250 	    d_nameSpaces/durabilityModule2::d_nameSpaces_s 
+10:11:01.251 	    d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s 
+10:11:01.251 	    d_newGroup/durabilityModule2::d_newGroup_s 
+10:11:01.251 	    d_sampleChain/durabilityModule2::d_sampleChain_s 
+10:11:01.251 	    d_sampleRequest/durabilityModule2::d_sampleRequest_s 
+10:11:01.251 	    d_status/durabilityModule2::d_status_s 
+10:11:01.251 	    d_statusRequest/durabilityModule2::d_statusRequest_s 
+10:11:01.251 	    imu/simple_msgs::dds_::Vector3_ imu_topic/Vector3 
+10:11:01.251 	Security: level=Unclassified, access=any, RTPS=clear
+10:11:01.251 	Resend period: 10.000000000s
+10:11:01.251 	Destination Locators: 
+10:11:01.251 		UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:11:01.251 		TCP:239.255.0.1:7400 {MD,MC}
+10:11:01.251 	Discovered participants:
+10:11:01.251 	    Peer #0: {32} - Local activity: 6.03s
+10:11:01.251 		GUID prefix: 33ffed7c:0000000b:00000001
+10:11:01.251 		RTPS Protocol version: v2.1
+10:11:01.251 		Vendor Id: 1.2 - PrismTech, Inc. - OpenSplice DDS
+10:11:01.251 		Meta Unicast: 
+10:11:01.251 			UDP:172.23.1.215:50167 {MD,UC}
+10:11:01.251 		Meta Multicast: 
+10:11:01.251 			UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:11:01.251 		Default Unicast: 
+10:11:01.251 			UDP:172.23.1.215:50167 {MD,UC}
+10:11:01.251 		Default Multicast: 
+10:11:01.251 			UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:11:01.251 		Manual Liveliness: 0
+10:11:01.252 		Lease duration: 11.000000000s
+10:11:01.252 		Endpoints: 11 entries (0 readers, 11 writers).
+10:11:01.252 			000001-2, {44}, InlineQoS: No, Writer, DCPSTopic/kernelModule::v_topicInfo
+10:11:01.252 			000002-2, {46}, InlineQoS: No, Writer, DCPSPublication/kernelModule::v_publicationInfo
+10:11:01.252 			000003-2, {48}, InlineQoS: No, Writer, DCPSParticipant/kernelModule::v_participantInfo
+10:11:01.252 			000004-2, {50}, InlineQoS: No, Writer, CMParticipant/kernelModule::v_participantCMInfo
+10:11:01.252 			000005-2, {52}, InlineQoS: No, Writer, DCPSSubscription/kernelModule::v_subscriptionInfo
+10:11:01.252 			000006-2, {54}, InlineQoS: No, Writer, DCPSHeartbeat/kernelModule::v_heartbeatInfo
+10:11:01.252 			000007-2, {56}, InlineQoS: No, Writer, DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand
+10:11:01.252 			000008-3, {58}, InlineQoS: No, Writer, DCPSDelivery/kernelModule::v_deliveryInfo
+10:11:01.252 		Topics: 
+10:11:01.252 		    CMParticipant/kernelModule::v_participantCMInfo 
+10:11:01.252 		    DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand 
+10:11:01.252 		    DCPSDelivery/kernelModule::v_deliveryInfo 
+10:11:01.252 		    DCPSHeartbeat/kernelModule::v_heartbeatInfo 
+10:11:01.252 		    DCPSParticipant/kernelModule::v_participantInfo 
+10:11:01.252 		    DCPSPublication/kernelModule::v_publicationInfo 
+10:11:01.252 		    DCPSSubscription/kernelModule::v_subscriptionInfo 
+10:11:01.252 		    DCPSTopic/kernelModule::v_topicInfo 
+10:11:01.252 		Source: 
+10:11:01.252 			UDP:172.23.1.215:45017 {MD,UC}
+10:11:01.252 		Timer = 4.65s
+10:11:01.252 	    Peer #1: {36} - Local activity: 6.03s
+10:11:01.252 		GUID prefix: 33ffed7c:00000030:00000001
+10:11:01.252 		RTPS Protocol version: v2.1
+10:11:01.252 		Vendor Id: 1.2 - PrismTech, Inc. - OpenSplice DDS
+10:11:01.253 		Meta Unicast: 
+10:11:01.253 			UDP:172.23.1.215:56514 {MD,UC}
+10:11:01.253 		Meta Multicast: 
+10:11:01.253 			UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:11:01.253 		Default Unicast: 
+10:11:01.253 			UDP:172.23.1.215:56514 {MD,UC}
+10:11:01.253 		Default Multicast: 
+10:11:01.253 			UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:11:01.253 		Manual Liveliness: 0
+10:11:01.253 		Lease duration: 11.000000000s
+10:11:01.253 		Endpoints: 9 entries (6 readers, 3 writers).
+10:11:01.253 			000001-7, {60}, InlineQoS: No, Reader, DCPSTopic/kernelModule::v_topicInfo
+10:11:01.253 			000002-7, {61}, InlineQoS: No, Reader, DCPSSubscription/kernelModule::v_subscriptionInfo
+10:11:01.253 			000003-7, {62}, InlineQoS: No, Reader, DCPSPublication/kernelModule::v_publicationInfo
+10:11:01.253 			000004-7, {63}, InlineQoS: No, Reader, DCPSHeartbeat/kernelModule::v_heartbeatInfo
+10:11:01.253 			000005-7, {64}, InlineQoS: No, Reader, DCPSParticipant/kernelModule::v_participantInfo
+10:11:01.253 			000006-7, {65}, InlineQoS: No, Reader, DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand
+10:11:01.253 		Topics: 
+10:11:01.253 		    DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand 
+10:11:01.253 		    DCPSHeartbeat/kernelModule::v_heartbeatInfo 
+10:11:01.253 		    DCPSParticipant/kernelModule::v_participantInfo 
+10:11:01.253 		    DCPSPublication/kernelModule::v_publicationInfo 
+10:11:01.253 		    DCPSSubscription/kernelModule::v_subscriptionInfo 
+10:11:01.253 		    DCPSTopic/kernelModule::v_topicInfo 
+10:11:01.253 		Source: 
+10:11:01.253 			UDP:172.23.1.215:45017 {MD,UC}
+10:11:01.254 		Timer = 4.65s
+10:11:01.254 	    Peer #2: {40} - Local activity: 6.03s
+10:11:01.254 		GUID prefix: 33ffed7c:0000005d:00000001
+10:11:01.254 		RTPS Protocol version: v2.1
+10:11:01.254 		Vendor Id: 1.2 - PrismTech, Inc. - OpenSplice DDS
+10:11:01.254 		Meta Unicast: 
+10:11:01.254 			UDP:172.23.1.215:42841 {MD,UC}
+10:11:01.254 		Meta Multicast: 
+10:11:01.254 			UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:11:01.254 		Default Unicast: 
+10:11:01.254 			UDP:172.23.1.215:42841 {MD,UC}
+10:11:01.254 		Default Multicast: 
+10:11:01.254 			UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:11:01.254 		Manual Liveliness: 0
+10:11:01.254 		Lease duration: 11.000000000s
+10:11:01.254 		Endpoints: 20 entries (8 readers, 12 writers).
+10:11:01.254 			000001-2, {75}, InlineQoS: No, Writer, d_status/durabilityModule2::d_status_s
+10:11:01.254 			000002-2, {77}, InlineQoS: No, Writer, d_newGroup/durabilityModule2::d_newGroup_s
+10:11:01.254 			000003-2, {79}, InlineQoS: No, Writer, d_groupsRequest/durabilityModule2::d_groupsRequest_s
+10:11:01.254 			000004-2, {81}, InlineQoS: No, Writer, d_statusRequest/durabilityModule2::d_statusRequest_s
+10:11:01.254 			000005-2, {83}, InlineQoS: No, Writer, d_sampleRequest/durabilityModule2::d_sampleRequest_s
+10:11:01.254 			000006-2, {85}, InlineQoS: No, Writer, d_nameSpaces/durabilityModule2::d_nameSpaces_s
+10:11:01.254 			000007-2, {87}, InlineQoS: No, Writer, d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s
+10:11:01.254 			000008-2, {89}, InlineQoS: No, Writer, d_deleteData/durabilityModule2::d_deleteData_s
+10:11:01.254 			000009-2, {91}, InlineQoS: No, Writer, d_sampleChain/durabilityModule2::d_sampleChain_s
+10:11:01.254 			00000a-7, {93}, InlineQoS: No, Reader, d_nameSpaces/durabilityModule2::d_nameSpaces_s
+10:11:01.254 			00000b-7, {94}, InlineQoS: No, Reader, d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s
+10:11:01.254 			00000c-7, {95}, InlineQoS: No, Reader, d_status/durabilityModule2::d_status_s
+10:11:01.254 			00000d-7, {96}, InlineQoS: No, Reader, d_groupsRequest/durabilityModule2::d_groupsRequest_s
+10:11:01.254 			00000e-7, {97}, InlineQoS: No, Reader, d_deleteData/durabilityModule2::d_deleteData_s
+10:11:01.254 			00000f-7, {98}, InlineQoS: No, Reader, d_newGroup/durabilityModule2::d_newGroup_s
+10:11:01.254 			000010-7, {99}, InlineQoS: No, Reader, d_sampleRequest/durabilityModule2::d_sampleRequest_s
+10:11:01.254 			000011-7, {100}, InlineQoS: No, Reader, d_sampleChain/durabilityModule2::d_sampleChain_s
+10:11:01.254 		Topics: 
+10:11:01.254 		    d_deleteData/durabilityModule2::d_deleteData_s 
+10:11:01.254 		    d_groupsRequest/durabilityModule2::d_groupsRequest_s 
+10:11:01.254 		    d_nameSpaces/durabilityModule2::d_nameSpaces_s 
+10:11:01.254 		    d_nameSpacesRequest/durabilityModule2::d_nameSpacesRequest_s 
+10:11:01.254 		    d_newGroup/durabilityModule2::d_newGroup_s 
+10:11:01.254 		    d_sampleChain/durabilityModule2::d_sampleChain_s 
+10:11:01.254 		    d_sampleRequest/durabilityModule2::d_sampleRequest_s 
+10:11:01.254 		    d_status/durabilityModule2::d_status_s 
+10:11:01.255 		    d_statusRequest/durabilityModule2::d_statusRequest_s 
+10:11:01.255 		Source: 
+10:11:01.255 			UDP:172.23.1.215:45017 {MD,UC}
+10:11:01.255 		Timer = 4.64s
+10:11:01.255 	    Peer #3: {25} - Local activity: 6.03s
+10:11:01.255 		GUID prefix: 33ffed7c:00000062:00000001
+10:11:01.255 		RTPS Protocol version: v2.1
+10:11:01.255 		Vendor Id: 1.2 - PrismTech, Inc. - OpenSplice DDS
+10:11:01.255 		Meta Unicast: 
+10:11:01.255 			UDP:172.23.1.215:41066 {MD,UC}
+10:11:01.255 		Meta Multicast: 
+10:11:01.255 			UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:11:01.255 		Default Unicast: 
+10:11:01.255 			UDP:172.23.1.215:41066 {MD,UC}
+10:11:01.255 		Default Multicast: 
+10:11:01.255 			UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:11:01.255 		Manual Liveliness: 0
+10:11:01.255 		Lease duration: 11.000000000s
+10:11:01.255 		Endpoints: 15 entries (12 readers, 3 writers).
+10:11:01.255 			000001-7, {66}, InlineQoS: No, Reader, DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand
+10:11:01.255 			000002-7, {67}, InlineQoS: No, Reader, DCPSSubscription/kernelModule::v_subscriptionInfo
+10:11:01.255 			000003-7, {68}, InlineQoS: No, Reader, CMParticipant/kernelModule::v_participantCMInfo
+10:11:01.255 			000004-7, {69}, InlineQoS: No, Reader, DCPSParticipant/kernelModule::v_participantInfo
+10:11:01.255 			000005-7, {70}, InlineQoS: No, Reader, DCPSPublication/kernelModule::v_publicationInfo
+10:11:01.255 			000006-7, {71}, InlineQoS: No, Reader, DCPSTopic/kernelModule::v_topicInfo
+10:11:01.255 			000007-7, {72}, InlineQoS: No, Reader, DCPSPublication/kernelModule::v_publicationInfo
+10:11:01.255 			000008-7, {73}, InlineQoS: No, Reader, DCPSSubscription/kernelModule::v_subscriptionInfo
+10:11:01.255 			000009-7, {74}, InlineQoS: No, Reader, DCPSParticipant/kernelModule::v_participantInfo
+10:11:01.255 		Topics: 
+10:11:01.255 		    CMParticipant/kernelModule::v_participantCMInfo 
+10:11:01.255 		    DCPSCandMCommand/kernelModule::v_controlAndMonitoringCommand 
+10:11:01.255 		    DCPSParticipant/kernelModule::v_participantInfo 
+10:11:01.255 		    DCPSPublication/kernelModule::v_publicationInfo 
+10:11:01.255 		    DCPSSubscription/kernelModule::v_subscriptionInfo 
+10:11:01.255 		    DCPSTopic/kernelModule::v_topicInfo 
+10:11:01.255 		Source: 
+10:11:01.255 			UDP:172.23.1.215:45017 {MD,UC}
+10:11:01.255 		Timer = 4.64s
+10:11:01.255 	    Peer #4: {101} - Local activity: 5.01s
+10:11:01.255 		GUID prefix: 33ffed7c:0000011a:00000001
+10:11:01.255 		RTPS Protocol version: v2.1
+10:11:01.255 		Vendor Id: 1.2 - PrismTech, Inc. - OpenSplice DDS
+10:11:01.255 		Meta Unicast: 
+10:11:01.255 			UDP:172.23.1.215:32878 {MD,UC}
+10:11:01.255 		Meta Multicast: 
+10:11:01.255 			UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:11:01.255 		Default Unicast: 
+10:11:01.255 			UDP:172.23.1.215:32878 {MD,UC}
+10:11:01.255 		Default Multicast: 
+10:11:01.255 			UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:11:01.255 		Manual Liveliness: 0
+10:11:01.255 		Lease duration: 11.000000000s
+10:11:01.255 		Endpoints: 4 entries (0 readers, 4 writers).
+10:11:01.255 			000001-3, {105}, InlineQoS: No, Writer, imu/simple_msgs::dds_::Vector3_
+10:11:01.255 		Topics: 
+10:11:01.255 		    imu/simple_msgs::dds_::Vector3_ 
+10:11:01.255 		Source: 
+10:11:01.255 			UDP:172.23.1.215:45017 {MD,UC}
+10:11:01.255 		Timer = 5.83s
+10:11:01.255 	    Peer #5: {107} - Local activity: 7.03s
+10:11:01.256 		GUID prefix: 8f937eb8:00885455:03e90000
+10:11:01.256 		RTPS Protocol version: v2.1
+10:11:01.256 		Vendor Id: 1.14 - Technicolor, Inc. - Qeo
+10:11:01.256 		Technicolor DDS version: 4.0-0, Forward: 0
+10:11:01.256 		SecureTransport: remote: DDSSEC, local: DDSSEC
+10:11:01.256 		Authorisation: Authenticated
+10:11:01.256 		Entity name: Technicolor Chatroom
+10:11:01.256 		Meta Unicast: 
+10:11:01.256 			UDP:172.23.1.215:7682 {MD,UC}
+10:11:01.256 		Meta Multicast: 
+10:11:01.256 			UDP:239.255.0.1:7400(4) {MD,MC} H:4
+10:11:01.256 		Default Unicast: 
+10:11:01.256 			UDP:172.23.1.215:7683 {UD,UC}
+10:11:01.256 		Default Multicast: 
+10:11:01.256 			UDP:239.255.0.1:7401(2) {UD,MC} H:2
+10:11:01.256 		Manual Liveliness: 0
+10:11:01.256 		Lease duration: 50.000000000s
+10:11:01.256 		Endpoints: 8 entries (4 readers, 4 writers).

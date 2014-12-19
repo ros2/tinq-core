@@ -1,0 +1,493 @@
+10:11:26.177 List pools created.
+10:11:26.177 String pool initialized.
+10:11:26.177 Typecode pools created.
+10:11:26.177 Typesupport initialized.
+10:11:26.177 Socket handler initialized.
+10:11:26.177 Timer pool initialized.
+10:11:26.178 Data buffer pools created.
+10:11:26.178 Existing host identifier reused.
+10:11:26.178 Unique GUID prefix created: 8f937eb8:000055e7:03e90000
+10:11:26.178 Locator pools created.
+10:11:26.178 History cache pools created.
+10:11:26.178 Entities: reserved=98, maximum=4294967295
+10:11:26.178 Domain pools created.
+10:11:26.178 RTPS Initialised.
+10:11:26.178 IP: scope = link..global
+10:11:26.178 IP interfaces:
+10:11:26.178     eth0     : 192.168.0.2
+10:11:26.178     eth1     : 172.23.1.215
+10:11:26.178 TCP: local secure TCP server disabled
+10:11:26.178 TCP: local TCP server disabled
+10:11:26.178 RTPS over IPv4 Initialised.
+10:11:26.178 IPv6: scope = site..global
+10:11:26.178 RTPS over IPv6 Initialised.
+10:11:26.178 QoS pools initialized.
+10:11:26.179 DDS: DynamicType_register(ParticipantMessageData): 5 blocks, 416 bytes
+10:11:26.179 DDS: DynamicType_register(BinaryProperty): 3 blocks, 272 bytes
+10:11:26.179 DDS: DynamicType_register(Property): 2 blocks, 216 bytes
+10:11:26.179 DDS: DynamicType_register(DataHolder): 6 blocks, 616 bytes
+10:11:26.179 DDS: DynamicType_register(MessageIdentity): 3 blocks, 272 bytes
+10:11:26.179 DDS: DynamicType_register(ParticipantGenericMessage): 3 blocks, 432 bytes
+10:11:26.179 DDS: DynamicType_register(ParticipantStatelessMessage): 2 blocks, 144 bytes
+10:11:26.179 DDS: DynamicType_register(ParticipantVolatileSecureMessage): 2 blocks, 144 bytes
+10:11:26.179 Discovery initialized.
+10:11:26.179 DCPS Initialised.
+10:11:26.179 DDS: core thread created.
+10:11:26.179 Security: validate local permissions. 
+10:11:26.179 DDS: core thread running.
+10:11:26.179 DDS: domain security mode = 0x0
+10:11:26.179 UDP: adding 192.168.0.2:7469 on [6]
+10:11:26.179 UDP: adding 172.23.1.215:7469 on [7]
+10:11:26.179 UDP: adding 239.255.0.1:7401 on [8]
+10:11:26.180 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7401
+10:11:26.180 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7401 on 192.168.0.2:7469
+10:11:26.180 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7401 on 172.23.1.215:7469
+10:11:26.180 RTPS: starting Discovery protocols.
+10:11:26.180 UDP: adding 192.168.0.2:7468 on [9]
+10:11:26.180 UDP: adding 172.23.1.215:7468 on [10]
+10:11:26.180 UDP: adding 239.255.0.1:7400 on [11]
+10:11:26.180 UDP: setsockopt (SO_REUSEADDR) 239.255.0.1:7400
+10:11:26.180 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7400 on 192.168.0.2:7468
+10:11:26.180 UDP: setsockopt (IP_ADD_MEMBERSHIP) 239.255.0.1:7400 on 172.23.1.215:7468
+10:11:26.180 SPDP: starting protocol for domain #0.
+10:11:26.180 RTPS: writer (SPDPbuiltinParticipantWriter) created.
+10:11:26.180 RTPS: reader (SPDPbuiltinParticipantReader) created.
+10:11:26.180 RTPS: reader (SEDPbuiltinPublicationsReader) created.
+10:11:26.180 RTPS: reader (SEDPbuiltinSubscriptionsReader) created.
+10:11:26.180 RTPS: writer (SEDPbuiltinPublicationsWriter) created.
+10:11:26.180 RTPS: writer (SEDPbuiltinSubscriptionsWriter) created.
+10:11:26.180 RTPS: reader (BuiltinParticipantMessageReader) created.
+10:11:26.180 RTPS: writer (BuiltinParticipantMessageWriter) created.
+10:11:26.180 SPDP: registering Participant key.
+10:11:26.180 SPDP: Send Participant data.
+10:11:26.180 DDS: DynamicTypeSupport_create_type_support(Imu32): 1 blocks, 104 bytes
+10:11:26.180 SEDP: Writer (imu/simple_msgs::dds_::Imu32_) added.
+10:11:26.180 SEDP: Send publication (imu/simple_msgs::dds_::Imu32_)
+10:11:26.180 SEDP: Reader (imu/simple_msgs::dds_::Imu32_) added.
+10:11:26.180 SEDP: Send subscription (imu/simple_msgs::dds_::Imu32_)
+10:11:26.181 SPDP: New participant (Technicolor Chatroom) [8f937eb8:001c55e4:03e90000] detected!
+10:11:26.181 SPDP: Connecting builtin endpoints.
+10:11:26.181 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 8f937eb8:001c55e4:03e90000.
+10:11:26.181 RTPS: matched writer add (BuiltinParticipantMessageReader) to 8f937eb8:001c55e4:03e90000.
+10:11:26.181 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 8f937eb8:001c55e4:03e90000.
+10:11:26.181 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 8f937eb8:001c55e4:03e90000.
+10:11:26.181 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 8f937eb8:001c55e4:03e90000.
+10:11:26.181 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 8f937eb8:001c55e4:03e90000.
+10:11:26.181 Discovery: Matched reader detected!
+10:11:26.181 RTPS: writer (imu) created.
+10:11:26.181 RTPS: matched reader add (imu) to 8f937eb8:001c55e4:03e90000.
+10:11:26.181 SEDP: New subscription (imu/simple_msgs::dds_::Imu32_) from peer!
+10:11:26.181 Discovery: Match writer detected!
+10:11:26.181 RTPS: reader (imu) created.
+10:11:26.181 RTPS: matched writer add (imu) to 8f937eb8:001c55e4:03e90000.
+10:11:26.181 SEDP: New publication (imu/simple_msgs::dds_::Imu32_) from peer!
+10:11:30.882 SPDP: New participant (Technicolor Chatroom) [526934d9:00590002:00060000] detected!
+10:11:30.882 SPDP: Connecting builtin endpoints.
+10:11:30.882 RTPS: matched reader add (BuiltinParticipantMessageWriter) to 526934d9:00590002:00060000.
+10:11:30.882 RTPS: matched writer add (BuiltinParticipantMessageReader) to 526934d9:00590002:00060000.
+10:11:30.882 RTPS: matched reader add (SEDPbuiltinPublicationsWriter) to 526934d9:00590002:00060000.
+10:11:30.882 RTPS: matched writer add (SEDPbuiltinPublicationsReader) to 526934d9:00590002:00060000.
+10:11:30.882 RTPS: matched reader add (SEDPbuiltinSubscriptionsWriter) to 526934d9:00590002:00060000.
+10:11:30.882 RTPS: matched writer add (SEDPbuiltinSubscriptionsReader) to 526934d9:00590002:00060000.
+10:12:16.119 0.1*0:	boolean;
+10:12:16.119 0.2*0:	octet;
+10:12:16.119 0.3*0:	short;
+10:12:16.119 0.4*0:	unsigned short;
+10:12:16.119 0.5*0:	long;
+10:12:16.119 0.6*0:	unsigned long;
+10:12:16.119 0.7*0:	long long;
+10:12:16.119 0.8*0:	unsigned long long;
+10:12:16.119 0.9*0:	float;
+10:12:16.119 0.10*0:	double;
+10:12:16.119 0.11*0:	long double;
+10:12:16.119 0.12*0:	char;
+10:12:16.119 0.13*0:	wchar;
+10:12:16.119 0.14*1:	struct ParticipantMessageData /*Size:40*/ {
+10:12:16.119 /*0*/		octet participantGuidPrefix[12] /*ESize:1*/;  //@Key
+10:12:16.119 /*12*/		octet kind[4] /*ESize:1*/;  //@Key
+10:12:16.119 /*16*/		sequence<octet> /*ESize:1*/ data;
+10:12:16.119 	};
+10:12:16.119 0.15*1:	typedef octet array_12_octet[12] /*ESize:1*/;
+10:12:16.119 0.16*1:	typedef octet array_4_octet[4] /*ESize:1*/;
+10:12:16.119 0.17*4:	typedef sequence<octet> /*ESize:1*/ sequence_octet;
+10:12:16.120 0.18*2:	struct BinaryProperty /*Size:32*/ {
+10:12:16.120 /*0*/		string /*ESize:1*/ key;
+10:12:16.120 /*8*/		sequence<octet> /*ESize:1*/ value;
+10:12:16.120 	};
+10:12:16.120 0.19*6:	typedef string /*ESize:1*/ string_character;
+10:12:16.120 0.20*2:	struct Property /*Size:16*/ {
+10:12:16.120 /*0*/		string /*ESize:1*/ key;
+10:12:16.120 /*8*/		string /*ESize:1*/ value;
+10:12:16.120 	};
+10:12:16.120 0.21*2:	@Extensibility(MUTABLE_EXTENSIBILITY) struct DataHolder /*Size:56*/ {
+10:12:16.120 /*0*/		string /*ESize:1*/ class_id;
+10:12:16.120 /*8*/		sequence<Property> /*ESize:16*/ string_properties;  //@Optional
+10:12:16.120 /*16*/		sequence<BinaryProperty> /*ESize:32*/ binary_properties;  //@Optional
+10:12:16.120 /*24*/		sequence<string /*ESize:1*/> /*ESize:8*/ string_values;  //@Optional
+10:12:16.120 /*32*/		sequence<octet> /*ESize:1*/ binary_value1;  //@Optional
+10:12:16.120 /*40*/		sequence<octet> /*ESize:1*/ binary_value2;  //@Optional
+10:12:16.120 /*48*/		sequence<long long> /*ESize:8*/ longlongs_value;  //@Optional
+10:12:16.120 	};
+10:12:16.120 0.22*1:	typedef sequence<Property> /*ESize:16*/ sequence_Property;
+10:12:16.120 0.23*1:	typedef sequence<BinaryProperty> /*ESize:32*/ sequence_BinaryProperty;
+10:12:16.120 0.24*1:	typedef sequence<string /*ESize:1*/> /*ESize:8*/ sequence_string_character;
+10:12:16.120 0.25*1:	typedef sequence<long long> /*ESize:8*/ sequence_longlong;
+10:12:16.120 0.26*3:	struct MessageIdentity /*Size:24*/ {
+10:12:16.120 /*0*/		octet source_guid[16] /*ESize:1*/;
+10:12:16.120 /*16*/		long long sequence_number;
+10:12:16.120 	};
+10:12:16.120 0.27*4:	typedef octet array_16_octet[16] /*ESize:1*/;
+10:12:16.121 0.28*3:	struct ParticipantGenericMessage /*Size:128*/ {
+10:12:16.121 /*0*/		MessageIdentity message_identity;
+10:12:16.121 /*24*/		MessageIdentity related_message_identity;
+10:12:16.121 /*48*/		octet destination_participant_key[16] /*ESize:1*/;
+10:12:16.121 /*64*/		octet destination_endpoint_key[16] /*ESize:1*/;
+10:12:16.121 /*80*/		octet source_endpoint_key[16] /*ESize:1*/;
+10:12:16.121 /*96*/		string /*ESize:1*/ message_class_id;
+10:12:16.121 /*104*/		sequence<DataHolder> /*ESize:56*/ message_data;
+10:12:16.121 	};
+10:12:16.121 0.29*1:	typedef sequence<DataHolder> /*ESize:56*/ sequence_DataHolder;
+10:12:16.121 0.30*1:	typedef ParticipantGenericMessage ParticipantStatelessMessage;
+10:12:16.121 0.31*1:	typedef ParticipantGenericMessage ParticipantVolatileSecureMessage;
+10:12:16.121 0.32*2:	struct stamp /*Size:8*/ {
+10:12:16.121 /*0*/		long sec;
+10:12:16.121 /*4*/		long nanosec;
+10:12:16.121 	};
+10:12:16.121 0.33*3:	typedef string<100> /*ESize:1*/ string_100_character;
+10:12:16.121 0.34*2:	struct header /*Size:116*/ {
+10:12:16.121 /*0*/		long seq;
+10:12:16.121 /*4*/		stamp stamp;
+10:12:16.121 /*12*/		string_100_character frame_id;
+10:12:16.121 	};
+10:12:16.121 0.35*2:	struct orientation /*Size:16*/ {
+10:12:16.121 /*0*/		float x;
+10:12:16.121 /*4*/		float y;
+10:12:16.121 /*8*/		float z;
+10:12:16.121 /*12*/		float w;
+10:12:16.121 	};
+10:12:16.122 0.36*2:	struct angular_velocity /*Size:12*/ {
+10:12:16.122 /*0*/		float x;
+10:12:16.122 /*4*/		float y;
+10:12:16.122 /*8*/		float z;
+10:12:16.122 	};
+10:12:16.122 0.37*2:	struct linear_acceleration /*Size:12*/ {
+10:12:16.122 /*0*/		float x;
+10:12:16.122 /*4*/		float y;
+10:12:16.122 /*8*/		float z;
+10:12:16.122 	};
+10:12:16.122 0.38*4:	typedef float array_9_float[9] /*ESize:4*/;
+10:12:16.122 0.39*2:	struct Imu32 /*Size:264*/ {
+10:12:16.122 /*0*/		header header;
+10:12:16.122 /*116*/		orientation orientation;
+10:12:16.122 /*132*/		array_9_float orientation_covariance[9] /*ESize:4*/;
+10:12:16.122 /*168*/		angular_velocity angular_velocity;
+10:12:16.122 /*180*/		array_9_float angular_velocity_covariance[9] /*ESize:4*/;
+10:12:16.122 /*216*/		linear_acceleration linear_acceleration;
+10:12:16.122 /*228*/		array_9_float linear_acceleration_covariance[9] /*ESize:4*/;
+10:12:16.122 	};
+10:18:45.519 TDDS Debug shell -- (c) Technicolor, 2012
+10:18:45.519 Following commands are available:
+10:18:45.519 	ssys                  Display system-specific data.
+10:18:45.519 	stimer                Display the timers.
+10:18:45.519 	sstr                  Display the string cache.
+10:18:45.519 	spool                 Display the pools.
+10:18:45.519 	spoola                Display the pools (extended).
+10:18:45.519 	scx [<cx>]            Display connections.
+10:18:45.519 	scxa [<cx>]           Display connections (extended).
+10:18:45.519 	scxq                  Display queued connections.
+10:18:45.519 	sloc                  Display locators.
+10:18:45.519 	sconfig               Display configuration data.
+10:18:45.519 	sdomain <d> <lf> <rf> Display domain (d) info.
+10:18:45.519 	                      <lf> and <rf> are bitmaps for local/remote info.
+10:18:45.519 	                      1=Locator, 2=Builtin, 4=Endp, 8=Type, 10=Topic.
+10:18:45.519 	sdisc                 Display discovery info.
+10:18:45.519 	sdisca                Display all discovery info (sdisc + endpoints)
+10:18:45.519 	stype [<name>]        Display Type information.
+10:18:45.519 	sqos                  Display QoS parameters.
+10:18:45.519 	stopic <d> [<name>]   Display Topic information.
+10:18:45.519 	sendpoints            Display the DCPS/RTPS Readers/Writers.
+10:18:45.520 	scache <ep>           Display an RTPS Endpoint Cache.
+10:18:45.520 	sdcache <ep>          Display a DCPS Endpoint Cache.
+10:18:45.520 	qcache <ep> [<query>] Query cache data of the specified endpoint:
+10:18:45.520 	                      where: <ep>: endpoint, <query>: SQL Query string.
+10:18:45.520 	sproxy [<ep>]         Display Proxy contexts.
+10:18:45.520 	rproxy [<ep>]         Restart Proxy context.
+10:18:45.520 	seqos <ep>            Display endpoint QoS parameters.
+10:18:45.520 	scrypto <ep>          Display entity crypto parameters.
+10:18:45.520 	sscache               Display security cache.
+10:18:45.520 	rehs                  Request a rehandshake.
+10:18:45.520 	srx                   Display the RTPS Receiver context.
+10:18:45.520 	stx                   Display the RTPS Transmitter context.
+10:18:45.520 	sfd                   Display the status of the file descriptors.
+10:18:45.520 	asp <d>               Assert participant.
+10:18:45.520 	ase <ep>              Assert writer endpoint.
+10:18:45.520 	dtls                  Display DTLS connection related info.
+10:18:45.520 	spdb                  Display the policy database.
+10:18:45.520 	sfwd                  Display the forwarder state.
+10:18:45.520 	ftrace <n>            Start forwarder tracing for <n> events.
+10:18:45.520 	d [<p> [<n>]]         Dump memory.
+10:18:45.520 	da [<p> [<n>]]        Dump memory in ASCII.
+10:18:45.520 	db [<p> [<n>]]        Dump memory in hex bytes.
+10:18:45.520 	ds [<p> [<n>]]        Dump memory in hex 16-bit values.
+10:18:45.520 	dl [<p> [<n>]]        Dump memory in hex 32-bit values.
+10:18:45.520 	dm [<p> [<n>]]        Dump memory in mixed hex/ASCII.
+10:18:45.520 	indent <tab> <n>      Set indent type (if <tab>=1: use TABs).
+10:18:45.520 	taflags <flags>       Set type attribute display flags.
+10:18:45.520 	                      <flags>: 1=header, 2=size, 4=elsize, 8=ofs.
+10:18:45.520 	server [<port>]       Start debug server on the given port.
+10:18:45.520 	env                   Display configuration data (=sconf).
+10:18:45.521 	set <var> <value>     Set the configuration variable to given value.
+10:18:45.521 	unset <var>           Unset the configuration variable.
+10:18:45.521 	suspend <value>       Suspend with given mode.
+10:18:45.521 	activate <value>      Activate with given mode.
+10:18:45.521 	help                  Display general help.
+10:18:45.521 	exit                  Close remote connection.
+10:18:57.730 0.1*0:	boolean;
+10:18:57.730 0.2*0:	octet;
+10:18:57.730 0.3*0:	short;
+10:18:57.730 0.4*0:	unsigned short;
+10:18:57.730 0.5*0:	long;
+10:18:57.730 0.6*0:	unsigned long;
+10:18:57.730 0.7*0:	long long;
+10:18:57.730 0.8*0:	unsigned long long;
+10:18:57.730 0.9*0:	float;
+10:18:57.730 0.10*0:	double;
+10:18:57.730 0.11*0:	long double;
+10:18:57.730 0.12*0:	char;
+10:18:57.730 0.13*0:	wchar;
+10:18:57.730 0.14*1:	struct ParticipantMessageData /*Size:40*/ {
+10:18:57.730 /*0*/		octet participantGuidPrefix[12] /*ESize:1*/;  //@Key
+10:18:57.730 /*12*/		octet kind[4] /*ESize:1*/;  //@Key
+10:18:57.730 /*16*/		sequence<octet> /*ESize:1*/ data;
+10:18:57.731 	};
+10:18:57.731 0.15*1:	typedef octet array_12_octet[12] /*ESize:1*/;
+10:18:57.731 0.16*1:	typedef octet array_4_octet[4] /*ESize:1*/;
+10:18:57.731 0.17*4:	typedef sequence<octet> /*ESize:1*/ sequence_octet;
+10:18:57.731 0.18*2:	struct BinaryProperty /*Size:32*/ {
+10:18:57.731 /*0*/		string /*ESize:1*/ key;
+10:18:57.731 /*8*/		sequence<octet> /*ESize:1*/ value;
+10:18:57.731 	};
+10:18:57.731 0.19*6:	typedef string /*ESize:1*/ string_character;
+10:18:57.731 0.20*2:	struct Property /*Size:16*/ {
+10:18:57.731 /*0*/		string /*ESize:1*/ key;
+10:18:57.731 /*8*/		string /*ESize:1*/ value;
+10:18:57.731 	};
+10:18:57.731 0.21*2:	@Extensibility(MUTABLE_EXTENSIBILITY) struct DataHolder /*Size:56*/ {
+10:18:57.731 /*0*/		string /*ESize:1*/ class_id;
+10:18:57.731 /*8*/		sequence<Property> /*ESize:16*/ string_properties;  //@Optional
+10:18:57.731 /*16*/		sequence<BinaryProperty> /*ESize:32*/ binary_properties;  //@Optional
+10:18:57.731 /*24*/		sequence<string /*ESize:1*/> /*ESize:8*/ string_values;  //@Optional
+10:18:57.731 /*32*/		sequence<octet> /*ESize:1*/ binary_value1;  //@Optional
+10:18:57.731 /*40*/		sequence<octet> /*ESize:1*/ binary_value2;  //@Optional
+10:18:57.731 /*48*/		sequence<long long> /*ESize:8*/ longlongs_value;  //@Optional
+10:18:57.731 	};
+10:18:57.731 0.22*1:	typedef sequence<Property> /*ESize:16*/ sequence_Property;
+10:18:57.731 0.23*1:	typedef sequence<BinaryProperty> /*ESize:32*/ sequence_BinaryProperty;
+10:18:57.731 0.24*1:	typedef sequence<string /*ESize:1*/> /*ESize:8*/ sequence_string_character;
+10:18:57.731 0.25*1:	typedef sequence<long long> /*ESize:8*/ sequence_longlong;
+10:18:57.731 0.26*3:	struct MessageIdentity /*Size:24*/ {
+10:18:57.731 /*0*/		octet source_guid[16] /*ESize:1*/;
+10:18:57.731 /*16*/		long long sequence_number;
+10:18:57.731 	};
+10:18:57.731 0.27*4:	typedef octet array_16_octet[16] /*ESize:1*/;
+10:18:57.731 0.28*3:	struct ParticipantGenericMessage /*Size:128*/ {
+10:18:57.731 /*0*/		MessageIdentity message_identity;
+10:18:57.731 /*24*/		MessageIdentity related_message_identity;
+10:18:57.731 /*48*/		octet destination_participant_key[16] /*ESize:1*/;
+10:18:57.731 /*64*/		octet destination_endpoint_key[16] /*ESize:1*/;
+10:18:57.731 /*80*/		octet source_endpoint_key[16] /*ESize:1*/;
+10:18:57.731 /*96*/		string /*ESize:1*/ message_class_id;
+10:18:57.731 /*104*/		sequence<DataHolder> /*ESize:56*/ message_data;
+10:18:57.731 	};
+10:18:57.731 0.29*1:	typedef sequence<DataHolder> /*ESize:56*/ sequence_DataHolder;
+10:18:57.731 0.30*1:	typedef ParticipantGenericMessage ParticipantStatelessMessage;
+10:18:57.731 0.31*1:	typedef ParticipantGenericMessage ParticipantVolatileSecureMessage;
+10:18:57.731 0.32*2:	struct stamp /*Size:8*/ {
+10:18:57.731 /*0*/		long sec;
+10:18:57.731 /*4*/		long nanosec;
+10:18:57.731 	};
+10:18:57.731 0.33*3:	typedef string<100> /*ESize:1*/ string_100_character;
+10:18:57.731 0.34*2:	struct header /*Size:116*/ {
+10:18:57.731 /*0*/		long seq;
+10:18:57.731 /*4*/		stamp stamp;
+10:18:57.731 /*12*/		string_100_character frame_id;
+10:18:57.731 	};
+10:18:57.731 0.35*2:	struct orientation /*Size:16*/ {
+10:18:57.731 /*0*/		float x;
+10:18:57.731 /*4*/		float y;
+10:18:57.731 /*8*/		float z;
+10:18:57.731 /*12*/		float w;
+10:18:57.731 	};
+10:18:57.731 0.36*2:	struct angular_velocity /*Size:12*/ {
+10:18:57.731 /*0*/		float x;
+10:18:57.731 /*4*/		float y;
+10:18:57.731 /*8*/		float z;
+10:18:57.731 	};
+10:18:57.731 0.37*2:	struct linear_acceleration /*Size:12*/ {
+10:18:57.731 /*0*/		float x;
+10:18:57.731 /*4*/		float y;
+10:18:57.732 /*8*/		float z;
+10:18:57.732 	};
+10:18:57.732 0.38*4:	typedef float array_9_float[9] /*ESize:4*/;
+10:18:57.732 0.39*2:	struct Imu32 /*Size:264*/ {
+10:18:57.732 /*0*/		header header;
+10:18:57.732 /*116*/		orientation orientation;
+10:18:57.732 /*132*/		array_9_float orientation_covariance[9] /*ESize:4*/;
+10:18:57.732 /*168*/		angular_velocity angular_velocity;
+10:18:57.732 /*180*/		array_9_float angular_velocity_covariance[9] /*ESize:4*/;
+10:18:57.732 /*216*/		linear_acceleration linear_acceleration;
+10:18:57.732 /*228*/		array_9_float linear_acceleration_covariance[9] /*ESize:4*/;
+10:18:57.732 	};
+10:20:26.999 0.1*0:	boolean;
+10:20:26.999 0.2*0:	octet;
+10:20:26.999 0.3*0:	short;
+10:20:26.999 0.4*0:	unsigned short;
+10:20:26.999 0.5*0:	long;
+10:20:26.999 0.6*0:	unsigned long;
+10:20:26.999 0.7*0:	long long;
+10:20:26.999 0.8*0:	unsigned long long;
+10:20:26.999 0.9*0:	float;
+10:20:26.999 0.10*0:	double;
+10:20:26.999 0.11*0:	long double;
+10:20:26.999 0.12*0:	char;
+10:20:26.999 0.13*0:	wchar;
+10:20:26.999 0.14*1:	struct ParticipantMessageData /*Size:40*/ {
+10:20:26.999 /*0*/		octet participantGuidPrefix[12] /*ESize:1*/;  //@Key
+10:20:26.999 /*12*/		octet kind[4] /*ESize:1*/;  //@Key
+10:20:26.999 /*16*/		sequence<octet> /*ESize:1*/ data;
+10:20:26.999 	};
+10:20:26.999 0.15*1:	typedef octet array_12_octet[12] /*ESize:1*/;
+10:20:26.999 0.16*1:	typedef octet array_4_octet[4] /*ESize:1*/;
+10:20:26.999 0.17*4:	typedef sequence<octet> /*ESize:1*/ sequence_octet;
+10:20:26.999 0.18*2:	struct BinaryProperty /*Size:32*/ {
+10:20:26.999 /*0*/		string /*ESize:1*/ key;
+10:20:26.999 /*8*/		sequence<octet> /*ESize:1*/ value;
+10:20:26.999 	};
+10:20:26.999 0.19*6:	typedef string /*ESize:1*/ string_character;
+10:20:26.999 0.20*2:	struct Property /*Size:16*/ {
+10:20:26.999 /*0*/		string /*ESize:1*/ key;
+10:20:26.999 /*8*/		string /*ESize:1*/ value;
+10:20:26.999 	};
+10:20:26.999 0.21*2:	@Extensibility(MUTABLE_EXTENSIBILITY) struct DataHolder /*Size:56*/ {
+10:20:26.999 /*0*/		string /*ESize:1*/ class_id;
+10:20:26.999 /*8*/		sequence<Property> /*ESize:16*/ string_properties;  //@Optional
+10:20:26.999 /*16*/		sequence<BinaryProperty> /*ESize:32*/ binary_properties;  //@Optional
+10:20:26.999 /*24*/		sequence<string /*ESize:1*/> /*ESize:8*/ string_values;  //@Optional
+10:20:26.999 /*32*/		sequence<octet> /*ESize:1*/ binary_value1;  //@Optional
+10:20:26.999 /*40*/		sequence<octet> /*ESize:1*/ binary_value2;  //@Optional
+10:20:26.999 /*48*/		sequence<long long> /*ESize:8*/ longlongs_value;  //@Optional
+10:20:26.999 	};
+10:20:26.999 0.22*1:	typedef sequence<Property> /*ESize:16*/ sequence_Property;
+10:20:26.999 0.23*1:	typedef sequence<BinaryProperty> /*ESize:32*/ sequence_BinaryProperty;
+10:20:26.999 0.24*1:	typedef sequence<string /*ESize:1*/> /*ESize:8*/ sequence_string_character;
+10:20:26.999 0.25*1:	typedef sequence<long long> /*ESize:8*/ sequence_longlong;
+10:20:26.999 0.26*3:	struct MessageIdentity /*Size:24*/ {
+10:20:26.999 /*0*/		octet source_guid[16] /*ESize:1*/;
+10:20:26.999 /*16*/		long long sequence_number;
+10:20:26.999 	};
+10:20:26.999 0.27*4:	typedef octet array_16_octet[16] /*ESize:1*/;
+10:20:26.999 0.28*3:	struct ParticipantGenericMessage /*Size:128*/ {
+10:20:26.999 /*0*/		MessageIdentity message_identity;
+10:20:26.999 /*24*/		MessageIdentity related_message_identity;
+10:20:26.999 /*48*/		octet destination_participant_key[16] /*ESize:1*/;
+10:20:26.999 /*64*/		octet destination_endpoint_key[16] /*ESize:1*/;
+10:20:26.999 /*80*/		octet source_endpoint_key[16] /*ESize:1*/;
+10:20:27.000 /*96*/		string /*ESize:1*/ message_class_id;
+10:20:27.000 /*104*/		sequence<DataHolder> /*ESize:56*/ message_data;
+10:20:27.000 	};
+10:20:27.000 0.29*1:	typedef sequence<DataHolder> /*ESize:56*/ sequence_DataHolder;
+10:20:27.000 0.30*1:	typedef ParticipantGenericMessage ParticipantStatelessMessage;
+10:20:27.000 0.31*1:	typedef ParticipantGenericMessage ParticipantVolatileSecureMessage;
+10:20:27.000 0.32*2:	struct stamp /*Size:8*/ {
+10:20:27.000 /*0*/		long sec;
+10:20:27.000 /*4*/		long nanosec;
+10:20:27.000 	};
+10:20:27.000 0.33*3:	typedef string<100> /*ESize:1*/ string_100_character;
+10:20:27.000 0.34*2:	struct header /*Size:116*/ {
+10:20:27.000 /*0*/		long seq;
+10:20:27.000 /*4*/		stamp stamp;
+10:20:27.000 /*12*/		string_100_character frame_id;
+10:20:27.000 	};
+10:20:27.000 0.35*2:	struct orientation /*Size:16*/ {
+10:20:27.000 /*0*/		float x;
+10:20:27.000 /*4*/		float y;
+10:20:27.000 /*8*/		float z;
+10:20:27.000 /*12*/		float w;
+10:20:27.000 	};
+10:20:27.000 0.36*2:	struct angular_velocity /*Size:12*/ {
+10:20:27.000 /*0*/		float x;
+10:20:27.000 /*4*/		float y;
+10:20:27.000 /*8*/		float z;
+10:20:27.000 	};
+10:20:27.000 0.37*2:	struct linear_acceleration /*Size:12*/ {
+10:20:27.000 /*0*/		float x;
+10:20:27.000 /*4*/		float y;
+10:20:27.000 /*8*/		float z;
+10:20:27.000 	};
+10:20:27.000 0.38*4:	typedef float array_9_float[9] /*ESize:4*/;
+10:20:27.000 0.39*2:	struct Imu32 /*Size:264*/ {
+10:20:27.000 /*0*/		header header;
+10:20:27.000 /*116*/		orientation orientation;
+10:20:27.000 /*132*/		array_9_float orientation_covariance[9] /*ESize:4*/;
+10:20:27.000 /*168*/		angular_velocity angular_velocity;
+10:20:27.000 /*180*/		array_9_float angular_velocity_covariance[9] /*ESize:4*/;
+10:20:27.000 /*216*/		linear_acceleration linear_acceleration;
+10:20:27.000 /*228*/		array_9_float linear_acceleration_covariance[9] /*ESize:4*/;
+10:20:27.000 	};
+11:02:07.906 TDDS Debug shell -- (c) Technicolor, 2012
+11:02:07.906 Following commands are available:
+11:02:07.906 	ssys                  Display system-specific data.
+11:02:07.906 	stimer                Display the timers.
+11:02:07.906 	sstr                  Display the string cache.
+11:02:07.906 	spool                 Display the pools.
+11:02:07.906 	spoola                Display the pools (extended).
+11:02:07.906 	scx [<cx>]            Display connections.
+11:02:07.906 	scxa [<cx>]           Display connections (extended).
+11:02:07.906 	scxq                  Display queued connections.
+11:02:07.906 	sloc                  Display locators.
+11:02:07.906 	sconfig               Display configuration data.
+11:02:07.906 	sdomain <d> <lf> <rf> Display domain (d) info.
+11:02:07.906 	                      <lf> and <rf> are bitmaps for local/remote info.
+11:02:07.906 	                      1=Locator, 2=Builtin, 4=Endp, 8=Type, 10=Topic.
+11:02:07.906 	sdisc                 Display discovery info.
+11:02:07.906 	sdisca                Display all discovery info (sdisc + endpoints)
+11:02:07.906 	stype [<name>]        Display Type information.
+11:02:07.906 	sqos                  Display QoS parameters.
+11:02:07.906 	stopic <d> [<name>]   Display Topic information.
+11:02:07.906 	sendpoints            Display the DCPS/RTPS Readers/Writers.
+11:02:07.906 	scache <ep>           Display an RTPS Endpoint Cache.
+11:02:07.907 	sdcache <ep>          Display a DCPS Endpoint Cache.
+11:02:07.907 	qcache <ep> [<query>] Query cache data of the specified endpoint:
+11:02:07.907 	                      where: <ep>: endpoint, <query>: SQL Query string.
+11:02:07.907 	sproxy [<ep>]         Display Proxy contexts.
+11:02:07.907 	rproxy [<ep>]         Restart Proxy context.
+11:02:07.907 	seqos <ep>            Display endpoint QoS parameters.
+11:02:07.907 	scrypto <ep>          Display entity crypto parameters.
+11:02:07.907 	sscache               Display security cache.
+11:02:07.907 	rehs                  Request a rehandshake.
+11:02:07.907 	srx                   Display the RTPS Receiver context.
+11:02:07.907 	stx                   Display the RTPS Transmitter context.
+11:02:07.907 	sfd                   Display the status of the file descriptors.
+11:02:07.907 	asp <d>               Assert participant.
+11:02:07.907 	ase <ep>              Assert writer endpoint.
+11:02:07.907 	dtls                  Display DTLS connection related info.
+11:02:07.907 	spdb                  Display the policy database.
+11:02:07.907 	sfwd                  Display the forwarder state.
+11:02:07.907 	ftrace <n>            Start forwarder tracing for <n> events.
+11:02:07.907 	d [<p> [<n>]]         Dump memory.
+11:02:07.907 	da [<p> [<n>]]        Dump memory in ASCII.
+11:02:07.907 	db [<p> [<n>]]        Dump memory in hex bytes.
+11:02:07.907 	ds [<p> [<n>]]        Dump memory in hex 16-bit values.
+11:02:07.907 	dl [<p> [<n>]]        Dump memory in hex 32-bit values.
+11:02:07.907 	dm [<p> [<n>]]        Dump memory in mixed hex/ASCII.
+11:02:07.907 	indent <tab> <n>      Set indent type (if <tab>=1: use TABs).
+11:02:07.907 	taflags <flags>       Set type attribute display flags.
+11:02:07.907 	                      <flags>: 1=header, 2=size, 4=elsize, 8=ofs.
+11:02:07.907 	server [<port>]       Start debug server on the given port.
+11:02:07.907 	env                   Display configuration data (=sconf).
+11:02:07.907 	set <var> <value>     Set the configuration variable to given value.
+11:02:07.907 	unset <var>           Unset the configuration variable.
+11:02:07.907 	suspend <value>       Suspend with given mode.
+11:02:07.907 	activate <value>      Activate with given mode.
+11:02:07.907 	help                  Display general help.
+11:02:07.907 	exit                  Close remote connection.
